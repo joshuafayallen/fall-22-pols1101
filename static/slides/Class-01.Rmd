@@ -1,0 +1,588 @@
+---
+title: "Class One "
+subtitle: "Getting to Know Me, The Class, and What Not"  
+author: "Josh Allen"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: ["default"]
+    self_containted: true
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      navigation:
+        scroll: true
+---
+
+```{r preamble, child = here::here('preamble.Rmd')}
+```
+
+---
+# Outline 
+
+- About me 
+
+- About This Class
+
+- Working Definition of Government 
+
+???
+Today will be pretty light we are just going to go over some of the very very basics of the class. A bit about me and what not. Than hopefully we will get out of here pretty quickly. Just
+a few notes if there is a nickname or name that you go by that isn't on the official 
+role than just email me I'll put it into my little spreadsheet. If you have 
+any trouble with reading the slides or the viz than also email me.
+---
+
+
+---
+class: center, middle,  inverse
+# About Me 
+
+---
+
+---
+# What to Call Me
+
+.panelset[
+.panel[.panel-name[Josh Allen]
+<center>
+```{r, echo = FALSE}
+
+knitr::include_graphics("images-all/josh_allen_bills.png")
+
+```
+</center>
+]
+
+.panel[.panel-name[Mr Allen]
+<center>
+```{r, echo = FALSE}
+
+
+knitr::include_graphics("images-all/Tim_allen.jpg")
+
+```
+</center>
+]
+
+.panel[.panel-name[Professor Allen]
+<center>
+```{r echo = F, out.width= "40%"}
+
+knitr::include_graphics("images-all/me.png")
+
+```
+</center>
+]
+]
+
+???
+I mean if we are going to be honest I probably will respond to various versions of my name. But, I would prefer Professor Allen for a variety of reasons. I will get a little grumpy if you start calling me Mr. Allen because while the age gap between 18 and 27 may seem massive. I am in fact not my father. 
+
+---
+
+
+---
+## About Me 
+
+.pull-left[
+### Professional Stuff
+- I am a $4^{th}$ Year PhD Student in the Political Science Department
+
+- Research Interests: Political Legacies of Repression and Political violence
+
+- Grade: 24?
+
+- Number of Times I have taught this class: 2 
+
+- Number of Times I have taught this class in person: 1]
+
+--
+
+.pull-right[
+### Personal Stuff  
+- Makes Graphs for Fun
+
+- Bay Area Expat
+
+- Walk up song: Simon Says: Pharoahe Monach
+
+- Generally can be found at a gym, my couch, or at the dog park with my dog Melonie
+]
+
+???
+This is my second time teaching this class so hopefully there will be less kinks than last year.  I have been in school for longer than some way have you been alive. My research interests are focused on the enduring legacy of violence. Outside of class you will generally find me in like three or four places
+---
+
+
+---
+
+# Dog Pictures
+
+
+.pull-left[
+
+```{r echo = F, out.width="90%"}
+knitr::include_graphics("images-all/melon.png")
+```
+
+
+]
+
+.pull-right[
+
+```{r echo = F, out.width="90%"}
+knitr::include_graphics("images-all/melon_uno.png")
+```
+
+
+]
+
+
+???
+I have like a million pictures of my dog. These were from like a month ago. I will sprinkle in dog pictures whenever possible. So on the right there is the Melonie. On the right you have the melonie and one of her boyfriends. 
+---
+
+class: center, middle,  inverse
+# About the class 
+
+
+---
+# Where are the Slides?
+
+- The slides live on this website [https://spols110122.netlify.app/](https://spols110122.netlify.app/)
+
+- Practically the HTML version of the slides are gonna be the ones I use in class. 
+
+- The PDF versions of the slides will just be there for you guys to take notes on if you would like. 
+
+- These slides were made using the programming language `R` with the [`xaringan` package](https://slides.yihui.org/xaringan/#1)
+
+- If you are curious about how they are made just visit [`r icons::fontawesome("github")`](https://github.com/joshuafayallen/Summer-2022-Website/tree/main/static/slides)
+
+???
+Without getting into the the technical stuff to much basically each of the presentations are there own self contained webpage. The only difference between the HTML and PDF versions are going to be that some of the media and gifs are not gonna show up. 
+
+Outside of asking for help with this class if this summer or in the future you are using R i am happy to help in whatever capacity I can.
+
+
+
+
+---
+
+---
+##  Schedule for the Semester
+
+
+```{r, include = TRUE, echo= FALSE}
+
+
+mon <- ymd(20220606)
+
+# What are some dates you won't be here? In this example, I had a conference on 7 January 2021.
+# Spring Break was 15 March 2021 to 19 March 2021.
+ not_here_dates <- c(
+  # SPSA 2021,
+#  ymd(20210107),
+  # Spring Break
+#  seq(ymd(20210315),ymd(20210319), by=1))
+  ymd(20220620),
+  ymd(20220704))
+# You can adjust this as you see fit. Basically: add assignment types (e.g. papers, quizzes).
+# My intro class was fairly simple: just exams.
+exam_dates <- c(ymd(20220622), ymd(20220713), ymd(20220725))
+
+
+activities = c(ymd(20220619, 20220710, 20220717))
+
+# What are the full dates of the semester? Here, I'll exclude exam week as I like to do.
+# In this case: 6 January to 23 April
+semester_dates <- seq(ymd(20220606), ymd(20220727), by=1)
+
+# Custom function for treating the first day of the month as the first week 
+# of the month up until the first Sunday (unless Sunday was the start of the month)
+wom <- function(date) {
+    first <- wday(as.Date(paste(year(date),month(date),1,sep="-")))
+    return((mday(date)+(first-2)) %/% 7+1)
+  }
+
+# Create a data frame of dates, assign to Cal
+tibble(date = seq(ymd(20220606), ymd(20220727), by=1))  %>%
+  mutate(mon = lubridate::month(date, label=T, abbr=F), # get month label
+         wkdy = weekdays(date, abbreviate=T), # get weekday label
+         wkdy = fct_relevel(wkdy, "Sun", "Mon", "Tue", "Wed", "Thu","Fri","Sat"), # make sure Sunday comes first
+         semester = ifelse(date %in% semester_dates, 1, 0), # is date part of the semester?
+         exams = ifelse(date %in% exam_dates, 1, 0), # is it an exam?
+         not_here = ifelse(date %in% not_here_dates, 1, 0),
+         activity = ifelse(date %in% activities, 1,0),# is it a day off?
+         day = lubridate::mday(date), # get day of month to add later as a label
+         # Below: our custom wom() function
+         week = wom(date)) -> Cal
+
+# Create a category variable, for filling.
+# I can probably make this a case_when(), but this will work.
+
+Cal %>%
+  mutate(category = NA,
+         category = ifelse(semester == 1, "Semester", category),
+         category = ifelse(semester == 1 & wkdy %in% c("Mon", "Wed"), "Class Day", category),
+         category = ifelse(exams == 1, "Exams", category),
+         category = ifelse(activity == 1, "Activity", category),
+         category = ifelse(is.na(category) | (semester == 1 & not_here == 1), "NA", category)) -> Cal 
+
+Cal %>% 
+  ggplot(.,aes(wkdy, week)) +
+  # custom theme stuff below
+  # theme_steve_web() + 
+  theme_bw() +
+  theme(panel.grid.major.x = element_blank()) +
+  # geom_tile and facet_wrap will do all the heavy lifting
+  geom_tile(alpha=0.8, aes(fill=category), color="black", size=.45) +
+  facet_wrap(~mon, scales="free", ncol=3) +
+  # fill in tiles to make it look more "calendary" (sic)
+  geom_text(aes(label=day),family="Roboto Condensed") +
+  # put your y-axis down, flip it, and reverse it
+  scale_y_reverse(breaks=NULL) +
+  # manually fill scale colors to something you like...
+  scale_fill_manual(values=c( "Activity" = "cadetblue",
+                              "Class Day"="steelblue", 
+                             "Semester"="lightsteelblue",
+                              "NA" = "white", # I like these whited out...
+                             "Exams"="indianred4"),
+                    #... but also suppress a label for a non-class semester day
+                    breaks=c("Activity", "Class Day","Exams", "Not Here")) +
+  labs(fill = "", x="", y="", caption = "We do not have class on June 20 or July 4")  -> class_cal
+
+
+class_cal 
+
+
+```
+
+
+???
+These next two slides are basically like the tl;dr of the syllabus. This calendar is just taken directly from the syllabus. The third exam is going to be a tight turnaround. My grades are due on thursday of that week. So please talk to me in advance if you will miss it.  
+---
+
+
+
+---
+## Grading Summary
+
+
+```{r echo = F}
+grades_df = tribble(~Assignment, ~Weight,
+                    "Highest Exam Score", "22%",
+                    "Second Highest Exam Score", "16%",
+                     "Lowest Exam", "12%",
+                    "Chapter Readings and probes in Area9", "35%",
+                    "Activities", "15%")
+
+gt(grades_df) |> 
+  gtExtras::gt_theme_guardian()
+
+```
+
+???
+So if you look at the breakdown of the class half of your grade is going to be determined by exam grades and the other half on the stuff you do outside of class. It is going to be critical that you do all the stuff. Unfortunately we are kind of constrained by the fact that this is shortened class so lots of the things that offset exam grades just simply are not available for this class. 
+
+
+
+---
+
+---
+## How to Do Well in This Class
+
+- Do the reading
+
+- Take good notes
+
+- Ask questions when you do not understand something
+
+- Participate
+
+???
+I know what you are thinking. "No shit professor Allen" and you know fair.
+I tend to take the view that this class is more about you guys understanding the 
+mechanics of politics. What I see the role of this class is for y'all to develop
+skills that you will use a lot. Mostly how to collaborate with peers and learning
+to ask for help when you do not understand something. This takes lots of practice.
+But they are ultimately things you will use a lot. Lots of things in your professional
+career are basically like large group projects. Free-riding in this case will have
+consequences. So practice being a good teammate now because there are like next
+to zero costs.
+---
+
+---
+# Break Time 
+
+
+```{r, echo=FALSE}
+countdown::countdown(minutes = 5, play_sound = TRUE)
+```
+
+---
+
+
+---
+class: section, center, middle, inverse
+
+# Stuff You Will be Tested On
+
+---
+
+---
+## What is a Government and What Does it Do?
+
+
+
+![](https://media.giphy.com/media/cNxai6sNvsplKYw8FD/giphy.gif)
+
+???
+Obviously as a Pols PhD student this could be a much longer conversation and has been the subject of a lot of study but let us wrap it up in a concise little definition and get outta here
+---
+
+
+
+
+
+
+
+
+---
+
+class: center, left
+# What are Governments and What Do they Do?
+
+.pull-left[
+
+```{r, echo=FALSE}
+knitr::include_graphics("images-all/capitol.png")
+```
+
+]
+
+.pull-right[
+```{r echo = FALSE}
+knitr::include_graphics( "images-all/state_of_the_union.png")
+```
+
+]
+
+???
+Typically we think of government as focused within these individuals. Which is fair we see these people all the time in their various capacities. We know their names and every 2, 4, or 6 years they are on tv 24/7 asking to be re-elected 
+---
+
+---
+## However, Consider This
+
+
+```{r echo = FALSE, warning=FALSE, message=FALSE}
+pacman::p_load("here", "gameofthrones", 
+               "scico")
+
+clean_list = read_csv("majors.csv", skip = 14)
+
+plot_data  = clean_list %>%
+  rename(major = Major) %>%
+  group_by(major) %>% 
+  summarise(total = n()) %>% 
+  arrange(desc(total)) 
+
+
+most_freq = plot_data %>% 
+  slice(1:14)
+
+
+least_freq = plot_data %>% 
+  slice(15:28)
+
+ 
+
+
+```
+
+.pull-left[
+```{r, echo=FALSE}
+ggplot(most_freq, aes(x = total, y = fct_reorder(major,total),
+                                   color = major)) +
+  geom_pointrange(aes(xmin = 0, xmax = total), fatten = 5) + 
+  labs(x = "Total", y = NULL, title = "") +
+  guides(color = "none") +
+  scale_color_scico_d(palette = "vikO") +
+  theme_allen()
+```
+
+]
+
+--
+
+.pull-right[
+
+```{r, echo=FALSE}
+ggplot(least_freq, aes(x = total, y = fct_reorder(major,total),
+                                   color = major)) +
+  geom_pointrange(aes(xmin = 0, xmax = total), fatten = 5) + 
+  labs(x = "Total", y = NULL, title = "") +
+  guides(color = "none") +
+  scale_color_scico_d(palette = "vikO") +
+  theme_allen()
+```
+
+]
+
+
+
+???
+As is the nature of an intro class like this the bulk of you are not political science majors. Let us start to consider how you all will interact with government in your professional lives. Get in groups of like 3 or 4 and start brainstorming ways in which the government has a hand in these areas. TIf you don't know your colleague that you are working with. Introduce yourself. As an icebreaker you can choose one of these icebreakers
+
+---
+
+---
+
+## Activity Time 
+
+
+- What is something you would do that would slightly inconvenience an enemy
+
+- What is a hot take you have 
+```{r, echo=FALSE}
+countdown::countdown(minutes = 5, play_sound = TRUE)
+```
+
+---
+
+
+---
+class: center, right
+
+## Government 
+
+.pull-left[
+```{r, echo= FALSE}
+knitr::include_graphics("images-all/dmv.png")
+
+
+```
+
+]
+
+.pull-right[
+```{r echo = FALSE}
+
+knitr::include_graphics("images-all/highway.png")
+```
+
+
+]
+???
+Government extends to lots and lots of stuff that you may or may not think about. Whether it be zoning, permitting, in some cases what policies universities can and cannot enact. Government pretty much touches everything.
+
+
+---
+
+## Defintion of Government
+### Textbook's Definition
+A Set of institutions that 
+
+1. Endure overtime 
+--
+
+2. Has **authority over the people** of a specific territory
+--
+
+3. Authoritatively **makes and enforces laws**
+
+
+---
+
+
+---
+
+## A Common Defintion
+
+
+.pull-left[ 
+### Long Version
+
+we have to say that a state is a human community that (successfully) claims the monopoly of the legitimate use of physical force within a given territory...... Specifically, at the present time, the right to use physical force is ascribed to other institutions or to individuals only to the extent to which the state permits it..... Hence, 'politics' for us means striving to share power or
+striving to influence the distribution of power, either among states or among groups within a state
+]
+
+--
+.pull-right[
+
+### TL;DR
+we have to say that a state is a human community that (successfully) claims the monopoly of the legitimate use of physical force within a given territory
+]
+
+???
+So the most common way we start to understand the state in Political Science is with this old dead white guy named Max Weber. He was a fellow writing in the late 19th century. He defines the state this way. The book takes great issue wit this definition for god knows what reason. But it is kind of focused on the all the other stuff that government does. All its forms and what not. I personally think it is dumb
+---
+
+
+---
+
+## Why is the Book's Definition longer?
+
+
+--
+
+- The minimalist aspect of it
+
+--
+
+- the overemphasis of the coercive aspects of government 
+
+--
+
+- Federalism
+
+--
+
+- Popular Sovereignty 
+
+???
+ But what you need to know is that the book has lots of opinions. Most of which I kind of disagree with The Federalism thing is also technically wrong because Weber says that other things can use force if and only if the state delegates them that authority. The reason it takes issue with this is that under federalism there are lots of "competing authorities. The book also makes the point that highest authority aka sovereignty resides in the people. And that there is an inherent tension between the government and the people in this arrangement 
+---
+
+
+---
+
+## Why is Weber so Popular
+
+What makes the state so special?
+
+--
+
+Think about other rule making organizations
+
+--
+
+The state is one among many in some respect (Midgal 1988, Spruyt 1996)
+
+
+--
+
+The definition is minimal
+
+???
+According Weber and many the most basic function of the state is to dominate other 
+social organizations. In Weber he does not distinguish states by their ends but by their means. There are lots of rules making organizations that we interact with. Most if not all of them have similar policy goals that make it difficult to seperate them from the state in this respect. However, how they can achieve this goal differs. The legitimate use of force according to Weber is what differentiates the state  Legitimation can come through many forms one is domination, using the power of a leaders' convincing, and through rational legal structure The state is the sole authority to use violence to enforce  their rules. The PTA, GSU student gov, etc cannot use violence to enforce those rules It would be pretty jarring if the GSU student government used Violence to uphold its bylaws.
+
+---
+
+---
+
+
+
+
+ ![](https://media.giphy.com/media/DAtJCG1t3im1G/giphy.gif)
+
+---
+
+
+
