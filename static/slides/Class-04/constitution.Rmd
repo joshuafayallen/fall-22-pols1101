@@ -116,7 +116,7 @@ settler_dat = haven::read_dta("data/maketable1.dta") %>%
 ggplot(settler_dat, aes(x = logem4, y = fct_reorder(name, logem4), fill = flag)) +
   geom_col() +
   labs(x = "Log of Settler Mortality", y = NULL) +
-  theme_allen() +
+  theme_allen_minimal() +
   scale_fill_manual(values = c("grey70", "#f2ad22")) +
   guides(fill = "none")
 
@@ -144,7 +144,7 @@ ggplot(settler_dat, aes(x = logem4 , y = avexpr)) +
   geom_smooth(method = "lm", se = FALSE) +
   geom_text(aes(label = name)) + 
   labs(x = "Log of Settler Mortality", y = "Average Expropriation Risk in 1985-1995", caption = "This is a replication of figure 3 in Acemoglu, Johnson, and Robinson (2001)") +
-  theme_allen()
+  theme_allen_minimal()
 
 ```
 ???
@@ -167,8 +167,6 @@ We will not get into how instrumental variables work. While many have critiqued 
 
 - Shopkeepers, artisans, and laborers
 
-<<<<<<< HEAD
-=======
 - New England merchants
 
 - Southern Planters
@@ -177,7 +175,7 @@ We will not get into how instrumental variables work. While many have critiqued 
 
 - Shopkeepers, artisans, and laborers
 
->>>>>>> main
+
 - Small farmers 
 
 
@@ -325,7 +323,7 @@ This document was founded on the principles of the Social Contract (Discussed be
 
 -  “...that whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government...”
  
->>>>>>> main
+
 ---
 
 
@@ -918,3 +916,7 @@ The fifth amendment has lots of stuff in it in particular. Trials can only be ha
 
 
 ---
+
+
+
+
