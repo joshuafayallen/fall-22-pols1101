@@ -1,8 +1,0 @@
----
-title: "Pols 1101 Introduction to American Government Fall 2022"
-sidebar: false 
-toc: false
-page-layout: full
----
-
-Hi y’all you can find all the stuff I present in class on this website my goal is for you to be able to review them from anywhere! If you have any questions feel free to email me.
