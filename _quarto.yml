@@ -1,0 +1,24 @@
+project:
+  type: website
+  
+execute: 
+  freeze: auto
+
+website:
+  title: "Pols 1101"
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right:
+      - icon: github
+format:
+  html:
+    theme: zephyr 
+    css: styles.css
+    toc: true
+
+
+
