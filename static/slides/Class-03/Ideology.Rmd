@@ -1,6 +1,5 @@
 ---
 title: "The American Way of Politics"
-subtitle: "Chapter 03"  
 author: "Josh Allen"
 date: '`r Sys.Date()`'
 output:
@@ -152,7 +151,7 @@ dat <- subset(dat, dat$Conclusion %in% c("collective action", "criticism of the 
 
 ggplot(dat, aes(x = censor,  fill = Conclusion)) +
   geom_histogram(aes(y = ..density.. ), alpha = 0.6) +
-  theme_allen() +
+  theme_allen_minimal() +
   labs(x = "Censorship Magnitude", y = "Density", title = "Figure derived from King, Pan, and Roberts(2013)") +
   MetBrewer::scale_fill_met_d(name = "Veronese") +
   guides(fill = guide_legend(title = "Topics Censored"))
