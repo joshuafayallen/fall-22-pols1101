@@ -293,6 +293,7 @@ knitr::include_graphics("gop-leadership.jpg")
 
 ```{r}
 pacman::p_load("ggparliament")
+
 data("election_data")
 
 
@@ -300,10 +301,12 @@ us_house <- election_data %>%
   filter(country == "USA" &
     year == 2020 &
     house == "Representatives")
+
 us_house <- parliament_data(election_data = us_house,
   type = "semicircle",
   parl_rows = 10,
   party_seats = us_house$seats)
+
 representatives <- ggplot(us_house, aes(x, y, colour = party_short)) +
   geom_parliament_seats() + 
   #highlight the party in control of the House with a black line

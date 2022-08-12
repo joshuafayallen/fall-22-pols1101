@@ -413,7 +413,7 @@ ggplot(most_freq, aes(x = total, y = fct_reorder(major,total),
   labs(x = "Total", y = NULL, title = "") +
   guides(color = "none") +
   scale_color_scico_d(palette = "vikO") +
-  theme_allen()
+  theme_allen_minimal()
 ```
 
 ]
@@ -429,7 +429,7 @@ ggplot(least_freq, aes(x = total, y = fct_reorder(major,total),
   labs(x = "Total", y = NULL, title = "") +
   guides(color = "none") +
   scale_color_scico_d(palette = "vikO") +
-  theme_allen()
+  theme_allen_minimal()
 ```
 
 ]

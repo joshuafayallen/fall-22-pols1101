@@ -4,7 +4,7 @@
     <title>Exam 1 Review</title>
     <meta charset="utf-8" />
     <meta name="author" content="Josh Allen" />
-    <meta name="date" content="2022-06-10" />
+    <meta name="date" content="2022-08-12" />
     <script src="exam-1_files/header-attrs/header-attrs.js"></script>
     <link href="exam-1_files/remark-css/default.css" rel="stylesheet" />
     <link href="exam-1_files/panelset/panelset.css" rel="stylesheet" />
@@ -30,7 +30,7 @@ class: center, middle, inverse, title-slide
 ### Josh Allen
 ]
 .date[
-### 2022-06-10
+### 2022-08-12
 ]
 
 ---
@@ -373,8 +373,8 @@ gsu-blockquote-alt {
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
-  border-left: solid 20px #776E64;
-  border-right: solid 20px #776E64;
+  border-left: solid 20px #97CAEB;
+  border-right: solid 20px #97CAEB;
   background-color: #dadfe1	;
   padding: 1em;
   color: #000000;
@@ -419,6 +419,46 @@ gsu-blockquote-alt {
 .my-one-page-font {
   font-size: 18px;
 }
+
+
+/* Side-by-side code/plot stuff https://www.garrickadenbuie.com/blog/decouple-code-and-output-in-xaringan-slides/ */
+.left-code {
+  color: #777;
+  width: 48%;
+  height: 94%;
+  float: left;
+}
+
+.right-plot {
+  width: 50%;
+  float: right;
+  padding-left: 1%;
+}
+
+.right-code {
+  color: #777;
+  width: 48%;
+  height: 92%;
+  float: right;
+}
+
+.left-plot {
+  width: 50%;
+  float: left;
+  padding-right: 1%;
+}
+
+.left-code .remark-code,
+.left-code .remark-inline-code,
+.right-code .remark-code,
+.right-code .remark-inline-code {
+  font-size: 0.5em;
+}
+
+.small-code .remark-code,
+.small-code .remark-inline-code {
+  font-size: 0.5em;
+}
 &lt;/style&gt;
 
 &lt;style type="text/css"&gt;
@@ -427,18 +467,16 @@ GSU fonts
 Author: Josh Allen
 Updated: 05/24/2021
 
-I am just borrowing fonts used in the https://www.andrewheiss.com/blog/ 
+this is similar enough to minion pro
 */
 
 /* Add maven for code font (keep other xaringan defaults */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&amp;display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&amp;display=swap');
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap');
 
-body { font-family:'Roboto Condensed','Roboto', 'Barlow Semi Condensed', 'Palatino Linotype', 'Book Antiqua', 'Palatino', 'Microsoft YaHei', 'Songti SC', serif; }
+body { font-family:'Crimson Text' serif; }
 
 h1, h2, h3 {
   font-family: 'Roboto Condensed';
@@ -721,13 +759,13 @@ class: center, middle, inverse
 ---
 ## Ideological Positions 
 
-<div id="ubbxwduxff" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="wxqdvunozv" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ubbxwduxff .gt_table {
+#wxqdvunozv .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -752,7 +790,7 @@ html {
   border-left-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_heading {
+#wxqdvunozv .gt_heading {
   background-color: #FFFFFF;
   text-align: left;
   border-bottom-color: #FFFFFF;
@@ -764,7 +802,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_title {
+#wxqdvunozv .gt_title {
   color: #333333;
   font-size: 24px;
   font-weight: initial;
@@ -776,7 +814,7 @@ html {
   border-bottom-width: 0;
 }
 
-#ubbxwduxff .gt_subtitle {
+#wxqdvunozv .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -788,13 +826,13 @@ html {
   border-top-width: 0;
 }
 
-#ubbxwduxff .gt_bottom_border {
+#wxqdvunozv .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_col_headings {
+#wxqdvunozv .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -809,7 +847,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_col_heading {
+#wxqdvunozv .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -829,7 +867,7 @@ html {
   overflow-x: hidden;
 }
 
-#ubbxwduxff .gt_column_spanner_outer {
+#wxqdvunozv .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -841,15 +879,15 @@ html {
   padding-right: 4px;
 }
 
-#ubbxwduxff .gt_column_spanner_outer:first-child {
+#wxqdvunozv .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ubbxwduxff .gt_column_spanner_outer:last-child {
+#wxqdvunozv .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ubbxwduxff .gt_column_spanner {
+#wxqdvunozv .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -861,7 +899,7 @@ html {
   width: 100%;
 }
 
-#ubbxwduxff .gt_group_heading {
+#wxqdvunozv .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -886,7 +924,7 @@ html {
   vertical-align: middle;
 }
 
-#ubbxwduxff .gt_empty_group_heading {
+#wxqdvunozv .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -901,15 +939,15 @@ html {
   vertical-align: middle;
 }
 
-#ubbxwduxff .gt_from_md > :first-child {
+#wxqdvunozv .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ubbxwduxff .gt_from_md > :last-child {
+#wxqdvunozv .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ubbxwduxff .gt_row {
+#wxqdvunozv .gt_row {
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 5px;
@@ -928,7 +966,7 @@ html {
   overflow-x: hidden;
 }
 
-#ubbxwduxff .gt_stub {
+#wxqdvunozv .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -941,7 +979,7 @@ html {
   padding-right: 5px;
 }
 
-#ubbxwduxff .gt_stub_row_group {
+#wxqdvunozv .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -955,11 +993,11 @@ html {
   vertical-align: top;
 }
 
-#ubbxwduxff .gt_row_group_first td {
+#wxqdvunozv .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ubbxwduxff .gt_summary_row {
+#wxqdvunozv .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -969,16 +1007,16 @@ html {
   padding-right: 5px;
 }
 
-#ubbxwduxff .gt_first_summary_row {
+#wxqdvunozv .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_first_summary_row.thick {
+#wxqdvunozv .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ubbxwduxff .gt_last_summary_row {
+#wxqdvunozv .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -988,7 +1026,7 @@ html {
   border-bottom-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_grand_summary_row {
+#wxqdvunozv .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -998,7 +1036,7 @@ html {
   padding-right: 5px;
 }
 
-#ubbxwduxff .gt_first_grand_summary_row {
+#wxqdvunozv .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1008,11 +1046,11 @@ html {
   border-top-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_striped {
+#wxqdvunozv .gt_striped {
   background-color: #FAFAFA;
 }
 
-#ubbxwduxff .gt_table_body {
+#wxqdvunozv .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1021,7 +1059,7 @@ html {
   border-bottom-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_footnotes {
+#wxqdvunozv .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1035,7 +1073,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_footnote {
+#wxqdvunozv .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -1044,7 +1082,7 @@ html {
   padding-right: 5px;
 }
 
-#ubbxwduxff .gt_sourcenotes {
+#wxqdvunozv .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1058,7 +1096,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-#ubbxwduxff .gt_sourcenote {
+#wxqdvunozv .gt_sourcenote {
   font-size: 12px;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1066,36 +1104,36 @@ html {
   padding-right: 5px;
 }
 
-#ubbxwduxff .gt_left {
+#wxqdvunozv .gt_left {
   text-align: left;
 }
 
-#ubbxwduxff .gt_center {
+#wxqdvunozv .gt_center {
   text-align: center;
 }
 
-#ubbxwduxff .gt_right {
+#wxqdvunozv .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ubbxwduxff .gt_font_normal {
+#wxqdvunozv .gt_font_normal {
   font-weight: normal;
 }
 
-#ubbxwduxff .gt_font_bold {
+#wxqdvunozv .gt_font_bold {
   font-weight: bold;
 }
 
-#ubbxwduxff .gt_font_italic {
+#wxqdvunozv .gt_font_italic {
   font-style: italic;
 }
 
-#ubbxwduxff .gt_super {
+#wxqdvunozv .gt_super {
   font-size: 65%;
 }
 
-#ubbxwduxff .gt_two_val_uncert {
+#wxqdvunozv .gt_two_val_uncert {
   display: inline-block;
   line-height: 1em;
   text-align: right;
@@ -1104,31 +1142,31 @@ html {
   margin-left: 0.1em;
 }
 
-#ubbxwduxff .gt_footnote_marks {
+#wxqdvunozv .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#ubbxwduxff .gt_asterisk {
+#wxqdvunozv .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ubbxwduxff .gt_slash_mark {
+#wxqdvunozv .gt_slash_mark {
   font-size: 0.7em;
   line-height: 0.7em;
   vertical-align: 0.15em;
 }
 
-#ubbxwduxff .gt_fraction_numerator {
+#wxqdvunozv .gt_fraction_numerator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: 0.45em;
 }
 
-#ubbxwduxff .gt_fraction_denominator {
+#wxqdvunozv .gt_fraction_denominator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: -0.05em;
@@ -1312,6 +1350,20 @@ class: center, middle, inverse
 
 .pull-left[
 ### Greater National Authority
+
+
+]
+
+.pull-right[
+### Greater State Authority
+
+
+
+
+]
+???
+Greater national authority bit 
+
 Preserves the union
 
 Reduces compliance costs
@@ -1324,10 +1376,9 @@ Protects minority rights
 
 Prevents races to the bottom
 
-]
 
-.pull-right[
-### Greater State Authority
+Greater State Authority 
+
 
 Protects liberty
 
@@ -1340,8 +1391,8 @@ Benefits from foot voting
 Fosters democratic citizenship
 
 
-]
-???
+
+
 Preserving the union: If we give to much power to the states they start acting like their own mini countries making the union weaker
 
 reducing compliance costs: if we have one set of rules it makes things easier to monitor and there are clearer red lines. Rather than lots of different red lines
@@ -1384,25 +1435,7 @@ The federal government is in a much better position to bargain vis a vis larger 
 ---
 
 
----
-## The Phase of Federalism I didn't Cover
 
-
-- Grants in Aid: money or land provided to state or local governments conditional on meeting federal requirements 
-
-- Categorical grants: a type of federal grant-in-aid that provides relatively strict and specific guidelines on how the state or local government receiving the money must spend it.
-
-- Block Grants: A block grant is a federal grant-in-aid that provides states and/or local governments with significant freedom to decide how to spend the money.
-
-- unfunded mandates: Federal regulatory or spending requirements placed on states that states need to pay for with their own funds
-
-???
-Once we move to the great society program lots of federal funds to the state took the form of grant money. The federal government started to use these to get states closer aligned to federal priorities. However, conservatives did not like this because they thought that states should have more public policy power and that the liberal approach to providing funds to the state were coercive. 
-
-One particular example is how the federal government made the drinking age 21 across the nation. States were required to enforce the current drinking age or risk losing out of 10% of federal highway funds. Louisana was like the last state to do this with the Clinton administration threatening to withhold 17 million dollars in federal highway funds.
-
-
----
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

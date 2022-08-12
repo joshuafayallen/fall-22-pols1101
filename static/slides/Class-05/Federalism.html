@@ -4,7 +4,7 @@
     <title>The Constitution and Federalism</title>
     <meta charset="utf-8" />
     <meta name="author" content="Josh Allen" />
-    <meta name="date" content="2022-06-13" />
+    <meta name="date" content="2022-08-12" />
     <script src="Federalism_files/header-attrs/header-attrs.js"></script>
     <link href="Federalism_files/remark-css/default.css" rel="stylesheet" />
     <link href="Federalism_files/panelset/panelset.css" rel="stylesheet" />
@@ -33,7 +33,7 @@ class: center, middle, inverse, title-slide
 ### Josh Allen
 ]
 .date[
-### 2022-06-13
+### 2022-08-12
 ]
 
 ---
@@ -376,8 +376,8 @@ gsu-blockquote-alt {
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
-  border-left: solid 20px #776E64;
-  border-right: solid 20px #776E64;
+  border-left: solid 20px #97CAEB;
+  border-right: solid 20px #97CAEB;
   background-color: #dadfe1	;
   padding: 1em;
   color: #000000;
@@ -422,6 +422,46 @@ gsu-blockquote-alt {
 .my-one-page-font {
   font-size: 18px;
 }
+
+
+/* Side-by-side code/plot stuff https://www.garrickadenbuie.com/blog/decouple-code-and-output-in-xaringan-slides/ */
+.left-code {
+  color: #777;
+  width: 48%;
+  height: 94%;
+  float: left;
+}
+
+.right-plot {
+  width: 50%;
+  float: right;
+  padding-left: 1%;
+}
+
+.right-code {
+  color: #777;
+  width: 48%;
+  height: 92%;
+  float: right;
+}
+
+.left-plot {
+  width: 50%;
+  float: left;
+  padding-right: 1%;
+}
+
+.left-code .remark-code,
+.left-code .remark-inline-code,
+.right-code .remark-code,
+.right-code .remark-inline-code {
+  font-size: 0.5em;
+}
+
+.small-code .remark-code,
+.small-code .remark-inline-code {
+  font-size: 0.5em;
+}
 &lt;/style&gt;
 
 &lt;style type="text/css"&gt;
@@ -430,18 +470,16 @@ GSU fonts
 Author: Josh Allen
 Updated: 05/24/2021
 
-I am just borrowing fonts used in the https://www.andrewheiss.com/blog/ 
+this is similar enough to minion pro
 */
 
 /* Add maven for code font (keep other xaringan defaults */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&amp;display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&amp;display=swap');
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap');
 
-body { font-family:'Roboto Condensed','Roboto', 'Barlow Semi Condensed', 'Palatino Linotype', 'Book Antiqua', 'Palatino', 'Microsoft YaHei', 'Songti SC', serif; }
+body { font-family:'Crimson Text' serif; }
 
 h1, h2, h3 {
   font-family: 'Roboto Condensed';

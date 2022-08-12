@@ -4,7 +4,7 @@
     <title>The Constitution</title>
     <meta charset="utf-8" />
     <meta name="author" content="Josh Allen" />
-    <meta name="date" content="2022-08-10" />
+    <meta name="date" content="2022-08-12" />
     <script src="constitution_files/header-attrs/header-attrs.js"></script>
     <link href="constitution_files/remark-css/default.css" rel="stylesheet" />
     <link href="constitution_files/panelset/panelset.css" rel="stylesheet" />
@@ -35,7 +35,7 @@ class: center, middle, inverse, title-slide
 ### Josh Allen
 ]
 .date[
-### 2022-08-10
+### 2022-08-12
 ]
 
 ---
@@ -424,6 +424,46 @@ gsu-blockquote-alt {
 .my-one-page-font {
   font-size: 18px;
 }
+
+
+/* Side-by-side code/plot stuff https://www.garrickadenbuie.com/blog/decouple-code-and-output-in-xaringan-slides/ */
+.left-code {
+  color: #777;
+  width: 48%;
+  height: 94%;
+  float: left;
+}
+
+.right-plot {
+  width: 50%;
+  float: right;
+  padding-left: 1%;
+}
+
+.right-code {
+  color: #777;
+  width: 48%;
+  height: 92%;
+  float: right;
+}
+
+.left-plot {
+  width: 50%;
+  float: left;
+  padding-right: 1%;
+}
+
+.left-code .remark-code,
+.left-code .remark-inline-code,
+.right-code .remark-code,
+.right-code .remark-inline-code {
+  font-size: 0.5em;
+}
+
+.small-code .remark-code,
+.small-code .remark-inline-code {
+  font-size: 0.5em;
+}
 &lt;/style&gt;
 
 &lt;style type="text/css"&gt;
@@ -432,18 +472,16 @@ GSU fonts
 Author: Josh Allen
 Updated: 05/24/2021
 
-I am just borrowing fonts used in the https://www.andrewheiss.com/blog/ 
+this is similar enough to minion pro
 */
 
 /* Add maven for code font (keep other xaringan defaults */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&amp;display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&amp;display=swap');
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap');
 
-body { font-family:'Roboto Condensed','Roboto', 'Barlow Semi Condensed', 'Palatino Linotype', 'Book Antiqua', 'Palatino', 'Microsoft YaHei', 'Songti SC', serif; }
+body { font-family:'Crimson Text' serif; }
 
 h1, h2, h3 {
   font-family: 'Roboto Condensed';
@@ -753,7 +791,7 @@ This document was founded on the principles of the Social Contract (Discussed be
 ## Break Time
 
 
-<div class="countdown" id="timer_62f40fd7" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
+<div class="countdown" id="timer_62f6669e" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
@@ -936,13 +974,13 @@ Commitment problems arise all the time because we do not know whether the other 
 ## "Compromises" &amp; Uniting Two Visions
 
 
-<div id="mabyuqtdjh" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="dtwqnuimut" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#mabyuqtdjh .gt_table {
+#dtwqnuimut .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -967,7 +1005,7 @@ html {
   border-left-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_heading {
+#dtwqnuimut .gt_heading {
   background-color: #FFFFFF;
   text-align: left;
   border-bottom-color: #FFFFFF;
@@ -979,7 +1017,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_title {
+#dtwqnuimut .gt_title {
   color: #333333;
   font-size: 24px;
   font-weight: initial;
@@ -991,7 +1029,7 @@ html {
   border-bottom-width: 0;
 }
 
-#mabyuqtdjh .gt_subtitle {
+#dtwqnuimut .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1003,13 +1041,13 @@ html {
   border-top-width: 0;
 }
 
-#mabyuqtdjh .gt_bottom_border {
+#dtwqnuimut .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_col_headings {
+#dtwqnuimut .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1024,7 +1062,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_col_heading {
+#dtwqnuimut .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -1044,7 +1082,7 @@ html {
   overflow-x: hidden;
 }
 
-#mabyuqtdjh .gt_column_spanner_outer {
+#dtwqnuimut .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -1056,15 +1094,15 @@ html {
   padding-right: 4px;
 }
 
-#mabyuqtdjh .gt_column_spanner_outer:first-child {
+#dtwqnuimut .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#mabyuqtdjh .gt_column_spanner_outer:last-child {
+#dtwqnuimut .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#mabyuqtdjh .gt_column_spanner {
+#dtwqnuimut .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1076,7 +1114,7 @@ html {
   width: 100%;
 }
 
-#mabyuqtdjh .gt_group_heading {
+#dtwqnuimut .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1101,7 +1139,7 @@ html {
   vertical-align: middle;
 }
 
-#mabyuqtdjh .gt_empty_group_heading {
+#dtwqnuimut .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1116,15 +1154,15 @@ html {
   vertical-align: middle;
 }
 
-#mabyuqtdjh .gt_from_md > :first-child {
+#dtwqnuimut .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#mabyuqtdjh .gt_from_md > :last-child {
+#dtwqnuimut .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#mabyuqtdjh .gt_row {
+#dtwqnuimut .gt_row {
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 5px;
@@ -1143,7 +1181,7 @@ html {
   overflow-x: hidden;
 }
 
-#mabyuqtdjh .gt_stub {
+#dtwqnuimut .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -1156,7 +1194,7 @@ html {
   padding-right: 5px;
 }
 
-#mabyuqtdjh .gt_stub_row_group {
+#dtwqnuimut .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1170,11 +1208,11 @@ html {
   vertical-align: top;
 }
 
-#mabyuqtdjh .gt_row_group_first td {
+#dtwqnuimut .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#mabyuqtdjh .gt_summary_row {
+#dtwqnuimut .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1184,16 +1222,16 @@ html {
   padding-right: 5px;
 }
 
-#mabyuqtdjh .gt_first_summary_row {
+#dtwqnuimut .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_first_summary_row.thick {
+#dtwqnuimut .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#mabyuqtdjh .gt_last_summary_row {
+#dtwqnuimut .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1203,7 +1241,7 @@ html {
   border-bottom-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_grand_summary_row {
+#dtwqnuimut .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1213,7 +1251,7 @@ html {
   padding-right: 5px;
 }
 
-#mabyuqtdjh .gt_first_grand_summary_row {
+#dtwqnuimut .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1223,11 +1261,11 @@ html {
   border-top-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_striped {
+#dtwqnuimut .gt_striped {
   background-color: #FAFAFA;
 }
 
-#mabyuqtdjh .gt_table_body {
+#dtwqnuimut .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1236,7 +1274,7 @@ html {
   border-bottom-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_footnotes {
+#dtwqnuimut .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1250,7 +1288,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_footnote {
+#dtwqnuimut .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -1259,7 +1297,7 @@ html {
   padding-right: 5px;
 }
 
-#mabyuqtdjh .gt_sourcenotes {
+#dtwqnuimut .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1273,7 +1311,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-#mabyuqtdjh .gt_sourcenote {
+#dtwqnuimut .gt_sourcenote {
   font-size: 12px;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1281,36 +1319,36 @@ html {
   padding-right: 5px;
 }
 
-#mabyuqtdjh .gt_left {
+#dtwqnuimut .gt_left {
   text-align: left;
 }
 
-#mabyuqtdjh .gt_center {
+#dtwqnuimut .gt_center {
   text-align: center;
 }
 
-#mabyuqtdjh .gt_right {
+#dtwqnuimut .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#mabyuqtdjh .gt_font_normal {
+#dtwqnuimut .gt_font_normal {
   font-weight: normal;
 }
 
-#mabyuqtdjh .gt_font_bold {
+#dtwqnuimut .gt_font_bold {
   font-weight: bold;
 }
 
-#mabyuqtdjh .gt_font_italic {
+#dtwqnuimut .gt_font_italic {
   font-style: italic;
 }
 
-#mabyuqtdjh .gt_super {
+#dtwqnuimut .gt_super {
   font-size: 65%;
 }
 
-#mabyuqtdjh .gt_two_val_uncert {
+#dtwqnuimut .gt_two_val_uncert {
   display: inline-block;
   line-height: 1em;
   text-align: right;
@@ -1319,31 +1357,31 @@ html {
   margin-left: 0.1em;
 }
 
-#mabyuqtdjh .gt_footnote_marks {
+#dtwqnuimut .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#mabyuqtdjh .gt_asterisk {
+#dtwqnuimut .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#mabyuqtdjh .gt_slash_mark {
+#dtwqnuimut .gt_slash_mark {
   font-size: 0.7em;
   line-height: 0.7em;
   vertical-align: 0.15em;
 }
 
-#mabyuqtdjh .gt_fraction_numerator {
+#dtwqnuimut .gt_fraction_numerator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: 0.45em;
 }
 
-#mabyuqtdjh .gt_fraction_denominator {
+#dtwqnuimut .gt_fraction_denominator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: -0.05em;
@@ -1724,6 +1762,10 @@ The fifth amendment has lots of stuff in it in particular. Trials can only be ha
 
 
 ---
+
+
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

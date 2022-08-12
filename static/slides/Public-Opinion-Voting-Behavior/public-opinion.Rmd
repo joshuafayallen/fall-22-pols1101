@@ -492,7 +492,7 @@ ggplot(data.frame(x = c(-4, 4)), aes(x)) +
   labs(title = "A Simple Normal Density Function",
        subtitle = "The mean parameter determines the central tendency\n and standard deviation parameter determines the width.",
        x = "", y="") + 
-  theme_allen()
+  theme_allen_minimal()
 
 
 
@@ -515,7 +515,7 @@ The coolest part about when you do sampling well is that we can approximate the 
 
 
 normal_dist("#e76254", "#1e466e", "Open Sans") + 
-  theme_allen()  +
+  theme_allen_minimal()  +
     labs(title = "The Area Underneath a Normal Distribution",
        y = "Density",
        x = "") + scale_x_continuous(breaks = c(-4, -2.58, -1.96, -1.64, -1, 0, 1, 1.64,1.96, 2.58, 4)) + theme(axis.text.x = element_text(size = rel(0.65),  margin = ggplot2::margin(t = 10)))
@@ -547,7 +547,7 @@ Therms18 %>%
   group_by(fttrump) %>%
   tally() %>% 
   ggplot(.,aes(fttrump, n)) + geom_bar(stat="identity", fill="#619cff",color="black") +
-  theme_allen() + 
+  theme_allen_minimal() + 
   scale_x_continuous(breaks = seq(0, 100, by=10)) +
   labs(x = "Thermometer Rating for Donald Trump",
        y = "Observations",
@@ -667,7 +667,7 @@ ggplot(tab, aes(poll, estimate, ymin=low, ymax=high, color = p_inside)) +
   geom_hline(yintercept = p) +
   labs(title = "Look at how often our confidence intervals\n capture what we say it captures", 
        caption = "The line in this case denotes the mean") +
-  theme_allen() +
+  theme_allen_minimal() +
   scale_color_manual(values = c("#e76254", "#1e466e")) +
   guides(color = guide_legend("0.45 Inside The Net"))
 
@@ -716,7 +716,7 @@ Samps %>%
   summarize(sampmean = mean(value)) %>%
   ggplot(., aes(as.factor(sampsize),sampmean)) + 
   geom_point(size=3, color="black", alpha=0.5) +
-  theme_allen() +
+  theme_allen_minimal() +
   geom_hline(yintercept = mean(Population), linetype="dashed") +
   labs(x = "Sample Size",
        y = "Sample Means",
@@ -779,7 +779,7 @@ Samps %>%
   mutate(sampsize = fct_inorder(paste0("Sample Size: ", sampsize)),
          samp = as.numeric(str_replace(samp, "samp.", ""))) %>%
   ggplot(.,aes(as.factor(samp), sampmean, ymax=ub95, ymin=lb95)) +
-  theme_allen() +
+  theme_allen_minimal() +
   facet_wrap(~sampsize) +
   geom_hline(yintercept = mean(Population), linetype="dashed") +
   geom_pointrange() + coord_flip() +
