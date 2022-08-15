@@ -153,7 +153,7 @@ class: center, middle,  inverse
 ---
 # Where are the Slides?
 
-- The slides live on this website [https://spols110122.netlify.app/](https://spols110122.netlify.app/)
+- The slides live on this website [https://fpols110122.netlify.app/talk/](https://spols110122.netlify.app/)
 
 - Practically the HTML version of the slides are gonna be the ones I use in class. 
 
