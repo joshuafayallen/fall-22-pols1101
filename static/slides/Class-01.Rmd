@@ -92,13 +92,15 @@ I mean if we are going to be honest I probably will respond to various versions 
 ### Professional Stuff
 - I am a $4^{th}$ Year PhD Student in the Political Science Department
 
+- I am a Research Data Services Graduate Research Assistant,
+
 - Research Interests: Political Legacies of Repression and Political violence
 
 - Grade: 24?
 
-- Number of Times I have taught this class: 2 
+- Number of Times I have taught this class: 3 
 
-- Number of Times I have taught this class in person: 1]
+- Number of Times I have taught this class in person: 2]
 
 --
 
@@ -153,15 +155,16 @@ class: center, middle,  inverse
 ---
 # Where are the Slides?
 
-- The slides live on this website [https://fpols110122.netlify.app/talk/](https://spols110122.netlify.app/)
+- The slides live on this website [https://fpols110122.netlify.app/talk/](https://fpols110122.netlify.app/talk/)
 
 - Practically the HTML version of the slides are gonna be the ones I use in class. 
 
 - The PDF versions of the slides will just be there for you guys to take notes on if you would like. 
+  - Note: I will try and do a better job at this. 
 
 - These slides were made using the programming language `R` with the [`xaringan` package](https://slides.yihui.org/xaringan/#1)
 
-- If you are curious about how they are made just visit [`r icons::fontawesome("github")`](https://github.com/joshuafayallen/Summer-2022-Website/tree/main/static/slides)
+- If you are curious about how they are made just visit [`r icons::fontawesome("github")`](https://github.com/joshuafayallen/fall-22-pols1101/tree/master/static/slides)
 
 ???
 Without getting into the the technical stuff to much basically each of the presentations are there own self contained webpage. The only difference between the HTML and PDF versions are going to be that some of the media and gifs are not gonna show up. 
@@ -379,7 +382,6 @@ Typically we think of government as focused within these individuals. Which is f
 ---
 ## However, Consider This
 
-
 ```{r echo = FALSE, warning=FALSE, message=FALSE}
 pacman::p_load("here", "gameofthrones", 
                "scico")
@@ -405,7 +407,6 @@ least_freq = plot_data %>%
 
 ```
 
-.pull-left[
 ```{r, echo=FALSE}
 ggplot(most_freq, aes(x = total, y = fct_reorder(major,total),
                                    color = major)) +
@@ -416,11 +417,18 @@ ggplot(most_freq, aes(x = total, y = fct_reorder(major,total),
   theme_allen_minimal()
 ```
 
-]
 
---
 
-.pull-right[
+
+
+
+
+
+---
+
+---
+layout: false 
+
 
 ```{r, echo=FALSE}
 ggplot(least_freq, aes(x = total, y = fct_reorder(major,total),
@@ -432,14 +440,13 @@ ggplot(least_freq, aes(x = total, y = fct_reorder(major,total),
   theme_allen_minimal()
 ```
 
-]
-
-
-
 ???
 As is the nature of an intro class like this the bulk of you are not political science majors. Let us start to consider how you all will interact with government in your professional lives. Get in groups of like 3 or 4 and start brainstorming ways in which the government has a hand in these areas. TIf you don't know your colleague that you are working with. Introduce yourself. As an icebreaker you can choose one of these icebreakers
 
 ---
+
+
+
 
 ---
 
@@ -576,7 +583,7 @@ social organizations. In Weber he does not distinguish states by their ends but 
 ---
 
 ---
-
+class: center, middle 
 
 
 
