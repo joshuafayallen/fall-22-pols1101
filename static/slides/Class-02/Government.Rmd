@@ -1,6 +1,6 @@
 ---
-title: "Governments"
-subtitle: "Chapters 01"  
+title: "What is Government?"
+subtitle: "Chapter 01"  
 author: "Josh Allen"
 date: '`r Sys.Date()`'
 output:
