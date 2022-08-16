@@ -3,7 +3,7 @@ title: "Unit 2"
 # list or single layouts are possible
 layout: single-series # list, list-sidebar, single-series
 weight: 2
-subtitle: "Stuff for Exam 3"
+subtitle: "Stuff for Exam 2"
 description: |
   Civil  Rights, Political Parties, Interest Groups, and Institutions 
 cascade:
