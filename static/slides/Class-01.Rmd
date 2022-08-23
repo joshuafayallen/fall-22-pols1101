@@ -80,6 +80,11 @@ knitr::include_graphics("images-all/me.png")
 ]
 
 ???
+As Logan and several employees at various restaurants have pointed out I am not in fact the QB for the Buffalo Bills. Am I a Bills fan? no a resounding no. Much to the chagrain of Mr Allen I am a niners fan. Mom won that battle. It has not stopped Bills fans from lobbying me to be a bills fan. Some Bills fans have actually asked for proof that I am named Josh Allen despite me being older than him therefore having the name first. I am also not the Jacksonville Jaguars defensive end.  
+
+So if you thought a pro bowl QB was teaching this than I think we should have a conversation about managing expectations. 
+
+
 I mean if we are going to be honest I probably will respond to various versions of my name. But, I would prefer Professor Allen for a variety of reasons. I will get a little grumpy if you start calling me Mr. Allen because while the age gap between 18 and 27 may seem massive. I am in fact not my father. 
 
 ---
@@ -185,7 +190,7 @@ class: center, middle,  inverse
 ???
 Without getting into the the technical stuff to much basically each of the presentations are there own self contained webpage. The only difference between the HTML and PDF versions are going to be that some of the media and gifs are not gonna show up. 
 
-Outside of asking for help with this class if this summer or in the future you are using R i am happy to help in whatever capacity I can.
+Outside of asking for help with this class. Additionally I am research data services gra. Specifically for you I will be running the R workshops. So please check that out if you have any interst or have to do it for a class. 
 
 
 
