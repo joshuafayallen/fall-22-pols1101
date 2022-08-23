@@ -236,6 +236,16 @@ advdate <- function(obj, adv) {
 These next two slides are basically like the tl;dr of the syllabus. I am really not wedded to having exams online. I figured that since this class is so early that it might be beneficial to have the exams online. 
 ---
 
+---
+
+```{r echo=FALSE, out.width= "90%"}
+
+knitr::include_graphics("class_cal.png")
+
+```
+
+
+---
 
 
 ---
