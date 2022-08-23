@@ -110,9 +110,9 @@ I mean if we are going to be honest I probably will respond to various versions 
 
 - Bay Area Expat
 
-- Walk up song: Simon Says: Pharoahe Monach
+- Walk up song: Temple by Baauer 
 
-- Generally can be found at a gym, my couch, or at the dog park with my dog Melonie
+- Generally can be found at a gym, my couch, or at the dog park with my dog Melonie in my off time
 ]
 
 ???
@@ -177,18 +177,42 @@ Outside of asking for help with this class if this summer or in the future you a
 ---
 
 ---
+# Exam Dates and Top Hat Due Dates
+
+```{r echo = FALSE}
+
+tues <- ymd(20220822)
 
 
-
-```{r, include = TRUE, echo=FALSE, out.width= "80%"}
-
-knitr::include_graphics("figs/calendar.png")
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tsun <- obj + 6 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tsun <- format(tsun, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tsun)
+ return(tmp)
+}
 
 ```
 
 
+- *Exam 1* `r advdate(tues, 5)`
+
+
+- *Exam 2* `r advdate(tues,11)`
+
+
+- *Exam 3* `r advdate(tues,16)`
+
+
+- Exams will be taken online you have until *Sunday at 11:59 pm* to complete the exam
+  - Plan accordingly for Exam 2
+  
+- *Top Hat assignments are due 11:59 on Sundays of that week*
+
 ???
-These next two slides are basically like the tl;dr of the syllabus. This calendar is just taken directly from the syllabus. The third exam is going to be a tight turnaround. My grades are due on thursday of that week. So please talk to me in advance if you will miss it.  
+These next two slides are basically like the tl;dr of the syllabus. I am really not wedded to having exams online. I figured that since this class is so early that it might be beneficial to have the exams online. 
 ---
 
 
@@ -199,11 +223,12 @@ These next two slides are basically like the tl;dr of the syllabus. This calenda
 
 ```{r echo = F}
 grades_df = tribble(~Assignment, ~Weight,
-                    "Highest Exam Score", "22%",
-                    "Second Highest Exam Score", "16%",
-                     "Lowest Exam", "12%",
-                    "Chapter Readings and probes in Area9", "35%",
-                    "Activities", "15%")
+                      "Highest Exam Score", "20%",
+                      "Second Highest Exam Score", "14%",
+                      "Lowest Exam Score", "8%",
+                      "Top Hat Readings and Question Probes", "25%",
+                      "Activities", "25%",
+                      "Syllabus Quiz, Survyes, and Core Assesment", "8%")
 
 gt(grades_df) |> 
   gtExtras::gt_theme_guardian()
@@ -211,7 +236,7 @@ gt(grades_df) |>
 ```
 
 ???
-So if you look at the breakdown of the class half of your grade is going to be determined by exam grades and the other half on the stuff you do outside of class. It is going to be critical that you do all the stuff. Unfortunately we are kind of constrained by the fact that this is shortened class so lots of the things that offset exam grades just simply are not available for this class. 
+So if you look at the breakdown of the class half of your grade is going to be determined by the Top hat assignments. So please do them and read carefully. You will have three attempts for the content based questions. For polls and opinion questions please answer them thoughtfully. If you do one sentence on them than I will dock some points. I will incorporate them the best I can throughout the class. By that I mean I will pickup the general theme of them and try to address them accordingly.
 
 
 
@@ -241,6 +266,7 @@ to zero costs.
 ---
 
 ---
+class: inverse, center, middle 
 # Break Time 
 
 
@@ -414,7 +440,7 @@ Government extends to lots and lots of stuff that you may or may not think about
 
 ## Defintion of Government
 ### Textbook's Definition
-A Set of institutions that 
+.vero-red[A Set of institutions that]
 
 1. Endure overtime 
 --
@@ -424,7 +450,8 @@ A Set of institutions that
 
 3. Authoritatively **makes and enforces laws**
 
-
+???
+The textbook defines government like this. This is version 2 of the textbook so I saw a bit how the sausage gets made. Government is defined by a set of institutons 
 ---
 
 
@@ -448,7 +475,11 @@ we have to say that a state is a human community that (successfully) claims the 
 ]
 
 ???
-So the most common way we start to understand the state in Political Science is with this old dead white guy named Max Weber. He was a fellow writing in the late 19th century. He defines the state this way. The book takes great issue wit this definition for god knows what reason. But it is kind of focused on the all the other stuff that government does. All its forms and what not. I personally think it is dumb
+So the most common way we start to understand the state in Political Science is with this old dead white guy named Max Weber. He was a fellow writing in the late 19th century. He defines the state this way. 
+
+In Weber the state is distinctive from all other kinds of rule making organizations because of their ability to use violence. 
+
+can anybody think of any other rule making organizations? 
 ---
 
 
@@ -474,7 +505,9 @@ So the most common way we start to understand the state in Political Science is 
 - Popular Sovereignty 
 
 ???
- But what you need to know is that the book has lots of opinions. Most of which I kind of disagree with The Federalism thing is also technically wrong because Weber says that other things can use force if and only if the state delegates them that authority. The reason it takes issue with this is that under federalism there are lots of "competing authorities. The book also makes the point that highest authority aka sovereignty resides in the people. And that there is an inherent tension between the government and the people in this arrangement 
+ But what you need to know is that the book has lots of opinions. Most of which I kind of disagree with The Federalism thing is also technically wrong because Weber says that other things can use force if and only if the state delegates them that authority.
+ 
+ The reason it takes issue with this is that under federalism there are lots of "competing authorities. The book also makes the point that highest authority aka sovereignty resides in the people. And that there is an inherent tension between the government and the people in this arrangement 
 ---
 
 
@@ -499,7 +532,14 @@ The definition is minimal
 
 ???
 According Weber and many the most basic function of the state is to dominate other 
-social organizations. In Weber he does not distinguish states by their ends but by their means. There are lots of rules making organizations that we interact with. Most if not all of them have similar policy goals that make it difficult to seperate them from the state in this respect. However, how they can achieve this goal differs. The legitimate use of force according to Weber is what differentiates the state  Legitimation can come through many forms one is domination, using the power of a leaders' convincing, and through rational legal structure The state is the sole authority to use violence to enforce  their rules. The PTA, GSU student gov, etc cannot use violence to enforce those rules It would be pretty jarring if the GSU student government used Violence to uphold its bylaws.
+social organizations. 
+
+In Weber he does not distinguish states by their ends but by their means. There are lots of rules making organizations that we interact with. Most if not all of them have similar policy goals that make it difficult to seperate them from the state in this respect. 
+
+They can use their rules to enforce monetary punishment. They can also use financial incentives to get people to comply
+
+However, how they can achieve this goal differs. The legitimate use of force according to Weber is what differentiates the state  Legitimation can come through many forms one is domination, using the power of a leaders' convincing, and through rational legal structure The state is the sole authority to use violence to enforce  their rules. The PTA, GSU student gov, etc cannot use violence to enforce those rules It would be pretty jarring if the GSU student government used Violence to uphold its bylaws.
+
 
 ---
 
