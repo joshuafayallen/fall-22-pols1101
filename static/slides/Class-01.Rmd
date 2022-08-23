@@ -249,7 +249,7 @@ grades_df = tribble(~Assignment, ~Weight,
                       "Lowest Exam Score", "8%",
                       "Top Hat Readings and Question Probes", "25%",
                       "Activities", "25%",
-                      "Syllabus Quiz, Survyes, and Core Assesment", "8%")
+                      "Syllabus Quiz, Surveys, and Core Assesment", "8%")
 
 gt(grades_df) |> 
   gtExtras::gt_theme_guardian()
