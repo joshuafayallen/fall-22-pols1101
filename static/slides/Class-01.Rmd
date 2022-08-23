@@ -148,8 +148,24 @@ knitr::include_graphics("images-all/melon_uno.png")
 I have like a million pictures of my dog. These were from like a month ago. I will sprinkle in dog pictures whenever possible. So on the right there is the Melonie. On the right you have the melonie and one of her boyfriends. 
 ---
 
+---
+
 class: center, middle,  inverse
 # About the class 
+
+---
+
+---
+# ~~Office~~ Student Hours
+
+<center>
+
+<iframe src="https://player.vimeo.com/video/270014784?h=2a3d2ca561" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/270014784">What are Office Hours? - by Andrew Ishak</a> from <a href="https://vimeo.com/andrewishak">Andrew Ishak</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+</center>
+
+---
 
 
 ---
