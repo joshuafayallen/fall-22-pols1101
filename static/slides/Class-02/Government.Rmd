@@ -37,19 +37,19 @@ class: center, middle, inverse
 ---
 ## The Game
 
-- If **all** of you choose A then you will get **10 points** toward your final grade
+- If **all** of you choose to collude then the entire class gets **10 bonus points**  points added to their lowest exam score
 
 --
 
-- If **one** of you chooses B then that person gets **50 points** toward their final grade but the rest of the classs gets 
- **no** points 
+- If everyone chooses to collude, **but if one person defects**, that person gets **50 bonus points** added to their lowest exam score, and not other student gets any points
 
 --
 
-- If **more than one person** choose B  than the class gets **no points**
+- If **more than one person** chooses to defect, no student receives any bonus points.
 
+- These are real points 
 
-- [Follow this link](https://gsu.qualtrics.com/jfe/form/SV_0SZHQU7HhAqWcg6)
+- [Go to Top Hat to do this and click on poll under week 1](https://app.tophat.com/e/522414)
 
 
 
@@ -59,36 +59,6 @@ want.
 
 ---
 
----
-
-## The Prisoners Dilemma
-
-
-- To understand the purpose of government we have to start with the prisoners dilemma
-
-- Basically the goal of the game is to maximize the number of points
-
---
-
-```{r echo= FALSE, out.width= "60%", fig.align='center'}
-
-knitr::include_graphics("images/prisoners-dileman.png")
-
-```
-
-
-
-???
-The prisoners dilemma sets up nicely to talk about the role of government. Classically 
-the game is setup where two people are being questioned about a crime in seperate room.
-The suspects can either cooperate with each other and not say anything and be set free.
-One can confess and be set free and the other is sent to jail. They can both confess
-and both go to jail. This stylized game highlights when people incur costs themselves
-cooperation is hard. If you watch football then this was brought up endlessly in 
-the Raiders Chargers game. If I am remembering correctly there was also a prisioners dilemma
-in Survivor 
-
----
 
 ---
 
@@ -103,9 +73,15 @@ knitr::include_graphics("images/collective action.jpeg")
 
 ]
 
---
 
-.pull.right[multiple individuals would benefit from a certain action,  but this action has a cost that makes it implausible that any individual can or will undertake and solve it alone - Olson]
+
+.pull.right[
+
+multiple individuals would benefit from a certain action, but this action has a cost that makes it implausible that any individual can or will undertake and solve it alone -
+`r tufte::quote_footer("Olson in The Logic of Collective Action: Public Goods and the Theory of Groups(1965)")`
+
+
+]
 
 
 
@@ -115,6 +91,15 @@ The personal costs that people incur make it difficult for people to get the gro
 This is sort of an interesting idea because the classical liberal view of the free market
 is that the pursuit of self interest leads to the collective good.
 
+
+The prisoners dilemma sets up nicely to talk about the role of government. Classically 
+the game is setup where two people are being questioned about a crime in seperate room.
+The suspects can either cooperate with each other and not say anything and be set free.
+One can confess and be set free and the other is sent to jail. They can both confess
+and both go to jail. This stylized game highlights when people incur costs themselves
+cooperation is hard. If you watch football then this was brought up endlessly in 
+the Raiders Chargers game. If I am remembering correctly there was also a prisioners dilemma
+in Survivor 
 ---
 
 ---
@@ -166,9 +151,9 @@ So the way you will most often hear about this is through carrots and sticks.
 This comes from how you bribe a stubborn horse to move. You can either get it 
 to move by dangling a carrot in front of it or you can hit it with a stick. Essentially you are trying to penalize non-cooperation
 
- 
+The book states them in terms of the power of the purse and the power of the sword. 
 
-
+Affecting the hearts and minds of people can kind of go in either way. You can play up the sense of civic duty and sense of pulling in the same direction. Others can try and shame people into compliance. During WWI Admiral Fitzgerald recruited 40 British Woman to start handing out or mailing out white feathers to unenlisted men in the military. At that time white feathers were a symbol of cowardice largely a convention based in cockfighting during the 19th century.
 ---
 
 
@@ -193,28 +178,21 @@ everybody can consume the good
 Public goods are very expensive difficult to provide,
 and are to costly for private actors to provide. The reason why this is occur is that we are making the prisoners dilemma iterated. In a iterated prisoners dilemma what happens is if its played over and over again you can start to credibly punish people. 
 
-
+So how do we get public goods? The government steps in. Unlike a private firm, the government has no profit motive. And the government reduces the free rider problem by collecting taxes from consumers to help fund public goods. You could think of it this way: The government simply returns the public’s own money to them in the form of public goods.
 ---
 ## Problems 
-
-.panelset[
-.panel[.panel-name[Free Riding]
+### Free Riding 
 
 - It would be pretty great to benefit from stuff without paying for it, right?
 
-- paying taxes is not fun for anybody
-]
+- Paying taxes is not fun for anybody
 
+- This results in what are known as a market failure
 
-.panel[.panel-name[Common-Pool/Tragedy of the Commons]
-<center>
-```{r echo = FALSE, out.width= "80%"}
-knitr::include_graphics("images/tragedy-of-the-commons.png")
-```
+- .vero-red[Market Failure]: is the economic situation defined by an inefficient distribution of goods and services in the free market. Furthermore, the individual incentives for rational behavior do not lead to rational outcomes for the group.* 
 
-</center>
-]
-]
+.footnote[*Not going to be tested on this]
+
 
 ???
 As is the case in the class the world is complicated and the book tries to distill
@@ -224,9 +202,29 @@ that arises in this literature.
 Generally people want to reap as much as possible without
 paying into stuff. If this happens at a scale the good will be underprovided, overused, or degraded
 
+Essentially a good is being produced under a condition where there are insufficient resources to produce them. Under these conditions most businesses cannot or will not produce the good 
 
+If a private business supplied a public good, most people would consume the product for free. Since it is nonexcludable and nonrival, consumers can already get the full benefits without paying anything. They won’t likely donate much, if any, of their hard-earned cash. Hence, the company won’t make much money. That’s why private firms won’t produce public goods; there’s no reward. Firms instead spend their time and resources producing private goods because people do have to pay for those, allowing the firm to sell them for a profit.
+
+When a private market fails to produce a good at the level society wants, or doesn’t produce it at all, economists call this a market failure.
+
+---
+
+---
+# Problems(cont)
+### The Common Pool Problem 
+
+
+```{r echo=FALSE}
+
+knitr::include_graphics("images/tragedy-of-the-commons.png")
+
+```
+
+???
 The tragedy of the commons is a kind problem that arises when the good is rivalrious but non-excludable.
 This comes up in environmental politics and economics a lot. In this case an inidividual's consumption decreases the supply and the good is non-excludable
+
 ---
 
 
@@ -272,13 +270,21 @@ regulations on use. quotas etc.
 ![](https://quickonomics.com/wp-content/uploads/2016/10/TypesOfGoods.jpg)
 
 </center>
+???
 
+Essentially the distinction starts to break down quickly. As you start to scale up a public good. You are going to functionally alter one of the two dimensions. Highways during a rush hour are an example 
 ---
 
 
 
 
 ---
+# Break Time
+```{r echo = FALSE, out.width= "50%"}
+knitr::include_graphics("images/melon.png")
+```
+
+
 
 ```{r echo = FALSE}
 countdown::countdown(minutes = 5, play_sound = TRUE)
@@ -299,7 +305,7 @@ Main Ideas:
 
 
 ???
-I found this part to be the least interesting part when I was in your shoes so we are going to fast forward through this. During this time period lots of very smart people like Locke, Rosseeau, Hobbes, etc thought a lot about what the role of government should be why we have it etc. However, the concepts are the basis upon which we get the constitution and the declaration of independence.
+I found this part to be the least interesting part when I was in your shoes so we are going to fast forward through this. During this time period lots of very smart people like Locke, Rosseeau, Hobbes, etc thought a lot about what the role of government should be why we have it etc. However, the concepts are the basis upon which we get the constitution and the declaration of independence and how we  see the role of American government
 ---
 
 
@@ -355,12 +361,18 @@ Natural rights: rights that are not dependent on any laws or customs of a partic
 
 Legal rights – rights that are bestowed upon an individual within any given legal system. They can be modified or removed
 
+.vero-teal[Limited Government]: Principle that holds government must be empowered to serve its legitimate purposes, but it must also be limited and controlled in its powers so that it does not pose an unacceptable threat to the fundamental rights and interests of the governed
 
 
 ]
 
 ???
-However the framers and other scholars at the time rightly went. That sounds kind of shitty. The easiest way to achieve Hobbes's solution is to invest all the coercive capacity into the "Leviathan" Aka a strong state. However, another central concept is this idea of natural rights. Natural rights are things you are just born with. For the founders this is encapsulated in the Declaration of Independence. They highlight the sort of inherent tension between having a strong state and wanting these natural rights. Any government strong enough to uphold these rights is strong enough to violate these rights. We sort of make compromise again but with the caveat that we give up this ultimate freedom so long as the government does not violate our natural rights. We consent to be governed and if we feel the government no longer lives up to their promise we can kick the bums out.
+However the framers and other scholars at the time rightly went. That sounds kind of shitty. The easiest way to achieve Hobbes's solution is to invest all the coercive capacity into the "Leviathan" Aka a strong state. However, another central concept is this idea of natural rights. Natural rights are things you are just born with. For the founders this is encapsulated in the Declaration of Independence. 
+
+They highlight the sort of inherent tension between having a strong state and wanting these natural rights. Any government strong enough to uphold these rights is strong enough to violate these rights. We sort of make compromise again but with the caveat that we give up this ultimate freedom so long as the government does not violate our natural rights. We consent to be governed and if we feel the government no longer lives up to their promise we can kick the bums out.
+
+In this sense government should be as small as possible. It must be large enough to extend these protections of property and our natural rights but not big enough to get any ideas 
+
 ---
 
 
@@ -399,24 +411,28 @@ Sellers want to sell their stuff that benefits them the most. Buyers want to buy
 
 This is like the quickest and dirtiest explanation of Macroeconomics possible. For more thorough explanations you are going to take some classes in our Econ department or with Dr. Hankla. The role of the state in this case is to correct market failures. These arise for various reasons and are altogether pretty common. 
 
+In the American context the role of government is to make sure that the free market is working and the allocation of the factors are done by individuals. The role of the American government in 
+
 
 ---
-## State Socialism
-.panelset[
-.panel[.panel-name[Book Definition]
-
+## Other Economic Systems 
+.pull-left[
+### State Socialism 
+<gsu-blockquote-red>
 State socialists believe market capitalism necessarily results in too much economic inequality and in oppressive relationships between workers and the owners of capital. [Part of] the purpose of government is for it to take over ownership of all major parts of the economy and forcefully enact a social revolution that brings about perfect economic equality and the end of all class oppression.
+</gsu-blockquote-red>
 ]
 
-.panel[.panel-name[Command Economy]
-
+.pull-right[
+### Command Economy
+<gsu-blockquote-alt>
 The state owns and controls most of the factors of production, including
 land and capital goods. The state also engages in central planning.
 Production of goods and services, as well as their prices and distribution,
 are centrally controlled by the state.
+</gsu-blockquote-alt>
+]
 
-]
-]
 
 
 ???
@@ -627,7 +643,7 @@ that for this class we are going to set aside is how do we measure that stuff.
 ???
 VDEM embraces what is known as Dahl's polyarchy. In the early days of political science a lot of theorizing went into what we meant by "Democracy" and "Authoritarianism" one of the most prominent of these theories was Dahl's polyarchy. In our sort of folk theories of democracy we these things are fairly intuitive. Liberal democracies do all these things but as citizens are mostly in disagreement about the how they do this and how much leeway they have to do this. But it is very much informed by the Enlightenment. 
 
-Without saying it the book very much sees the U.S. way of government closely adhereing to these principles. 
+Without saying it the book very much sees the U.S. way of government closely adhereing to these principles and its purpose is to protect these things 
 
 ---
 
@@ -660,14 +676,15 @@ svolik_raw  = haven::read_dta("data/leadership change in dictatorships, 1946-200
 
 
 ???
-Our folk theorem of democracy and authoritarianism a bit misguided. The book views authoritarian politics through the lens of "what is the recourse for the people." A more informative approach is figuring out who matters in these systems. The book sort of argues that the institutions in authoritarian regimes are "window dressing."  However, this is not entirely helpful. If we take the view that the book does that is not unfair. Think about this graph. I have highlighted the things we typically think of the people participating in. But notice that the bulk of exits happen because of things that happen between elite actors. 
+Our folk theorem of democracy and authoritarianism a bit misguided. The book views authoritarian politics through the lens of "what is the recourse for the people." A more informative approach is figuring out who matters in these systems. 
+
+The book sort of argues that the institutions in authoritarian regimes are "window dressing."  However, this is not entirely helpful. If we take the view that the book does that is not unfair. Think about this graph. I have highlighted the things we typically think of the people participating in. But notice that the bulk of exits happen because of things that happen between elite actors. 
 
 Institutions in all regimes structure the interactions of individual actors. they constrain the choices available to each actor and good ones endure across generations. The sort of distinction that VDEM makes between kinds of authoritarian regimes who is allowed to compete. Authortarian regimes have elections all the time. Elections have various functions in authoritarian regimes. Whether they are gathering information about the opposition. Performance of various ministers and how they are distributing patronage. This is sort of my rant about the book
 
 However what i think is critical and will be reocurring is that the behavior of individuals is one thing we will talk about, but we also must understand what institutions do and how they reinforce the rules of the game.
 
 
-Any questions?
 
 
 
