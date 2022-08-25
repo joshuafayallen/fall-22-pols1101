@@ -16,7 +16,7 @@ links:
   url: "slides/Class-02/Government.pdf"
 show_post_time: false
 subtitle: The American Way of Government
-title: Chapter 2
+title: Chapter 1
 ---
 
 

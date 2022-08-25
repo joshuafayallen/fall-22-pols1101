@@ -16,6 +16,6 @@ links:
   name: Slides PDF
   url: "slides/Class-03/Ideology.pdf"
 show_post_time: false
-subtitle: The American Way of Politics
-title: Chapter 3
+subtitle: Our Polarized Politics 
+title: Chapter 2
 ---
