@@ -15,7 +15,7 @@ links:
   name: Slides PDF
   url: "slides/Class-01.pdf"
 show_post_time: false
-subtitle: What is does and who is teaching you about it
+subtitle: What is Government? and who is teaching you about it
 title: What is Government?
 ---
 
