@@ -13,5 +13,5 @@ links:
   url: "slides/Class-04/constitution.html"
 show_post_time: false
 subtitle: The Constitution
-title: Chapter 4
+title: Chapter 3
 ---
