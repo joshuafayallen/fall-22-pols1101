@@ -3,7 +3,7 @@ GSU fonts
 Author: Josh Allen
 Updated: 05/24/2021
 
-this is similar enough to minion pro
+
 */
 
 /* Add maven for code font (keep other xaringan defaults */
@@ -11,11 +11,14 @@ this is similar enough to minion pro
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap')
 
-body { font-family:'Crimson Text' serif; }
+
+body { font-family:'Libre Franklin' serif; }
 
 h1, h2, h3 {
-  font-family: 'Roboto Condensed';
+  font-family: 'Cabin';
   font-weight: normal;
 }
 
