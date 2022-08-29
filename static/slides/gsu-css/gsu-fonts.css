@@ -9,6 +9,7 @@ Updated: 05/24/2021
 /* Add maven for code font (keep other xaringan defaults */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nobile:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
@@ -17,17 +18,17 @@ Updated: 05/24/2021
 
 body { font-family:'Libre Franklin' serif; }
 
-h1, h2, h3 {
+h1 {
   font-family: 'Cabin';
   font-weight: normal;
 }
 
-/*
+
 h2, h3 {
-  font-family: 'Roboto Condensed';
+  font-family: 'Nobilie';
   font-weight: normal;
 }
-*/
+
 
 .remark-code, .remark-inline-code { font-family: 'Inconsolata', monospace; }
 .remark-code-line-highlighted     { background-color: #ffff88; }

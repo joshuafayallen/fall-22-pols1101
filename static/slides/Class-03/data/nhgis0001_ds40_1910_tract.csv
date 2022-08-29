@@ -1,0 +1,705 @@
+GISJOIN,YEAR,STATE,STATEA,COUNTY,COUNTYA,PRETRACTA,TRACTA,POSTTRCTA,AREANAME,A7D001,A7D002,A7D003,A7D004,A7D005
+"G36004700001","1910","New York","36","Kings","047",,"0001",,"Tract    0001     in New York City",1674,2118,1829,46,17
+"G36004700002","1910","New York","36","Kings","047",,"0002",,"Tract    0002     in New York City",2998,1304,1738,124,13
+"G36004700003","1910","New York","36","Kings","047",,"0003",,"Tract    0003     in New York City",1623,2253,2364,27,5
+"G36004700004","1910","New York","36","Kings","047",,"0004",,"Tract    0004     in New York City",1127,1386,1144,48,9
+"G36004700005","1910","New York","36","Kings","047",,"0005",,"Tract    0005     in New York City",1001,2894,2914,79,23
+"G36004700006","1910","New York","36","Kings","047",,"0006",,"Tract    0006     in New York City",1668,2988,2092,154,42
+"G36004700007","1910","New York","36","Kings","047",,"0007",,"Tract    0007     in New York City",918,1366,1016,190,11
+"G36004700008","1910","New York","36","Kings","047",,"0008",,"Tract    0008     in New York City",477,479,444,45,8
+"G36004700009","1910","New York","36","Kings","047",,"0009",,"Tract    0009     in New York City",1042,2135,1938,62,7
+"G36004700010","1910","New York","36","Kings","047",,"0010",,"Tract    0010     in New York City",328,1320,2195,0,1
+"G36004700011","1910","New York","36","Kings","047",,"0011",,"Tract    0011     in New York City",1336,3996,3782,26,51
+"G36004700012","1910","New York","36","Kings","047",,"0012",,"Tract    0012     in New York City",1554,2600,1955,255,16
+"G36004700013","1910","New York","36","Kings","047",,"0013",,"Tract    0013     in New York City",994,2676,2573,21,2
+"G36004700014","1910","New York","36","Kings","047",,"0014",,"Tract    0014     in New York City",918,1028,684,1437,6
+"G36004700015","1910","New York","36","Kings","047",,"0015",,"Tract    0015     in New York City",727,1615,1854,1162,8
+"G36004700016","1910","New York","36","Kings","047",,"0016",,"Tract    0016     in New York City",2273,1794,1298,574,15
+"G36004700017","1910","New York","36","Kings","047",,"0017",,"Tract    0017     in New York City",1470,2053,1540,59,6
+"G36004700018","1910","New York","36","Kings","047",,"0018",,"Tract    0018     in New York City",1116,1513,1385,101,2
+"G36004700019","1910","New York","36","Kings","047",,"0019",,"Tract    0019     in New York City",993,3244,3279,15,6
+"G36004700020","1910","New York","36","Kings","047",,"0020",,"Tract    0020     in New York City",332,2110,2811,0,2
+"G36004700021","1910","New York","36","Kings","047",,"0021",,"Tract    0021     in New York City",280,4238,7202,0,10
+"G36004700022","1910","New York","36","Kings","047",,"0022",,"Tract    0022     in New York City",499,987,635,0,1
+"G36004700023","1910","New York","36","Kings","047",,"0023",,"Tract    0023     in New York City",370,1228,1347,0,2
+"G36004700024","1910","New York","36","Kings","047",,"0024",,"Tract    0024     in New York City",1147,2841,2186,2,4
+"G36004700025","1910","New York","36","Kings","047",,"0025",,"Tract    0025     in New York City",1281,2007,1648,81,6
+"G36004700026","1910","New York","36","Kings","047",,"0026",,"Tract    0026     in New York City",1192,2452,2090,19,1
+"G36004700027","1910","New York","36","Kings","047",,"0027",,"Tract    0027     in New York City",1091,2017,1909,2,2
+"G36004700028","1910","New York","36","Kings","047",,"0028",,"Tract    0028     in New York City",932,2439,1887,0,2
+"G36004700029","1910","New York","36","Kings","047",,"0029",,"Tract    0029     in New York City",1474,3040,2550,0,4
+"G36004700030","1910","New York","36","Kings","047",,"0030",,"Tract    0030     in New York City",1628,3153,2295,165,6
+"G36004700031","1910","New York","36","Kings","047",,"0031",,"Tract    0031     in New York City",1607,2842,1683,180,2
+"G36004700032","1910","New York","36","Kings","047",,"0032",,"Tract    0032     in New York City",1922,3530,2054,29,10
+"G36004700033","1910","New York","36","Kings","047",,"0033",,"Tract    0033     in New York City",1665,2840,1867,3,7
+"G36004700034","1910","New York","36","Kings","047",,"0034",,"Tract    0034     in New York City",693,1402,940,12,2
+"G36004700035","1910","New York","36","Kings","047",,"0035",,"Tract    0035     in New York City",593,2478,3053,6,7
+"G36004700036","1910","New York","36","Kings","047",,"0036",,"Tract    0036     in New York City",666,1257,712,1,0
+"G36004700037","1910","New York","36","Kings","047",,"0037",,"Tract    0037     in New York City",2070,3051,2665,36,3
+"G36004700038","1910","New York","36","Kings","047",,"0038",,"Tract    0038     in New York City",2802,2810,1989,109,13
+"G36004700039","1910","New York","36","Kings","047",,"0039",,"Tract    0039     in New York City",1165,2497,1769,981,3
+"G36004700040","1910","New York","36","Kings","047",,"0040",,"Tract    0040     in New York City",1746,2698,2247,16,9
+"G36004700041","1910","New York","36","Kings","047",,"0041",,"Tract    0041     in New York City",1450,1151,910,62,1
+"G36004700042","1910","New York","36","Kings","047",,"0042",,"Tract    0042     in New York City",111,2761,4458,0,0
+"G36004700043","1910","New York","36","Kings","047",,"0043",,"Tract    0043     in New York City",1111,2747,2656,46,5
+"G36004700044","1910","New York","36","Kings","047",,"0044",,"Tract    0044     in New York City",1595,1339,1015,38,3
+"G36004700045","1910","New York","36","Kings","047",,"0045",,"Tract    0045     in New York City",1255,2182,1386,6,4
+"G36004700046","1910","New York","36","Kings","047",,"0046",,"Tract    0046     in New York City",1352,2004,1320,7,9
+"G36004700047","1910","New York","36","Kings","047",,"0047",,"Tract    0047     in New York City",1620,1492,985,16,8
+"G36004700048","1910","New York","36","Kings","047",,"0048",,"Tract    0048     in New York City",1320,1707,1050,12,4
+"G36004700049","1910","New York","36","Kings","047",,"0049",,"Tract    0049     in New York City",1619,1445,914,6,6
+"G36004700050","1910","New York","36","Kings","047",,"0050",,"Tract    0050     in New York City",1280,665,777,59,3
+"G36004700051","1910","New York","36","Kings","047",,"0051",,"Tract    0051     in New York City",1424,2887,1920,12,2
+"G36004700052","1910","New York","36","Kings","047",,"0052",,"Tract    0052     in New York City",1395,1896,1068,1,7
+"G36004700053","1910","New York","36","Kings","047",,"0053",,"Tract    0053     in New York City",1734,2039,1237,5,2
+"G36004700054","1910","New York","36","Kings","047",,"0054",,"Tract    0054     in New York City",925,1723,1163,2,2
+"G36004700055","1910","New York","36","Kings","047",,"0055",,"Tract    0055     in New York City",1640,2779,2128,8,1
+"G36004700056","1910","New York","36","Kings","047",,"0056",,"Tract    0056     in New York City",1701,1795,1086,17,1
+"G36004700057","1910","New York","36","Kings","047",,"0057",,"Tract    0057     in New York City",607,3130,4099,9,7
+"G36004700058","1910","New York","36","Kings","047",,"0058",,"Tract    0058     in New York City",1035,2311,1680,0,3
+"G36004700059","1910","New York","36","Kings","047",,"0059",,"Tract    0059     in New York City",1588,3417,2324,4,3
+"G36004700060","1910","New York","36","Kings","047",,"0060",,"Tract    0060     in New York City",1790,2445,1893,5,5
+"G36004700061","1910","New York","36","Kings","047",,"0061",,"Tract    0061     in New York City",458,1033,695,1,0
+"G36004700062","1910","New York","36","Kings","047",,"0062",,"Tract    0062     in New York City",505,2308,2201,0,5
+"G36004700063","1910","New York","36","Kings","047",,"0063",,"Tract    0063     in New York City",428,1817,1753,0,1
+"G36004700064","1910","New York","36","Kings","047",,"0064",,"Tract    0064     in New York City",568,1962,1847,10,2
+"G36004700065","1910","New York","36","Kings","047",,"0065",,"Tract    0065     in New York City",1320,2610,2085,4,4
+"G36004700066","1910","New York","36","Kings","047",,"0066",,"Tract    0066     in New York City",778,1908,1957,1,2
+"G36004700067","1910","New York","36","Kings","047",,"0067",,"Tract    0067     in New York City",1053,1990,1481,0,7
+"G36004700068","1910","New York","36","Kings","047",,"0068",,"Tract    0068     in New York City",1273,1206,1076,3,3
+"G36004700069","1910","New York","36","Kings","047",,"0069",,"Tract    0069     in New York City",1187,1913,1501,1,2
+"G36004700070","1910","New York","36","Kings","047",,"0070",,"Tract    0070     in New York City",965,2064,1691,2,6
+"G36004700071","1910","New York","36","Kings","047",,"0071",,"Tract    0071     in New York City",1327,2569,2107,1,4
+"G36004700072","1910","New York","36","Kings","047",,"0072",,"Tract    0072     in New York City",1215,1771,1276,16,10
+"G36004700073","1910","New York","36","Kings","047",,"0073",,"Tract    0073     in New York City",1072,1671,1164,3,0
+"G36004700074","1910","New York","36","Kings","047",,"0074",,"Tract    0074     in New York City",1418,2463,1718,2,3
+"G36004700075","1910","New York","36","Kings","047",,"0075",,"Tract    0075     in New York City",909,1789,1103,0,0
+"G36004700076","1910","New York","36","Kings","047",,"0076",,"Tract    0076     in New York City",860,2092,1640,4,3
+"G36004700077","1910","New York","36","Kings","047",,"0077",,"Tract    0077     in New York City",1110,2692,2172,5,0
+"G36004700078","1910","New York","36","Kings","047",,"0078",,"Tract    0078     in New York City",1583,2530,1440,11,2
+"G36004700079","1910","New York","36","Kings","047",,"0079",,"Tract    0079     in New York City",1985,2551,1742,29,10
+"G36004700080","1910","New York","36","Kings","047",,"0080",,"Tract    0080     in New York City",382,358,261,7,0
+"G36004700081","1910","New York","36","Kings","047",,"0081",,"Tract    0081     in New York City",968,1020,662,1,2
+"G36004700082","1910","New York","36","Kings","047",,"0082",,"Tract    0082     in New York City",1105,1133,782,40,0
+"G36004700084","1910","New York","36","Kings","047",,"0084",,"Tract    0084     in New York City",314,162,114,12,1
+"G36004700085","1910","New York","36","Kings","047",,"0085",,"Tract    0085     in New York City",1223,1412,918,16,3
+"G36004700086","1910","New York","36","Kings","047",,"0086",,"Tract    0086     in New York City",430,1454,1675,0,2
+"G36004700087","1910","New York","36","Kings","047",,"0087",,"Tract    0087     in New York City",193,219,204,0,0
+"G36004700088","1910","New York","36","Kings","047",,"0088",,"Tract    0088     in New York City",1238,2974,2289,1,2
+"G36004700089","1910","New York","36","Kings","047",,"0089",,"Tract    0089     in New York City",1372,4844,4788,0,2
+"G36004700090","1910","New York","36","Kings","047",,"0090",,"Tract    0090     in New York City",322,1022,853,0,0
+"G36004700091","1910","New York","36","Kings","047",,"0091",,"Tract    0091     in New York City",1653,2407,1636,8,3
+"G36004700092","1910","New York","36","Kings","047",,"0092",,"Tract    0092     in New York City",2160,1946,1176,0,3
+"G36004700093","1910","New York","36","Kings","047",,"0093",,"Tract    0093     in New York City",1258,2083,1168,0,5
+"G36004700094","1910","New York","36","Kings","047",,"0094",,"Tract    0094     in New York City",958,1543,924,0,2
+"G36004700095","1910","New York","36","Kings","047",,"0095",,"Tract    0095     in New York City",786,1579,1021,2,0
+"G36004700096","1910","New York","36","Kings","047",,"0096",,"Tract    0096     in New York City",880,1541,865,1,2
+"G36004700097","1910","New York","36","Kings","047",,"0097",,"Tract    0097     in New York City",2340,3857,2403,3,3
+"G36004700098","1910","New York","36","Kings","047",,"0098",,"Tract    0098     in New York City",1653,3457,1958,1,3
+"G36004700099","1910","New York","36","Kings","047",,"0099",,"Tract    0099     in New York City",374,1717,2402,0,0
+"G36004700100","1910","New York","36","Kings","047",,"0100",,"Tract    0100     in New York City",576,1576,1069,1,0
+"G36004700101","1910","New York","36","Kings","047",,"0101",,"Tract    0101     in New York City",310,2491,3564,1,1
+"G36004700102","1910","New York","36","Kings","047",,"0102",,"Tract    0102     in New York City",808,3063,3285,0,2
+"G36004700103","1910","New York","36","Kings","047",,"0103",,"Tract    0103     in New York City",296,2342,2682,0,2
+"G36004700104","1910","New York","36","Kings","047",,"0104",,"Tract    0104     in New York City",233,2346,2448,0,1
+"G36004700105","1910","New York","36","Kings","047",,"0105",,"Tract    0105     in New York City",586,3025,3159,1,1
+"G36004700106","1910","New York","36","Kings","047",,"0106",,"Tract    0106     in New York City",989,2269,1891,2,1
+"G36004700107","1910","New York","36","Kings","047",,"0107",,"Tract    0107     in New York City",1515,2469,1614,6,1
+"G36004700108","1910","New York","36","Kings","047",,"0108",,"Tract    0108     in New York City",1365,3031,2013,5,1
+"G36004700109","1910","New York","36","Kings","047",,"0109",,"Tract    0109     in New York City",431,820,436,7,0
+"G36004700110","1910","New York","36","Kings","047",,"0110",,"Tract    0110     in New York City",237,836,623,0,0
+"G36004700111","1910","New York","36","Kings","047",,"0111",,"Tract    0111     in New York City",1462,3873,4082,2,7
+"G36004700112","1910","New York","36","Kings","047",,"0112",,"Tract    0112     in New York City",966,4277,5865,19,1
+"G36004700113","1910","New York","36","Kings","047",,"0113",,"Tract    0113     in New York City",904,2664,3212,1,2
+"G36004700114","1910","New York","36","Kings","047",,"0114",,"Tract    0114     in New York City",1624,2782,2061,28,3
+"G36004700115","1910","New York","36","Kings","047",,"0115",,"Tract    0115     in New York City",1498,2283,1489,0,2
+"G36004700116","1910","New York","36","Kings","047",,"0116",,"Tract    0116     in New York City",1682,3066,1941,3,7
+"G36004700117","1910","New York","36","Kings","047",,"0117",,"Tract    0117     in New York City",1450,2404,1182,0,1
+"G36004700118","1910","New York","36","Kings","047",,"0118",,"Tract    0118     in New York City",1692,2643,1630,8,3
+"G36004700119","1910","New York","36","Kings","047",,"0119",,"Tract    0119     in New York City",934,1482,1144,0,2
+"G36004700120","1910","New York","36","Kings","047",,"0120",,"Tract    0120     in New York City",1608,3217,2824,75,4
+"G36004700121","1910","New York","36","Kings","047",,"0121",,"Tract    0121     in New York City",935,4378,6327,3,2
+"G36004700122","1910","New York","36","Kings","047",,"0122",,"Tract    0122     in New York City",813,3620,4649,2,2
+"G36004700123","1910","New York","36","Kings","047",,"0123",,"Tract    0123     in New York City",752,5380,8927,4,3
+"G36004700124","1910","New York","36","Kings","047",,"0124",,"Tract    0124     in New York City",1105,2527,1704,3,0
+"G36004700125","1910","New York","36","Kings","047",,"0125",,"Tract    0125     in New York City",1844,2017,1100,27,6
+"G36004700126","1910","New York","36","Kings","047",,"0126",,"Tract    0126     in New York City",1391,1501,881,11,3
+"G36004700127","1910","New York","36","Kings","047",,"0127",,"Tract    0127     in New York City",1256,2189,1541,3,3
+"G36004700129","1910","New York","36","Kings","047",,"0129",,"Tract    0129     in New York City",914,1272,768,5,1
+"G36004700130","1910","New York","36","Kings","047",,"0130",,"Tract    0130     in New York City",552,1349,1378,3,1
+"G36004700131","1910","New York","36","Kings","047",,"0131",,"Tract    0131     in New York City",1312,1741,1028,6,1
+"G36004700132","1910","New York","36","Kings","047",,"0132",,"Tract    0132     in New York City",1075,2450,2220,10,6
+"G36004700133","1910","New York","36","Kings","047",,"0133",,"Tract    0133     in New York City",521,2211,2789,171,8
+"G36004700134","1910","New York","36","Kings","047",,"0134",,"Tract    0134     in New York City",361,3421,5397,136,1
+"G36004700135","1910","New York","36","Kings","047",,"0135",,"Tract    0135     in New York City",105,5018,9836,36,11
+"G36004700136","1910","New York","36","Kings","047",,"0136",,"Tract    0136     in New York City",147,3568,5997,15,3
+"G36004700137","1910","New York","36","Kings","047",,"0137",,"Tract    0137     in New York City",264,3409,6116,7,0
+"G36004700138","1910","New York","36","Kings","047",,"0138",,"Tract    0138     in New York City",958,2720,2097,3,4
+"G36004700139","1910","New York","36","Kings","047",,"0139",,"Tract    0139     in New York City",1635,2567,1489,90,5
+"G36004700140","1910","New York","36","Kings","047",,"0140",,"Tract    0140     in New York City",1286,1642,785,50,4
+"G36004700141","1910","New York","36","Kings","047",,"0141",,"Tract    0141     in New York City",1422,2762,1948,157,9
+"G36004700142","1910","New York","36","Kings","047",,"0142",,"Tract    0142     in New York City",560,2725,3049,25,2
+"G36004700143","1910","New York","36","Kings","047",,"0143",,"Tract    0143     in New York City",1127,1184,754,81,2
+"G36004700144","1910","New York","36","Kings","047",,"0144",,"Tract    0144     in New York City",2393,3060,1454,248,7
+"G36004700145","1910","New York","36","Kings","047",,"0145",,"Tract    0145     in New York City",1056,1959,1221,80,0
+"G36004700146","1910","New York","36","Kings","047",,"0146",,"Tract    0146     in New York City",2033,1096,772,119,4
+"G36004700147","1910","New York","36","Kings","047",,"0147",,"Tract    0147     in New York City",1439,758,631,79,6
+"G36004700148","1910","New York","36","Kings","047",,"0148",,"Tract    0148     in New York City",1974,1740,891,409,2
+"G36004700149","1910","New York","36","Kings","047",,"0149",,"Tract    0149     in New York City",1472,1728,1018,143,4
+"G36004700150","1910","New York","36","Kings","047",,"0150",,"Tract    0150     in New York City",815,982,1036,1076,0
+"G36004700151","1910","New York","36","Kings","047",,"0151",,"Tract    0151     in New York City",1066,767,695,409,1
+"G36004700152","1910","New York","36","Kings","047",,"0152",,"Tract    0152     in New York City",1851,974,714,134,4
+"G36004700153","1910","New York","36","Kings","047",,"0153",,"Tract    0153     in New York City",1499,1129,629,181,4
+"G36004700154","1910","New York","36","Kings","047",,"0154",,"Tract    0154     in New York City",1910,1346,923,183,15
+"G36004700155","1910","New York","36","Kings","047",,"0155",,"Tract    0155     in New York City",667,1824,1490,297,3
+"G36004700156","1910","New York","36","Kings","047",,"0156",,"Tract    0156     in New York City",780,1735,1139,268,1
+"G36004700157","1910","New York","36","Kings","047",,"0157",,"Tract    0157     in New York City",1369,1146,678,31,7
+"G36004700158","1910","New York","36","Kings","047",,"0158",,"Tract    0158     in New York City",932,2136,1814,123,1
+"G36004700159","1910","New York","36","Kings","047",,"0159",,"Tract    0159     in New York City",1313,2092,1301,38,0
+"G36004700160","1910","New York","36","Kings","047",,"0160",,"Tract    0160     in New York City",2268,2724,1582,45,3
+"G36004700161","1910","New York","36","Kings","047",,"0161",,"Tract    0161     in New York City",1635,1388,679,18,0
+"G36004700162","1910","New York","36","Kings","047",,"0162",,"Tract    0162     in New York City",847,2296,1923,14,2
+"G36004700163","1910","New York","36","Kings","047",,"0163",,"Tract    0163     in New York City",1208,3089,2731,6,2
+"G36004700164","1910","New York","36","Kings","047",,"0164",,"Tract    0164     in New York City",616,4454,5975,4,1
+"G36004700165","1910","New York","36","Kings","047",,"0165",,"Tract    0165     in New York City",639,3631,4512,5,0
+"G36004700166","1910","New York","36","Kings","047",,"0166",,"Tract    0166     in New York City",1483,1834,1002,47,2
+"G36004700167","1910","New York","36","Kings","047",,"0167",,"Tract    0167     in New York City",1270,1856,1206,66,0
+"G36004700168","1910","New York","36","Kings","047",,"0168",,"Tract    0168     in New York City",820,4097,4603,78,7
+"G36004700169","1910","New York","36","Kings","047",,"0169",,"Tract    0169     in New York City",1275,2296,1662,45,1
+"G36004700170","1910","New York","36","Kings","047",,"0170",,"Tract    0170     in New York City",958,3189,2804,4,2
+"G36004700171","1910","New York","36","Kings","047",,"0171",,"Tract    0171     in New York City",652,1612,1284,2,0
+"G36004700172","1910","New York","36","Kings","047",,"0172",,"Tract    0172     in New York City",978,2728,2386,230,0
+"G36004700173","1910","New York","36","Kings","047",,"0173",,"Tract    0173     in New York City",1481,2729,2053,24,5
+"G36004700174","1910","New York","36","Kings","047",,"0174",,"Tract    0174     in New York City",1753,1252,705,75,7
+"G36004700175","1910","New York","36","Kings","047",,"0175",,"Tract    0175     in New York City",1511,1468,845,59,3
+"G36004700176","1910","New York","36","Kings","047",,"0176",,"Tract    0176     in New York City",661,608,322,122,1
+"G36004700177","1910","New York","36","Kings","047",,"0177",,"Tract    0177     in New York City",1573,1498,819,60,1
+"G36004700178","1910","New York","36","Kings","047",,"0178",,"Tract    0178     in New York City",1628,1679,831,42,8
+"G36004700179","1910","New York","36","Kings","047",,"0179",,"Tract    0179     in New York City",1440,1681,864,10,2
+"G36004700180","1910","New York","36","Kings","047",,"0180",,"Tract    0180     in New York City",1810,1237,761,67,7
+"G36004700181","1910","New York","36","Kings","047",,"0181",,"Tract    0181     in New York City",1867,900,537,69,2
+"G36004700182","1910","New York","36","Kings","047",,"0182",,"Tract    0182     in New York City",1541,1664,970,67,2
+"G36004700183","1910","New York","36","Kings","047",,"0183",,"Tract    0183     in New York City",1715,1042,581,67,2
+"G36004700184","1910","New York","36","Kings","047",,"0184",,"Tract    0184     in New York City",1420,1395,867,91,7
+"G36004700185","1910","New York","36","Kings","047",,"0185",,"Tract    0185     in New York City",1516,1546,837,122,0
+"G36004700186","1910","New York","36","Kings","047",,"0186",,"Tract    0186     in New York City",2069,1596,1040,12,3
+"G36004700187","1910","New York","36","Kings","047",,"0187",,"Tract    0187     in New York City",1765,1348,676,29,2
+"G36004700188","1910","New York","36","Kings","047",,"0188",,"Tract    0188     in New York City",1662,1266,657,80,1
+"G36004700189","1910","New York","36","Kings","047",,"0189",,"Tract    0189     in New York City",1551,998,658,24,3
+"G36004700190","1910","New York","36","Kings","047",,"0190",,"Tract    0190     in New York City",1454,947,518,33,1
+"G36004700191","1910","New York","36","Kings","047",,"0191",,"Tract    0191     in New York City",1604,1266,701,80,0
+"G36004700192","1910","New York","36","Kings","047",,"0192",,"Tract    0192     in New York City",1827,1717,873,15,2
+"G36004700193","1910","New York","36","Kings","047",,"0193",,"Tract    0193     in New York City",1720,1890,897,85,0
+"G36004700194","1910","New York","36","Kings","047",,"0194",,"Tract    0194     in New York City",1837,2118,1069,5,5
+"G36004700195","1910","New York","36","Kings","047",,"0195",,"Tract    0195     in New York City",2164,1846,781,15,2
+"G36004700196","1910","New York","36","Kings","047",,"0196",,"Tract    0196     in New York City",1793,2449,1294,138,7
+"G36004700197","1910","New York","36","Kings","047",,"0197",,"Tract    0197     in New York City",1328,775,734,173,6
+"G36004700198","1910","New York","36","Kings","047",,"0198",,"Tract    0198     in New York City",1410,1890,1115,551,6
+"G36004700199","1910","New York","36","Kings","047",,"0199",,"Tract    0199     in New York City",1519,2166,1254,342,4
+"G36004700200","1910","New York","36","Kings","047",,"0200",,"Tract    0200     in New York City",1523,1820,1098,579,7
+"G36004700201","1910","New York","36","Kings","047",,"0201",,"Tract    0201     in New York City",1852,1893,827,8,1
+"G36004700202","1910","New York","36","Kings","047",,"0202",,"Tract    0202     in New York City",2150,2665,1290,93,1
+"G36004700203","1910","New York","36","Kings","047",,"0203",,"Tract    0203     in New York City",2925,1438,1011,99,5
+"G36004700204","1910","New York","36","Kings","047",,"0204",,"Tract    0204     in New York City",1293,1357,944,643,2
+"G36004700205","1910","New York","36","Kings","047",,"0205",,"Tract    0205     in New York City",482,1217,861,701,14
+"G36004700206","1910","New York","36","Kings","047",,"0206",,"Tract    0206     in New York City",1051,1581,965,815,10
+"G36004700207","1910","New York","36","Kings","047",,"0207",,"Tract    0207     in New York City",806,1926,1315,221,1
+"G36004700208","1910","New York","36","Kings","047",,"0208",,"Tract    0208     in New York City",558,2492,2316,280,1
+"G36004700209","1910","New York","36","Kings","047",,"0209",,"Tract    0209     in New York City",239,2712,4345,107,1
+"G36004700210","1910","New York","36","Kings","047",,"0210",,"Tract    0210     in New York City",2820,1941,1319,52,6
+"G36004700211","1910","New York","36","Kings","047",,"0211",,"Tract    0211     in New York City",1865,1691,782,35,3
+"G36004700212","1910","New York","36","Kings","047",,"0212",,"Tract    0212     in New York City",925,1492,982,217,1
+"G36004700213","1910","New York","36","Kings","047",,"0213",,"Tract    0213     in New York City",275,2546,2975,304,2
+"G36004700214","1910","New York","36","Kings","047",,"0214",,"Tract    0214     in New York City",191,2784,3566,43,0
+"G36004700215","1910","New York","36","Kings","047",,"0215",,"Tract    0215     in New York City",968,1433,840,39,2
+"G36004700216","1910","New York","36","Kings","047",,"0216",,"Tract    0216     in New York City",2102,1569,890,65,3
+"G36004700217","1910","New York","36","Kings","047",,"0217",,"Tract    0217     in New York City",1212,1749,1120,12,2
+"G36004700218","1910","New York","36","Kings","047",,"0218",,"Tract    0218     in New York City",2066,2514,1454,31,6
+"G36004700219","1910","New York","36","Kings","047",,"0219",,"Tract    0219     in New York City",802,1359,1208,25,11
+"G36004700220","1910","New York","36","Kings","047",,"0220",,"Tract    0220     in New York City",319,967,541,0,0
+"G36004700221","1910","New York","36","Kings","047",,"0221",,"Tract    0221     in New York City",895,2091,1014,4,2
+"G36004700222","1910","New York","36","Kings","047",,"0222",,"Tract    0222     in New York City",1382,3236,1745,0,0
+"G36004700223","1910","New York","36","Kings","047",,"0223",,"Tract    0223     in New York City",1400,4534,3920,2,2
+"G36004700224","1910","New York","36","Kings","047",,"0224",,"Tract    0224     in New York City",1315,3760,2753,2,2
+"G36004700225","1910","New York","36","Kings","047",,"0225",,"Tract    0225     in New York City",1812,3816,2448,1,2
+"G36004700226","1910","New York","36","Kings","047",,"0226",,"Tract    0226     in New York City",1998,4238,2535,3,0
+"G36004700227","1910","New York","36","Kings","047",,"0227",,"Tract    0227     in New York City",1442,2275,990,1,0
+"G36004700228","1910","New York","36","Kings","047",,"0228",,"Tract    0228     in New York City",1514,2005,902,0,0
+"G36004700229","1910","New York","36","Kings","047",,"0229",,"Tract    0229     in New York City",995,2474,1612,0,1
+"G36004700230","1910","New York","36","Kings","047",,"0230",,"Tract    0230     in New York City",843,3041,3041,2,1
+"G36004700231","1910","New York","36","Kings","047",,"0231",,"Tract    0231     in New York City",1071,3055,3137,0,3
+"G36004700232","1910","New York","36","Kings","047",,"0232",,"Tract    0232     in New York City",1253,2303,1459,2,1
+"G36004700233","1910","New York","36","Kings","047",,"0233",,"Tract    0233     in New York City",1430,3133,1790,0,0
+"G36004700234","1910","New York","36","Kings","047",,"0234",,"Tract    0234     in New York City",1354,2443,1724,8,5
+"G36004700235","1910","New York","36","Kings","047",,"0235",,"Tract    0235     in New York City",1791,2588,1254,0,2
+"G36004700236","1910","New York","36","Kings","047",,"0236",,"Tract    0236     in New York City",1938,2486,1129,4,1
+"G36004700237","1910","New York","36","Kings","047",,"0237",,"Tract    0237     in New York City",674,2922,3208,4,0
+"G36004700238","1910","New York","36","Kings","047",,"0238",,"Tract    0238     in New York City",715,2640,2834,3,1
+"G36004700239","1910","New York","36","Kings","047",,"0239",,"Tract    0239     in New York City",764,1661,1167,1,1
+"G36004700240","1910","New York","36","Kings","047",,"0240",,"Tract    0240     in New York City",1239,1605,928,1,0
+"G36004700241","1910","New York","36","Kings","047",,"0241",,"Tract    0241     in New York City",3125,3358,1589,4,6
+"G36004700242","1910","New York","36","Kings","047",,"0242",,"Tract    0242     in New York City",1876,2278,1085,2,5
+"G36004700243","1910","New York","36","Kings","047",,"0243",,"Tract    0243     in New York City",1698,1824,1042,4,0
+"G36004700244","1910","New York","36","Kings","047",,"0244",,"Tract    0244     in New York City",1136,1173,505,0,3
+"G36004700245","1910","New York","36","Kings","047",,"0245",,"Tract    0245     in New York City",2205,3008,1325,0,2
+"G36004700246","1910","New York","36","Kings","047",,"0246",,"Tract    0246     in New York City",582,1223,791,0,1
+"G36004700247","1910","New York","36","Kings","047",,"0247",,"Tract    0247     in New York City",331,1143,1111,0,0
+"G36004700248","1910","New York","36","Kings","047",,"0248",,"Tract    0248     in New York City",1859,2162,1176,25,3
+"G36004700249","1910","New York","36","Kings","047",,"0249",,"Tract    0249     in New York City",1399,3147,2509,5,6
+"G36004700250","1910","New York","36","Kings","047",,"0250",,"Tract    0250     in New York City",1329,2868,2371,18,5
+"G36004700251","1910","New York","36","Kings","047",,"0251",,"Tract    0251     in New York City",1063,1332,818,53,6
+"G36004700252","1910","New York","36","Kings","047",,"0252",,"Tract    0252     in New York City",950,1652,1427,5,1
+"G36004700253","1910","New York","36","Kings","047",,"0253",,"Tract    0253     in New York City",585,2177,2339,47,1
+"G36004700254","1910","New York","36","Kings","047",,"0254",,"Tract    0254     in New York City",731,1609,1533,8,4
+"G36004700255","1910","New York","36","Kings","047",,"0255",,"Tract    0255     in New York City",1803,2365,1550,22,3
+"G36004700256","1910","New York","36","Kings","047",,"0256",,"Tract    0256     in New York City",1389,1295,682,55,1
+"G36004700257","1910","New York","36","Kings","047",,"0257",,"Tract    0257     in New York City",275,493,330,5,0
+"G36004700258","1910","New York","36","Kings","047",,"0258",,"Tract    0258     in New York City",985,1614,1329,71,5
+"G36004700259","1910","New York","36","Kings","047",,"0259",,"Tract    0259     in New York City",1140,1422,1113,101,5
+"G36004700260","1910","New York","36","Kings","047",,"0260",,"Tract    0260     in New York City",1192,1310,1189,35,3
+"G36004700261","1910","New York","36","Kings","047",,"0261",,"Tract    0261     in New York City",996,1071,718,35,1
+"G36004700262","1910","New York","36","Kings","047",,"0262",,"Tract    0262     in New York City",695,612,434,125,0
+"G36004700263","1910","New York","36","Kings","047",,"0263",,"Tract    0263     in New York City",422,950,711,17,2
+"G36004700264","1910","New York","36","Kings","047",,"0264",,"Tract    0264     in New York City",831,2081,2312,100,26
+"G36004700265","1910","New York","36","Kings","047",,"0265",,"Tract    0265     in New York City",527,1047,783,140,3
+"G36004700266","1910","New York","36","Kings","047",,"0266",,"Tract    0266     in New York City",1338,1885,1079,0,3
+"G36004700267","1910","New York","36","Kings","047",,"0267",,"Tract    0267     in New York City",1215,1688,1138,7,3
+"G36004700268","1910","New York","36","Kings","047",,"0268",,"Tract    0268     in New York City",1585,1156,739,37,11
+"G36004700269","1910","New York","36","Kings","047",,"0269",,"Tract    0269     in New York City",1252,835,574,45,8
+"G36004700270","1910","New York","36","Kings","047",,"0270",,"Tract    0270     in New York City",1903,1540,886,13,11
+"G36004700271","1910","New York","36","Kings","047",,"0271",,"Tract    0271     in New York City",979,1906,2650,72,0
+"G36004700272","1910","New York","36","Kings","047",,"0272",,"Tract    0272     in New York City",550,918,685,14,0
+"G36004700273","1910","New York","36","Kings","047",,"0273",,"Tract    0273     in New York City",1784,1756,963,13,2
+"G36004700274","1910","New York","36","Kings","047",,"0274",,"Tract    0274     in New York City",2289,2301,1298,12,3
+"G36004700275","1910","New York","36","Kings","047",,"0275",,"Tract    0275     in New York City",2426,1477,1028,68,2
+"G36004700276","1910","New York","36","Kings","047",,"0276",,"Tract    0276     in New York City",2147,1134,857,121,4
+"G36004700277","1910","New York","36","Kings","047",,"0277",,"Tract    0277     in New York City",1806,1916,1186,132,5
+"G36004700278","1910","New York","36","Kings","047",,"0278",,"Tract    0278     in New York City",1096,1441,819,60,2
+"G36004700279","1910","New York","36","Kings","047",,"0279",,"Tract    0279     in New York City",513,757,409,4,0
+"G36004700280","1910","New York","36","Kings","047",,"0280",,"Tract    0280     in New York City",1048,1161,644,2,3
+"G36004700281","1910","New York","36","Kings","047",,"0281",,"Tract    0281     in New York City",1284,1024,580,34,1
+"G36004700282","1910","New York","36","Kings","047",,"0282",,"Tract    0282     in New York City",1372,977,622,39,0
+"G36004700283","1910","New York","36","Kings","047",,"0283",,"Tract    0283     in New York City",1616,1493,861,10,9
+"G36004700284","1910","New York","36","Kings","047",,"0284",,"Tract    0284     in New York City",937,915,539,19,1
+"G36004700285","1910","New York","36","Kings","047",,"0285",,"Tract    0285     in New York City",1208,1074,611,20,1
+"G36004700286","1910","New York","36","Kings","047",,"0286",,"Tract    0286     in New York City",634,841,1061,126,0
+"G36004700287","1910","New York","36","Kings","047",,"0287",,"Tract    0287     in New York City",703,704,385,30,9
+"G36004700288","1910","New York","36","Kings","047",,"0288",,"Tract    0288     in New York City",1174,1434,716,340,3
+"G36004700289","1910","New York","36","Kings","047",,"0289",,"Tract    0289     in New York City",73,79,42,20,0
+"G36004700290","1910","New York","36","Kings","047",,"0290",,"Tract    0290     in New York City",165,534,405,11,0
+"G36004700291","1910","New York","36","Kings","047",,"0291",,"Tract    0291     in New York City",10,827,1341,1,0
+"G36004700292","1910","New York","36","Kings","047",,"0292",,"Tract    0292     in New York City",38,3808,6133,24,1
+"G36004700293","1910","New York","36","Kings","047",,"0293",,"Tract    0293     in New York City",140,3083,4813,83,3
+"G36004700294","1910","New York","36","Kings","047",,"0294",,"Tract    0294     in New York City",33,4126,6769,3,4
+"G36004700295","1910","New York","36","Kings","047",,"0295",,"Tract    0295     in New York City",37,2746,4483,3,1
+"G36004700296","1910","New York","36","Kings","047",,"0296",,"Tract    0296     in New York City",72,2217,4274,60,0
+"G36004700297","1910","New York","36","Kings","047",,"0297",,"Tract    0297     in New York City",31,3623,6812,11,0
+"G36004700298","1910","New York","36","Kings","047",,"0298",,"Tract    0298     in New York City",17,2449,4400,1,0
+"G36004700299","1910","New York","36","Kings","047",,"0299",,"Tract    0299     in New York City",107,1781,2753,67,1
+"G36004700300","1910","New York","36","Kings","047",,"0300",,"Tract    0300     in New York City",60,2408,3971,9,0
+"G36004700301","1910","New York","36","Kings","047",,"0301",,"Tract    0301     in New York City",1680,1060,490,70,2
+"G36004700302","1910","New York","36","Kings","047",,"0302",,"Tract    0302     in New York City",1105,553,298,72,10
+"G36004700303","1910","New York","36","Kings","047",,"0303",,"Tract    0303     in New York City",470,546,258,5,0
+"G36004700304","1910","New York","36","Kings","047",,"0304",,"Tract    0304     in New York City",0,0,0,0,0
+"G36004700305","1910","New York","36","Kings","047",,"0305",,"Tract    0305     in New York City",984,2650,2814,33,5
+"G36004700306","1910","New York","36","Kings","047",,"0306",,"Tract    0306     in New York City",1967,2131,1462,84,1
+"G36004700307","1910","New York","36","Kings","047",,"0307",,"Tract    0307     in New York City",1714,1723,745,24,6
+"G36004700308","1910","New York","36","Kings","047",,"0308",,"Tract    0308     in New York City",1207,1382,616,0,2
+"G36004700309","1910","New York","36","Kings","047",,"0309",,"Tract    0309     in New York City",2095,2430,1167,5,2
+"G36004700310","1910","New York","36","Kings","047",,"0310",,"Tract    0310     in New York City",2483,2840,1319,13,5
+"G36004700311","1910","New York","36","Kings","047",,"0311",,"Tract    0311     in New York City",1198,2357,1915,86,2
+"G36004700312","1910","New York","36","Kings","047",,"0312",,"Tract    0312     in New York City",367,1380,1436,32,0
+"G36004700313","1910","New York","36","Kings","047",,"0313",,"Tract    0313     in New York City",657,1731,1639,19,0
+"G36004700314","1910","New York","36","Kings","047",,"0314",,"Tract    0314     in New York City",1374,3195,2435,346,9
+"G36004700315","1910","New York","36","Kings","047",,"0315",,"Tract    0315     in New York City",1376,3215,2490,350,2
+"G36004700316","1910","New York","36","Kings","047",,"0316",,"Tract    0316     in New York City",906,1457,893,81,1
+"G36004700317","1910","New York","36","Kings","047",,"0317",,"Tract    0317     in New York City",1526,2009,1136,26,1
+"G36004700318","1910","New York","36","Kings","047",,"0318",,"Tract    0318     in New York City",50,2313,3511,0,1
+"G36004700319","1910","New York","36","Kings","047",,"0319",,"Tract    0319     in New York City",25,2821,4321,2,1
+"G36004700320","1910","New York","36","Kings","047",,"0320",,"Tract    0320     in New York City",127,2824,3555,1,0
+"G36004700321","1910","New York","36","Kings","047",,"0321",,"Tract    0321     in New York City",724,3290,3383,114,0
+"G36004700322","1910","New York","36","Kings","047",,"0322",,"Tract    0322     in New York City",663,947,590,24,7
+"G36004700323","1910","New York","36","Kings","047",,"0323",,"Tract    0323     in New York City",934,1185,692,2,1
+"G36004700324","1910","New York","36","Kings","047",,"0324",,"Tract    0324     in New York City",86,891,1254,0,0
+"G36004700325","1910","New York","36","Kings","047",,"0325",,"Tract    0325     in New York City",397,1263,1025,80,8
+"G36004700326","1910","New York","36","Kings","047",,"0326",,"Tract    0326     in New York City",513,1202,987,31,0
+"G36006100001","1910","New York","36","New York","061",,"0001",,"Tract    0001     in New York City",1221,981,1147,49,6
+"G36006100002","1910","New York","36","New York","061",,"0002",,"Tract    0002     in New York City",1026,6231,12618,15,4
+"G36006100003","1910","New York","36","New York","061",,"0003",,"Tract    0003     in New York City",455,1999,3977,3,7
+"G36006100004","1910","New York","36","New York","061",,"0004",,"Tract    0004     in New York City",578,6627,15588,15,6
+"G36006100005","1910","New York","36","New York","061",,"0005",,"Tract    0005     in New York City",310,284,296,42,1
+"G36006100006","1910","New York","36","New York","061",,"0006",,"Tract    0006     in New York City",339,9362,25234,13,5
+"G36006100007","1910","New York","36","New York","061",,"0007",,"Tract    0007     in New York City",367,571,968,4,5
+"G36006100008","1910","New York","36","New York","061",,"0008",,"Tract    0008     in New York City",747,7937,15717,8,34
+"G36006100009","1910","New York","36","New York","061",,"0009",,"Tract    0009     in New York City",687,2358,2566,0,1
+"G36006100010","1910","New York","36","New York","061",,"0010",,"Tract    0010     in New York City",511,6090,9778,1,3
+"G36006100011","1910","New York","36","New York","061",,"0011",,"Tract    0011     in New York City",792,5817,9034,13,69
+"G36006100012","1910","New York","36","New York","061",,"0012",,"Tract    0012     in New York City",219,7569,15300,2,2
+"G36006100013","1910","New York","36","New York","061",,"0013",,"Tract    0013     in New York City",853,6479,7970,22,2255
+"G36006100014","1910","New York","36","New York","061",,"0014",,"Tract    0014     in New York City",80,6984,18101,0,4
+"G36006100015","1910","New York","36","New York","061",,"0015",,"Tract    0015     in New York City",336,784,935,31,5
+"G36006100016","1910","New York","36","New York","061",,"0016",,"Tract    0016     in New York City",783,8302,19558,6,23
+"G36006100017","1910","New York","36","New York","061",,"0017",,"Tract    0017     in New York City",664,2482,2513,6,1
+"G36006100018","1910","New York","36","New York","061",,"0018",,"Tract    0018     in New York City",324,9980,27445,12,5
+"G36006100019","1910","New York","36","New York","061",,"0019",,"Tract    0019     in New York City",392,7814,13202,1,8
+"G36006100020","1910","New York","36","New York","061",,"0020",,"Tract    0020     in New York City",131,9742,17280,4,5
+"G36006100021","1910","New York","36","New York","061",,"0021",,"Tract    0021     in New York City",337,5743,9321,6,7
+"G36006100022","1910","New York","36","New York","061",,"0022",,"Tract    0022     in New York City",178,11209,26341,6,4
+"G36006100023","1910","New York","36","New York","061",,"0023",,"Tract    0023     in New York City",39,693,706,0,0
+"G36006100024","1910","New York","36","New York","061",,"0024",,"Tract    0024     in New York City",228,2166,3681,1,0
+"G36006100025","1910","New York","36","New York","061",,"0025",,"Tract    0025     in New York City",365,7689,10795,5,8
+"G36006100026","1910","New York","36","New York","061",,"0026",,"Tract    0026     in New York City",480,12927,28631,18,9
+"G36006100027","1910","New York","36","New York","061",,"0027",,"Tract    0027     in New York City",1904,4092,3893,12,9
+"G36006100028","1910","New York","36","New York","061",,"0028",,"Tract    0028     in New York City",1209,7081,15200,10,2
+"G36006100029","1910","New York","36","New York","061",,"0029",,"Tract    0029     in New York City",745,2035,1622,10,5
+"G36006100030","1910","New York","36","New York","061",,"0030",,"Tract    0030     in New York City",358,10932,33238,9,7
+"G36006100031","1910","New York","36","New York","061",,"0031",,"Tract    0031     in New York City",1320,1974,2928,49,3
+"G36006100032","1910","New York","36","New York","061",,"0032",,"Tract    0032     in New York City",1035,7456,16987,16,9
+"G36006100033","1910","New York","36","New York","061",,"0033",,"Tract    0033     in New York City",1874,1177,2140,156,17
+"G36006100034","1910","New York","36","New York","061",,"0034",,"Tract    0034     in New York City",659,7283,17794,12,4
+"G36006100035","1910","New York","36","New York","061",,"0035",,"Tract    0035     in New York City",2497,5278,10613,544,21
+"G36006100036","1910","New York","36","New York","061",,"0036",,"Tract    0036     in New York City",525,7678,22200,5,19
+"G36006100037","1910","New York","36","New York","061",,"0037",,"Tract    0037     in New York City",2016,6366,8805,249,10
+"G36006100038","1910","New York","36","New York","061",,"0038",,"Tract    0038     in New York City",1134,7773,16842,7,18
+"G36006100039","1910","New York","36","New York","061",,"0039",,"Tract    0039     in New York City",826,1656,1106,5,2
+"G36006100040","1910","New York","36","New York","061",,"0040",,"Tract    0040     in New York City",822,5588,12375,22,28
+"G36006100041","1910","New York","36","New York","061",,"0041",,"Tract    0041     in New York City",1961,2119,2406,194,11
+"G36006100042","1910","New York","36","New York","061",,"0042",,"Tract    0042     in New York City",264,454,763,3,13
+"G36006100043","1910","New York","36","New York","061",,"0043",,"Tract    0043     in New York City",3983,5849,4524,136,6
+"G36006100044","1910","New York","36","New York","061",,"0044",,"Tract    0044     in New York City",1424,1790,2288,1,0
+"G36006100045","1910","New York","36","New York","061",,"0045",,"Tract    0045     in New York City",1508,2714,2217,83,14
+"G36006100046","1910","New York","36","New York","061",,"0046",,"Tract    0046     in New York City",1804,6249,8919,4,15
+"G36006100047","1910","New York","36","New York","061",,"0047",,"Tract    0047     in New York City",3209,3552,2697,43,12
+"G36006100048","1910","New York","36","New York","061",,"0048",,"Tract    0048     in New York City",1519,2762,4120,36,4
+"G36006100049","1910","New York","36","New York","061",,"0049",,"Tract    0049     in New York City",1751,2747,2099,3,5
+"G36006100050","1910","New York","36","New York","061",,"0050",,"Tract    0050     in New York City",1221,742,1247,91,24
+"G36006100051","1910","New York","36","New York","061",,"0051",,"Tract    0051     in New York City",1932,2943,3537,349,12
+"G36006100052","1910","New York","36","New York","061",,"0052",,"Tract    0052     in New York City",1650,967,1719,124,27
+"G36006100053","1910","New York","36","New York","061",,"0053",,"Tract    0053     in New York City",2336,4061,3190,287,6
+"G36006100054","1910","New York","36","New York","061",,"0054",,"Tract    0054     in New York City",1348,2377,2592,14,15
+"G36006100055","1910","New York","36","New York","061",,"0055",,"Tract    0055     in New York City",713,1345,1854,0,3
+"G36006100056","1910","New York","36","New York","061",,"0056",,"Tract    0056     in New York City",2046,3918,4963,24,12
+"G36006100057","1910","New York","36","New York","061",,"0057",,"Tract    0057     in New York City",2014,2918,3275,399,26
+"G36006100058","1910","New York","36","New York","061",,"0058",,"Tract    0058     in New York City",2157,6447,8340,7,20
+"G36006100059","1910","New York","36","New York","061",,"0059",,"Tract    0059     in New York City",2719,3144,2796,129,17
+"G36006100060","1910","New York","36","New York","061",,"0060",,"Tract    0060     in New York City",1279,1266,1539,44,9
+"G36006100061","1910","New York","36","New York","061",,"0061",,"Tract    0061     in New York City",1406,1501,2529,243,20
+"G36006100062","1910","New York","36","New York","061",,"0062",,"Tract    0062     in New York City",2279,5630,6479,8,29
+"G36006100063","1910","New York","36","New York","061",,"0063",,"Tract    0063     in New York City",2787,3856,3527,38,14
+"G36006100064","1910","New York","36","New York","061",,"0064",,"Tract    0064     in New York City",1431,1857,2484,52,10
+"G36006100065","1910","New York","36","New York","061",,"0065",,"Tract    0065     in New York City",544,2160,4754,1311,21
+"G36006100066","1910","New York","36","New York","061",,"0066",,"Tract    0066     in New York City",2009,893,1812,127,16
+"G36006100067","1910","New York","36","New York","061",,"0067",,"Tract    0067     in New York City",2312,3343,3231,73,3
+"G36006100068","1910","New York","36","New York","061",,"0068",,"Tract    0068     in New York City",1803,4946,4995,7,8
+"G36006100069","1910","New York","36","New York","061",,"0069",,"Tract    0069     in New York City",918,1868,1486,0,2
+"G36006100070","1910","New York","36","New York","061",,"0070",,"Tract    0070     in New York City",1283,1040,2033,36,10
+"G36006100071","1910","New York","36","New York","061",,"0071",,"Tract    0071     in New York City",442,952,1557,628,8
+"G36006100072","1910","New York","36","New York","061",,"0072",,"Tract    0072     in New York City",1501,659,2102,102,6
+"G36006100073","1910","New York","36","New York","061",,"0073",,"Tract    0073     in New York City",1444,2876,2192,8,13
+"G36006100074","1910","New York","36","New York","061",,"0074",,"Tract    0074     in New York City",802,2282,2182,11,2
+"G36006100075","1910","New York","36","New York","061",,"0075",,"Tract    0075     in New York City",922,2017,1913,0,0
+"G36006100076","1910","New York","36","New York","061",,"0076",,"Tract    0076     in New York City",1708,5632,7153,40,24
+"G36006100077","1910","New York","36","New York","061",,"0077",,"Tract    0077     in New York City",1633,1589,2909,545,16
+"G36006100078","1910","New York","36","New York","061",,"0078",,"Tract    0078     in New York City",1541,6146,7389,24,17
+"G36006100079","1910","New York","36","New York","061",,"0079",,"Tract    0079     in New York City",2709,5502,4765,2695,24
+"G36006100080","1910","New York","36","New York","061",,"0080",,"Tract    0080     in New York City",844,1672,1785,156,1
+"G36006100081","1910","New York","36","New York","061",,"0081",,"Tract    0081     in New York City",862,1024,1358,762,30
+"G36006100082","1910","New York","36","New York","061",,"0082",,"Tract    0082     in New York City",1854,855,2051,79,7
+"G36006100083","1910","New York","36","New York","061",,"0083",,"Tract    0083     in New York City",2102,5492,6677,2109,10
+"G36006100084","1910","New York","36","New York","061",,"0084",,"Tract    0084     in New York City",1709,5445,5782,92,16
+"G36006100085","1910","New York","36","New York","061",,"0085",,"Tract    0085     in New York City",1299,2007,1844,29,2
+"G36006100086","1910","New York","36","New York","061",,"0086",,"Tract    0086     in New York City",1310,2890,3402,23,14
+"G36006100087","1910","New York","36","New York","061",,"0087",,"Tract    0087     in New York City",1718,1124,1549,65,16
+"G36006100088","1910","New York","36","New York","061",,"0088",,"Tract    0088     in New York City",2545,1060,3683,84,17
+"G36006100089","1910","New York","36","New York","061",,"0089",,"Tract    0089     in New York City",3131,4649,4769,278,9
+"G36006100090","1910","New York","36","New York","061",,"0090",,"Tract    0090     in New York City",1173,3769,3826,8,3
+"G36006100091","1910","New York","36","New York","061",,"0091",,"Tract    0091     in New York City",1713,3538,2938,206,10
+"G36006100092","1910","New York","36","New York","061",,"0092",,"Tract    0092     in New York City",1559,5898,6945,130,24
+"G36006100093","1910","New York","36","New York","061",,"0093",,"Tract    0093     in New York City",1194,1367,1479,657,6
+"G36006100094","1910","New York","36","New York","061",,"0094",,"Tract    0094     in New York City",993,4223,5535,16,10
+"G36006100095","1910","New York","36","New York","061",,"0095",,"Tract    0095     in New York City",2970,6728,6003,70,7
+"G36006100096","1910","New York","36","New York","061",,"0096",,"Tract    0096     in New York City",1085,1323,1979,19,37
+"G36006100097","1910","New York","36","New York","061",,"0097",,"Tract    0097     in New York City",2483,5095,3544,230,2
+"G36006100098","1910","New York","36","New York","061",,"0098",,"Tract    0098     in New York City",2142,850,2460,112,21
+"G36006100099","1910","New York","36","New York","061",,"0099",,"Tract    0099     in New York City",799,1218,1481,999,12
+"G36006100100","1910","New York","36","New York","061",,"0100",,"Tract    0100     in New York City",687,2467,3460,0,1
+"G36006100101","1910","New York","36","New York","061",,"0101",,"Tract    0101     in New York City",2166,5185,4678,1767,10
+"G36006100102","1910","New York","36","New York","061",,"0102",,"Tract    0102     in New York City",1348,4365,5198,3,7
+"G36006100103","1910","New York","36","New York","061",,"0103",,"Tract    0103     in New York City",1774,3657,2291,3,2
+"G36006100104","1910","New York","36","New York","061",,"0104",,"Tract    0104     in New York City",3301,1571,1796,114,8
+"G36006100105","1910","New York","36","New York","061",,"0105",,"Tract    0105     in New York City",2127,1304,2049,134,15
+"G36006100106","1910","New York","36","New York","061",,"0106",,"Tract    0106     in New York City",1067,537,1869,38,10
+"G36006100107","1910","New York","36","New York","061",,"0107",,"Tract    0107     in New York City",3060,4569,3926,368,16
+"G36006100108","1910","New York","36","New York","061",,"0108",,"Tract    0108     in New York City",751,7244,9166,0,3
+"G36006100109","1910","New York","36","New York","061",,"0109",,"Tract    0109     in New York City",1131,1891,1281,0,2
+"G36006100110","1910","New York","36","New York","061",,"0110",,"Tract    0110     in New York City",1569,8371,8835,406,14
+"G36006100112","1910","New York","36","New York","061",,"0112",,"Tract    0112     in New York City",1400,2593,3106,91,4
+"G36006100113","1910","New York","36","New York","061",,"0113",,"Tract    0113     in New York City",1422,2514,2229,1353,15
+"G36006100114","1910","New York","36","New York","061",,"0114",,"Tract    0114     in New York City",1091,647,1689,34,5
+"G36006100115","1910","New York","36","New York","061",,"0115",,"Tract    0115     in New York City",482,1749,1711,4083,12
+"G36006100116","1910","New York","36","New York","061",,"0116",,"Tract    0116     in New York City",1168,5456,6104,3,2
+"G36006100117","1910","New York","36","New York","061",,"0117",,"Tract    0117     in New York City",2596,2998,2940,69,24
+"G36006100118","1910","New York","36","New York","061",,"0118",,"Tract    0118     in New York City",1433,7342,8135,200,10
+"G36006100119","1910","New York","36","New York","061",,"0119",,"Tract    0119     in New York City",391,693,511,3208,11
+"G36006100120","1910","New York","36","New York","061",,"0120",,"Tract    0120     in New York City",2297,8840,7912,2,9
+"G36006100121","1910","New York","36","New York","061",,"0121",,"Tract    0121     in New York City",2070,1805,2125,293,12
+"G36006100122","1910","New York","36","New York","061",,"0122",,"Tract    0122     in New York City",1903,7400,7874,56,8
+"G36006100123","1910","New York","36","New York","061",,"0123",,"Tract    0123     in New York City",1998,4677,4546,451,16
+"G36006100124","1910","New York","36","New York","061",,"0124",,"Tract    0124     in New York City",1671,3613,3737,57,2
+"G36006100125","1910","New York","36","New York","061",,"0125",,"Tract    0125     in New York City",2313,1334,2130,168,19
+"G36006100126","1910","New York","36","New York","061",,"0126",,"Tract    0126     in New York City",1276,1097,1840,36,5
+"G36006100127","1910","New York","36","New York","061",,"0127",,"Tract    0127     in New York City",1763,976,1299,131,15
+"G36006100128","1910","New York","36","New York","061",,"0128",,"Tract    0128     in New York City",2479,7710,6070,2,6
+"G36006100129","1910","New York","36","New York","061",,"0129",,"Tract    0129     in New York City",1932,1545,1940,137,14
+"G36006100130","1910","New York","36","New York","061",,"0130",,"Tract    0130     in New York City",1886,6942,6546,483,8
+"G36006100131","1910","New York","36","New York","061",,"0131",,"Tract    0131     in New York City",1434,757,1186,79,10
+"G36006100132","1910","New York","36","New York","061",,"0132",,"Tract    0132     in New York City",1772,5145,4646,121,14
+"G36006100133","1910","New York","36","New York","061",,"0133",,"Tract    0133     in New York City",2105,1386,1275,144,4
+"G36006100134","1910","New York","36","New York","061",,"0134",,"Tract    0134     in New York City",1362,2701,2565,61,4
+"G36006100135","1910","New York","36","New York","061",,"0135",,"Tract    0135     in New York City",2112,1376,1617,153,9
+"G36006100136","1910","New York","36","New York","061",,"0136",,"Tract    0136     in New York City",723,1772,1184,1,0
+"G36006100137","1910","New York","36","New York","061",,"0137",,"Tract    0137     in New York City",2837,2759,2933,134,9
+"G36006100138","1910","New York","36","New York","061",,"0138",,"Tract    0138     in New York City",1605,6314,5926,11,5
+"G36006100139","1910","New York","36","New York","061",,"0139",,"Tract    0139     in New York City",2704,1964,2035,231,23
+"G36006100140","1910","New York","36","New York","061",,"0140",,"Tract    0140     in New York City",1119,6909,9319,212,8
+"G36006100141","1910","New York","36","New York","061",,"0141",,"Tract    0141     in New York City",1957,2630,2732,87,17
+"G36006100142","1910","New York","36","New York","061",,"0142",,"Tract    0142     in New York City",1747,5289,5370,373,3
+"G36006100143","1910","New York","36","New York","061",,"0143",,"Tract    0143     in New York City",1278,1127,1394,90,5
+"G36006100144","1910","New York","36","New York","061",,"0144",,"Tract    0144     in New York City",1012,3254,3575,35,2
+"G36006100145","1910","New York","36","New York","061",,"0145",,"Tract    0145     in New York City",2982,2833,2686,132,8
+"G36006100146","1910","New York","36","New York","061",,"0146",,"Tract    0146     in New York City",88,1679,2965,1,0
+"G36006100147","1910","New York","36","New York","061",,"0147",,"Tract    0147     in New York City",1659,1401,1316,91,6
+"G36006100148","1910","New York","36","New York","061",,"0148",,"Tract    0148     in New York City",912,9235,14376,738,13
+"G36006100149","1910","New York","36","New York","061",,"0149",,"Tract    0149     in New York City",2992,4105,3454,80,10
+"G36006100150","1910","New York","36","New York","061",,"0150",,"Tract    0150     in New York City",1047,5992,7674,764,2
+"G36006100151","1910","New York","36","New York","061",,"0151",,"Tract    0151     in New York City",2031,1560,1322,133,8
+"G36006100152","1910","New York","36","New York","061",,"0152",,"Tract    0152     in New York City",687,6871,10428,316,10
+"G36006100153","1910","New York","36","New York","061",,"0153",,"Tract    0153     in New York City",3377,5902,5158,2435,22
+"G36006100154","1910","New York","36","New York","061",,"0154",,"Tract    0154     in New York City",524,9212,17522,137,11
+"G36006100155","1910","New York","36","New York","061",,"0155",,"Tract    0155     in New York City",1664,1668,1569,100,8
+"G36006100156","1910","New York","36","New York","061",,"0156",,"Tract    0156     in New York City",1524,6679,7135,4,7
+"G36006100157","1910","New York","36","New York","061",,"0157",,"Tract    0157     in New York City",4143,4526,3840,92,10
+"G36006100158","1910","New York","36","New York","061",,"0158",,"Tract    0158     in New York City",839,8489,11319,73,4
+"G36006100159","1910","New York","36","New York","061",,"0159",,"Tract    0159     in New York City",2164,1620,1453,145,9
+"G36006100160","1910","New York","36","New York","061",,"0160",,"Tract    0160     in New York City",4,3,4,0,0
+"G36006100161","1910","New York","36","New York","061",,"0161",,"Tract    0161     in New York City",3109,3547,3337,72,15
+"G36006100162","1910","New York","36","New York","061",,"0162",,"Tract    0162     in New York City",491,5999,8386,0,4
+"G36006100163","1910","New York","36","New York","061",,"0163",,"Tract    0163     in New York City",2319,1626,1421,146,18
+"G36006100164","1910","New York","36","New York","061",,"0164",,"Tract    0164     in New York City",593,8713,13019,8,7
+"G36006100165","1910","New York","36","New York","061",,"0165",,"Tract    0165     in New York City",1132,1156,1031,16,8
+"G36006100166","1910","New York","36","New York","061",,"0166",,"Tract    0166     in New York City",1496,6028,7346,29,12
+"G36006100167","1910","New York","36","New York","061",,"0167",,"Tract    0167     in New York City",3341,1741,1714,150,19
+"G36006100168","1910","New York","36","New York","061",,"0168",,"Tract    0168     in New York City",1211,9874,12979,125,15
+"G36006100169","1910","New York","36","New York","061",,"0169",,"Tract    0169     in New York City",2948,2768,2254,89,20
+"G36006100170","1910","New York","36","New York","061",,"0170",,"Tract    0170     in New York City",437,3437,3479,82,0
+"G36006100171","1910","New York","36","New York","061",,"0171",,"Tract    0171     in New York City",1846,1023,884,70,11
+"G36006100172","1910","New York","36","New York","061",,"0172",,"Tract    0172     in New York City",963,1587,4174,257,9
+"G36006100173","1910","New York","36","New York","061",,"0173",,"Tract    0173     in New York City",2417,2678,2083,673,4
+"G36006100174","1910","New York","36","New York","061",,"0174",,"Tract    0174     in New York City",1187,7836,10233,25,6
+"G36006100175","1910","New York","36","New York","061",,"0175",,"Tract    0175     in New York City",1881,2800,2359,118,31
+"G36006100176","1910","New York","36","New York","061",,"0176",,"Tract    0176     in New York City",968,6209,6574,111,1
+"G36006100177","1910","New York","36","New York","061",,"0177",,"Tract    0177     in New York City",3171,3283,2910,459,13
+"G36006100178","1910","New York","36","New York","061",,"0178",,"Tract    0178     in New York City",586,1361,3123,50,5
+"G36006100179","1910","New York","36","New York","061",,"0179",,"Tract    0179     in New York City",1506,2473,1676,444,6
+"G36006100180","1910","New York","36","New York","061",,"0180",,"Tract    0180     in New York City",1120,3142,3339,115,0
+"G36006100181","1910","New York","36","New York","061",,"0181",,"Tract    0181     in New York City",1075,1597,1216,8,7
+"G36006100182","1910","New York","36","New York","061",,"0182",,"Tract    0182     in New York City",2048,6023,6893,83,14
+"G36006100183","1910","New York","36","New York","061",,"0183",,"Tract    0183     in New York City",1361,2341,1707,16,2
+"G36006100184","1910","New York","36","New York","061",,"0184",,"Tract    0184     in New York City",1863,3526,3056,10,3
+"G36006100185","1910","New York","36","New York","061",,"0185",,"Tract    0185     in New York City",1439,2795,2406,223,1
+"G36006100186","1910","New York","36","New York","061",,"0186",,"Tract    0186     in New York City",1135,3162,2773,19,1
+"G36006100187","1910","New York","36","New York","061",,"0187",,"Tract    0187     in New York City",1516,1814,1401,7,1
+"G36006100188","1910","New York","36","New York","061",,"0188",,"Tract    0188     in New York City",1133,1509,1326,96,5
+"G36006100189","1910","New York","36","New York","061",,"0189",,"Tract    0189     in New York City",3147,3104,2252,62,9
+"G36006100190","1910","New York","36","New York","061",,"0190",,"Tract    0190     in New York City",1193,2686,2355,790,7
+"G36006100191","1910","New York","36","New York","061",,"0191",,"Tract    0191     in New York City",2545,2105,1873,65,12
+"G36006100192","1910","New York","36","New York","061",,"0192",,"Tract    0192     in New York City",1192,1992,1820,6,2
+"G36006100193","1910","New York","36","New York","061",,"0193",,"Tract    0193     in New York City",2082,2603,1784,32,3
+"G36006100194","1910","New York","36","New York","061",,"0194",,"Tract    0194     in New York City",2010,3236,2360,1378,35
+"G36006100195","1910","New York","36","New York","061",,"0195",,"Tract    0195     in New York City",2829,2644,1870,414,6
+"G36006100196","1910","New York","36","New York","061",,"0196",,"Tract    0196     in New York City",2680,2948,2083,1457,14
+"G36006100197","1910","New York","36","New York","061",,"0197",,"Tract    0197     in New York City",2732,3645,2559,588,4
+"G36006100198","1910","New York","36","New York","061",,"0198",,"Tract    0198     in New York City",394,962,802,959,4
+"G36006100199","1910","New York","36","New York","061",,"0199",,"Tract    0199     in New York City",2233,2144,1546,44,4
+"G36006100200","1910","New York","36","New York","061",,"0200",,"Tract    0200     in New York City",1055,3023,3199,7451,16
+"G36006100201","1910","New York","36","New York","061",,"0201",,"Tract    0201     in New York City",2624,2601,2087,67,6
+"G36006100202","1910","New York","36","New York","061",,"0202",,"Tract    0202     in New York City",368,714,577,97,0
+"G36006100203","1910","New York","36","New York","061",,"0203",,"Tract    0203     in New York City",1766,1722,1064,14,6
+"G36006100204","1910","New York","36","New York","061",,"0204",,"Tract    0204     in New York City",2578,5275,4751,85,16
+"G36006100205","1910","New York","36","New York","061",,"0205",,"Tract    0205     in New York City",1685,1611,1054,57,8
+"G36006100206","1910","New York","36","New York","061",,"0206",,"Tract    0206     in New York City",2268,5209,4472,149,4
+"G36006100207","1910","New York","36","New York","061",,"0207",,"Tract    0207     in New York City",4034,4488,2991,324,34
+"G36006100208","1910","New York","36","New York","061",,"0208",,"Tract    0208     in New York City",2431,4177,3262,75,5
+"G36006100209","1910","New York","36","New York","061",,"0209",,"Tract    0209     in New York City",6464,6418,4296,155,23
+"G36006100210","1910","New York","36","New York","061",,"0210",,"Tract    0210     in New York City",1774,2008,1683,582,6
+"G36006100211","1910","New York","36","New York","061",,"0211",,"Tract    0211     in New York City",2412,2417,1982,19,12
+"G36006100212","1910","New York","36","New York","061",,"0212",,"Tract    0212     in New York City",3078,3054,2129,100,13
+"G36006100213","1910","New York","36","New York","061",,"0213",,"Tract    0213     in New York City",878,892,632,19,0
+"G36006100214","1910","New York","36","New York","061",,"0214",,"Tract    0214     in New York City",1962,2640,1747,3667,12
+"G36006100216","1910","New York","36","New York","061",,"0216",,"Tract    0216     in New York City",2056,3516,2689,1856,12
+"G36006100218","1910","New York","36","New York","061",,"0218",,"Tract    0218     in New York City",2798,4793,3215,30,1
+"G36006100220","1910","New York","36","New York","061",,"0220",,"Tract    0220     in New York City",3394,6003,5140,257,11
+"G36006100222","1910","New York","36","New York","061",,"0222",,"Tract    0222     in New York City",2489,3638,3032,67,2
+"G36006100224","1910","New York","36","New York","061",,"0224",,"Tract    0224     in New York City",789,1113,531,72,0
+"G3600610B0001","1910","New York","36","New York","061","B","0001",,"Tract   B0001     in New York City",1486,3253,2303,4,3
+"G3600610B0002","1910","New York","36","New York","061","B","0002",,"Tract   B0002     in New York City",6340,11726,8865,46,12
+"G3600610B0003","1910","New York","36","New York","061","B","0003",,"Tract   B0003     in New York City",2701,5678,5074,4,6
+"G3600610B0004","1910","New York","36","New York","061","B","0004",,"Tract   B0004     in New York City",1313,3011,2470,307,2
+"G3600610B0005","1910","New York","36","New York","061","B","0005",,"Tract   B0005     in New York City",6618,13892,10786,79,23
+"G3600610B0006","1910","New York","36","New York","061","B","0006",,"Tract   B0006     in New York City",796,1078,798,549,3
+"G3600610B0007","1910","New York","36","New York","061","B","0007",,"Tract   B0007     in New York City",401,391,191,2,2
+"G3600610B0008","1910","New York","36","New York","061","B","0008",,"Tract   B0008     in New York City",149,1175,2591,86,0
+"G3600610B0009","1910","New York","36","New York","061","B","0009",,"Tract   B0009     in New York City",5657,16058,15574,628,17
+"G3600610B0010","1910","New York","36","New York","061","B","0010",,"Tract   B0010     in New York City",4131,10681,8893,35,10
+"G3600610B0011","1910","New York","36","New York","061","B","0011",,"Tract   B0011     in New York City",2802,6808,5569,25,0
+"G3600610B0012","1910","New York","36","New York","061","B","0012",,"Tract   B0012     in New York City",389,612,398,0,0
+"G3600610B0013","1910","New York","36","New York","061","B","0013",,"Tract   B0013     in New York City",10,37,17,0,0
+"G3600610B0014","1910","New York","36","New York","061","B","0014",,"Tract   B0014     in New York City",4464,7179,5955,21,7
+"G3600610B0015","1910","New York","36","New York","061","B","0015",,"Tract   B0015     in New York City",4170,8885,6280,24,14
+"G3600610B0016","1910","New York","36","New York","061","B","0016",,"Tract   B0016     in New York City",3445,6215,4377,854,11
+"G3600610B0017","1910","New York","36","New York","061","B","0017",,"Tract   B0017     in New York City",1955,3256,1848,161,1
+"G3600610B0018","1910","New York","36","New York","061","B","0018",,"Tract   B0018     in New York City",1491,1437,721,15,4
+"G3600610B0019","1910","New York","36","New York","061","B","0019",,"Tract   B0019     in New York City",1248,1936,1184,5,3
+"G3600610B0020","1910","New York","36","New York","061","B","0020",,"Tract   B0020     in New York City",1519,1893,1169,37,1
+"G3600610B0022","1910","New York","36","New York","061","B","0022",,"Tract   B0022     in New York City",1730,11650,14084,36,4
+"G3600610B0023","1910","New York","36","New York","061","B","0023",,"Tract   B0023     in New York City",3024,6608,5497,17,8
+"G3600610B0024","1910","New York","36","New York","061","B","0024",,"Tract   B0024     in New York City",0,0,0,0,0
+"G3600610B0025","1910","New York","36","New York","061","B","0025",,"Tract   B0025     in New York City",3396,5886,4693,14,3
+"G3600610B0026","1910","New York","36","New York","061","B","0026",,"Tract   B0026     in New York City",1164,2192,1465,9,1
+"G3600610B0027","1910","New York","36","New York","061","B","0027",,"Tract   B0027     in New York City",985,1686,1045,39,2
+"G3600610B0028","1910","New York","36","New York","061","B","0028",,"Tract   B0028     in New York City",1583,2429,1568,36,0
+"G3600610B0029","1910","New York","36","New York","061","B","0029",,"Tract   B0029     in New York City",3212,5720,3986,36,8
+"G3600610B0030","1910","New York","36","New York","061","B","0030",,"Tract   B0030     in New York City",2324,3250,1844,7,6
+"G3600610B0031","1910","New York","36","New York","061","B","0031",,"Tract   B0031     in New York City",1067,1567,857,24,6
+"G3600610B0032","1910","New York","36","New York","061","B","0032",,"Tract   B0032     in New York City",1187,1184,785,35,1
+"G3600610B0033","1910","New York","36","New York","061","B","0033",,"Tract   B0033     in New York City",1639,2638,1737,76,5
+"G3600610B0034","1910","New York","36","New York","061","B","0034",,"Tract   B0034     in New York City",813,3625,4764,56,3
+"G3600610B0035","1910","New York","36","New York","061","B","0035",,"Tract   B0035     in New York City",274,434,348,11,0
+"G3600610B0036","1910","New York","36","New York","061","B","0036",,"Tract   B0036     in New York City",1937,2317,1278,22,4
+"G3600610B0038","1910","New York","36","New York","061","B","0038",,"Tract   B0038     in New York City",735,1825,2151,21,9
+"G3600610B0039","1910","New York","36","New York","061","B","0039",,"Tract   B0039     in New York City",631,967,531,3,0
+"G3600610B0040","1910","New York","36","New York","061","B","0040",,"Tract   B0040     in New York City",642,823,462,2,0
+"G3600610B0041","1910","New York","36","New York","061","B","0041",,"Tract   B0041     in New York City",1523,1394,962,92,1
+"G3600610B0042","1910","New York","36","New York","061","B","0042",,"Tract   B0042     in New York City",517,999,833,12,2
+"G3600610B0043","1910","New York","36","New York","061","B","0043",,"Tract   B0043     in New York City",519,712,573,30,3
+"G3600610B0044","1910","New York","36","New York","061","B","0044",,"Tract   B0044     in New York City",1174,2076,1339,50,1
+"G3600610B0045","1910","New York","36","New York","061","B","0045",,"Tract   B0045     in New York City",1772,3977,3029,360,4
+"G3600610B0046","1910","New York","36","New York","061","B","0046",,"Tract   B0046     in New York City",186,219,133,2,0
+"G3600610B0047","1910","New York","36","New York","061","B","0047",,"Tract   B0047     in New York City",569,853,604,3,3
+"G3600610B0048","1910","New York","36","New York","061","B","0048",,"Tract   B0048     in New York City",644,591,461,11,0
+"G3600610B0049","1910","New York","36","New York","061","B","0049",,"Tract   B0049     in New York City",2011,4426,3159,69,5
+"G3600610B0050","1910","New York","36","New York","061","B","0050",,"Tract   B0050     in New York City",2698,5043,2530,79,8
+"G3600610B0051","1910","New York","36","New York","061","B","0051",,"Tract   B0051     in New York City",723,936,516,22,0
+"G3600610B0052","1910","New York","36","New York","061","B","0052",,"Tract   B0052     in New York City",1082,1825,954,0,1
+"G3600610B0053","1910","New York","36","New York","061","B","0053",,"Tract   B0053     in New York City",654,1217,863,5,1
+"G3600610B0054","1910","New York","36","New York","061","B","0054",,"Tract   B0054     in New York City",986,681,558,34,3
+"G3600610B0055","1910","New York","36","New York","061","B","0055",,"Tract   B0055     in New York City",83,195,263,22,2
+"G36008100001","1910","New York","36","Queens","081",,"0001",,"Tract    0001     in New York City",1645,2134,1241,18,3
+"G36008100002","1910","New York","36","Queens","081",,"0002",,"Tract    0002     in New York City",1442,3004,2185,16,6
+"G36008100003","1910","New York","36","Queens","081",,"0003",,"Tract    0003     in New York City",1255,2618,1876,68,3
+"G36008100004","1910","New York","36","Queens","081",,"0004",,"Tract    0004     in New York City",948,2278,2084,74,1
+"G36008100005","1910","New York","36","Queens","081",,"0005",,"Tract    0005     in New York City",826,1652,845,0,1
+"G36008100006","1910","New York","36","Queens","081",,"0006",,"Tract    0006     in New York City",1385,3682,2095,1,5
+"G36008100007","1910","New York","36","Queens","081",,"0007",,"Tract    0007     in New York City",915,1945,1148,1,2
+"G36008100008","1910","New York","36","Queens","081",,"0008",,"Tract    0008     in New York City",1354,2282,1379,73,2
+"G36008100009","1910","New York","36","Queens","081",,"0009",,"Tract    0009     in New York City",1022,1911,1378,41,5
+"G36008100010","1910","New York","36","Queens","081",,"0010",,"Tract    0010     in New York City",864,1798,1373,11,1
+"G36008100011","1910","New York","36","Queens","081",,"0011",,"Tract    0011     in New York City",448,1473,1163,0,9
+"G36008100012","1910","New York","36","Queens","081",,"0012",,"Tract    0012     in New York City",425,1879,1809,18,6
+"G36008100013","1910","New York","36","Queens","081",,"0013",,"Tract    0013     in New York City",610,1569,1447,10,1
+"G36008100014","1910","New York","36","Queens","081",,"0014",,"Tract    0014     in New York City",944,2429,1748,25,0
+"G36008100015","1910","New York","36","Queens","081",,"0015",,"Tract    0015     in New York City",2267,2774,1436,118,4
+"G36008100016","1910","New York","36","Queens","081",,"0016",,"Tract    0016     in New York City",951,1650,1137,31,5
+"G36008100017","1910","New York","36","Queens","081",,"0017",,"Tract    0017     in New York City",864,1571,1121,31,2
+"G36008100018","1910","New York","36","Queens","081",,"0018",,"Tract    0018     in New York City",2106,3519,2032,79,8
+"G36008100019","1910","New York","36","Queens","081",,"0019",,"Tract    0019     in New York City",874,2987,2710,157,7
+"G36008100020","1910","New York","36","Queens","081",,"0020",,"Tract    0020     in New York City",341,541,440,23,0
+"G36008100021","1910","New York","36","Queens","081",,"0021",,"Tract    0021     in New York City",916,1952,1142,9,0
+"G36008100022","1910","New York","36","Queens","081",,"0022",,"Tract    0022     in New York City",853,1476,1134,20,2
+"G36008100023","1910","New York","36","Queens","081",,"0023",,"Tract    0023     in New York City",594,1490,1523,0,0
+"G36008100024","1910","New York","36","Queens","081",,"0024",,"Tract    0024     in New York City",376,713,372,0,0
+"G36008100025","1910","New York","36","Queens","081",,"0025",,"Tract    0025     in New York City",470,1462,797,0,0
+"G36008100026","1910","New York","36","Queens","081",,"0026",,"Tract    0026     in New York City",1343,3044,1561,4,0
+"G36008100027","1910","New York","36","Queens","081",,"0027",,"Tract    0027     in New York City",945,2289,1280,0,0
+"G36008100028","1910","New York","36","Queens","081",,"0028",,"Tract    0028     in New York City",1040,2715,1506,1,0
+"G36008100029","1910","New York","36","Queens","081",,"0029",,"Tract    0029     in New York City",1250,2260,1282,1,0
+"G36008100030","1910","New York","36","Queens","081",,"0030",,"Tract    0030     in New York City",522,741,408,0,0
+"G36008100031","1910","New York","36","Queens","081",,"0031",,"Tract    0031     in New York City",1015,2087,993,2,0
+"G36008100032","1910","New York","36","Queens","081",,"0032",,"Tract    0032     in New York City",939,1773,1025,1,0
+"G36008100033","1910","New York","36","Queens","081",,"0033",,"Tract    0033     in New York City",888,2237,1279,0,0
+"G36008100034","1910","New York","36","Queens","081",,"0034",,"Tract    0034     in New York City",1370,3601,1960,2,3
+"G36008100035","1910","New York","36","Queens","081",,"0035",,"Tract    0035     in New York City",995,2253,1164,2,0
+"G36008100036","1910","New York","36","Queens","081",,"0036",,"Tract    0036     in New York City",513,1183,740,0,0
+"G36008100037","1910","New York","36","Queens","081",,"0037",,"Tract    0037     in New York City",941,1780,1018,1,1
+"G36008100038","1910","New York","36","Queens","081",,"0038",,"Tract    0038     in New York City",348,795,507,0,0
+"G36008100039","1910","New York","36","Queens","081",,"0039",,"Tract    0039     in New York City",270,684,424,0,0
+"G36008100040","1910","New York","36","Queens","081",,"0040",,"Tract    0040     in New York City",1451,2521,1670,2,9
+"G36008100041","1910","New York","36","Queens","081",,"0041",,"Tract    0041     in New York City",376,602,341,2,0
+"G36008100042","1910","New York","36","Queens","081",,"0042",,"Tract    0042     in New York City",912,749,416,43,3
+"G36008100043","1910","New York","36","Queens","081",,"0043",,"Tract    0043     in New York City",1397,1097,774,29,1
+"G36008100044","1910","New York","36","Queens","081",,"0044",,"Tract    0044     in New York City",1188,1388,839,176,0
+"G36008100045","1910","New York","36","Queens","081",,"0045",,"Tract    0045     in New York City",1490,1809,1393,490,4
+"G36008100046","1910","New York","36","Queens","081",,"0046",,"Tract    0046     in New York City",1757,977,727,147,11
+"G36008100047","1910","New York","36","Queens","081",,"0047",,"Tract    0047     in New York City",1333,788,495,34,3
+"G36008100048","1910","New York","36","Queens","081",,"0048",,"Tract    0048     in New York City",609,548,379,65,3
+"G36008100049","1910","New York","36","Queens","081",,"0049",,"Tract    0049     in New York City",758,462,398,173,0
+"G36008100050","1910","New York","36","Queens","081",,"0050",,"Tract    0050     in New York City",486,665,689,66,0
+"G36008100051","1910","New York","36","Queens","081",,"0051",,"Tract    0051     in New York City",986,1113,802,112,0
+"G36008100052","1910","New York","36","Queens","081",,"0052",,"Tract    0052     in New York City",401,560,340,111,1
+"G36008100053","1910","New York","36","Queens","081",,"0053",,"Tract    0053     in New York City",1158,1188,539,1,0
+"G36008100054","1910","New York","36","Queens","081",,"0054",,"Tract    0054     in New York City",853,909,367,1,0
+"G36008100055","1910","New York","36","Queens","081",,"0055",,"Tract    0055     in New York City",1900,1688,798,7,1
+"G36008100056","1910","New York","36","Queens","081",,"0056",,"Tract    0056     in New York City",1178,726,486,13,0
+"G36008100057","1910","New York","36","Queens","081",,"0057",,"Tract    0057     in New York City",2202,1817,924,8,2
+"G36008100058","1910","New York","36","Queens","081",,"0058",,"Tract    0058     in New York City",1389,2333,1907,6,2
+"G36008100059","1910","New York","36","Queens","081",,"0059",,"Tract    0059     in New York City",2155,2423,1398,33,4
+"G36008100060","1910","New York","36","Queens","081",,"0060",,"Tract    0060     in New York City",1163,1515,920,25,3
+"G36008100061","1910","New York","36","Queens","081",,"0061",,"Tract    0061     in New York City",2307,2295,1669,16,2
+"G36008100062","1910","New York","36","Queens","081",,"0062",,"Tract    0062     in New York City",1610,1113,687,19,3
+"G36008100063","1910","New York","36","Queens","081",,"0063",,"Tract    0063     in New York City",2169,682,525,49,0
+"G36008100064","1910","New York","36","Queens","081",,"0064",,"Tract    0064     in New York City",1737,2029,1791,244,1
+"G36008100065","1910","New York","36","Queens","081",,"0065",,"Tract    0065     in New York City",1063,916,570,185,2
+"G36008100066","1910","New York","36","Queens","081",,"0066",,"Tract    0066     in New York City",1100,503,233,11,1
+"G36008100067","1910","New York","36","Queens","081",,"0067",,"Tract    0067     in New York City",475,426,200,0,0
+"G36008100068","1910","New York","36","Queens","081",,"0068",,"Tract    0068     in New York City",773,414,285,2,0
+"G36008100069","1910","New York","36","Queens","081",,"0069",,"Tract    0069     in New York City",648,595,390,14,1
+"G36008100070","1910","New York","36","Queens","081",,"0070",,"Tract    0070     in New York City",1298,1411,628,2,1
+"G36008100071","1910","New York","36","Queens","081",,"0071",,"Tract    0071     in New York City",479,905,783,0,0
+"G36008100072","1910","New York","36","Queens","081",,"0072",,"Tract    0072     in New York City",776,821,469,42,0
+"G36008100073","1910","New York","36","Queens","081",,"0073",,"Tract    0073     in New York City",1113,965,530,13,1
+"G36008100074","1910","New York","36","Queens","081",,"0074",,"Tract    0074     in New York City",1246,1791,1326,83,8
+"G36008100075","1910","New York","36","Queens","081",,"0075",,"Tract    0075     in New York City",1086,1067,850,104,4
+"G36008100076","1910","New York","36","Queens","081",,"0076",,"Tract    0076     in New York City",511,927,815,32,4
+"G36008500001","1910","New York","36","Richmond","085",,"0001",,"Tract    0001     in New York City",1056,1853,1310,24,2
+"G36008500002","1910","New York","36","Richmond","085",,"0002",,"Tract    0002     in New York City",781,612,568,31,2
+"G36008500003","1910","New York","36","Richmond","085",,"0003",,"Tract    0003     in New York City",700,792,504,6,4
+"G36008500004","1910","New York","36","Richmond","085",,"0004",,"Tract    0004     in New York City",1372,2420,1768,32,12
+"G36008500005","1910","New York","36","Richmond","085",,"0005",,"Tract    0005     in New York City",484,1086,768,10,2
+"G36008500006","1910","New York","36","Richmond","085",,"0006",,"Tract    0006     in New York City",713,1155,957,4,1
+"G36008500007","1910","New York","36","Richmond","085",,"0007",,"Tract    0007     in New York City",523,809,663,8,0
+"G36008500008","1910","New York","36","Richmond","085",,"0008",,"Tract    0008     in New York City",983,1491,1269,30,2
+"G36008500009","1910","New York","36","Richmond","085",,"0009",,"Tract    0009     in New York City",832,637,504,18,1
+"G36008500010","1910","New York","36","Richmond","085",,"0010",,"Tract    0010     in New York City",389,119,472,12,0
+"G36008500011","1910","New York","36","Richmond","085",,"0011",,"Tract    0011     in New York City",685,575,435,13,2
+"G36008500012","1910","New York","36","Richmond","085",,"0012",,"Tract    0012     in New York City",1327,1473,1064,51,1
+"G36008500013","1910","New York","36","Richmond","085",,"0013",,"Tract    0013     in New York City",1083,374,282,28,1
+"G36008500014","1910","New York","36","Richmond","085",,"0014",,"Tract    0014     in New York City",1967,1965,1185,87,2
+"G36008500015","1910","New York","36","Richmond","085",,"0015",,"Tract    0015     in New York City",344,310,271,135,0
+"G36008500016","1910","New York","36","Richmond","085",,"0016",,"Tract    0016     in New York City",796,516,354,4,0
+"G36008500017","1910","New York","36","Richmond","085",,"0017",,"Tract    0017     in New York City",922,1640,703,52,0
+"G36008500018","1910","New York","36","Richmond","085",,"0018",,"Tract    0018     in New York City",667,329,208,9,1
+"G36008500019","1910","New York","36","Richmond","085",,"0019",,"Tract    0019     in New York City",932,557,414,15,0
+"G36008500020","1910","New York","36","Richmond","085",,"0020",,"Tract    0020     in New York City",1181,1581,1173,46,6
+"G36008500021","1910","New York","36","Richmond","085",,"0021",,"Tract    0021     in New York City",949,428,255,14,4
+"G36008500022","1910","New York","36","Richmond","085",,"0022",,"Tract    0022     in New York City",1160,1696,1011,145,4
+"G36008500024","1910","New York","36","Richmond","085",,"0024",,"Tract    0024     in New York City",1492,2527,1514,35,1
+"G36008500026","1910","New York","36","Richmond","085",,"0026",,"Tract    0026     in New York City",710,595,596,24,4
+"G36008500028","1910","New York","36","Richmond","085",,"0028",,"Tract    0028     in New York City",498,529,514,27,2
+"G36008500030","1910","New York","36","Richmond","085",,"0030",,"Tract    0030     in New York City",1151,1089,998,66,4
+"G36008500032","1910","New York","36","Richmond","085",,"0032",,"Tract    0032     in New York City",954,795,530,33,0
+"G36008500034","1910","New York","36","Richmond","085",,"0034",,"Tract    0034     in New York City",380,492,317,58,0
+"G36008500036","1910","New York","36","Richmond","085",,"0036",,"Tract    0036     in New York City",279,774,697,80,0
+"G36008500038","1910","New York","36","Richmond","085",,"0038",,"Tract    0038     in New York City",1033,908,704,19,3
+"G36008500040","1910","New York","36","Richmond","085",,"0040",,"Tract    0040     in New York City",831,548,629,20,0
+"G36008500042","1910","New York","36","Richmond","085",,"0042",,"Tract    0042     in New York City",472,722,709,6,0
+"G36008500044","1910","New York","36","Richmond","085",,"0044",,"Tract    0044     in New York City",597,838,932,10,0
