@@ -80,9 +80,11 @@ Governments, like the United States, that are effectively bound by fundamental l
 
 .pull-right[
 
+- **Fundamental law**: The federal government is bound by the laws declared in the Constitution. If a statute is in conflict with the law of the constitution, then the statute is considered unlawful.
+
 - **Rule of Law**: The idea that **all** citizens, **including government officials**, are bound by laws
 
-- **Fundamental law**: The federal government is bound by the laws declared in the Constitution. If a statute is in conflict with the law of the constitution, then the statute is considered unlawful. ] 
+ ] 
 
 ???
 In particular the American flavor of Liberal democracy is all about the our Constitution. In other liberal democracies interpretation of the founding documents is less of a thing. In some cases like in England there is an informal Constitution but not like a piece of paper you can go see in the national archive. The idea of rule of law is sort of intuitive regardless and that is everybody is bound to the same laws.
