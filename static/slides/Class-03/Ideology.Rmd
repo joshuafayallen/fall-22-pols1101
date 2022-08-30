@@ -20,8 +20,79 @@ output:
 ```{r preamble, child=here::here("preamble.Rmd")}
 ```
 
+---
+
+class: section, center, middle, inverse
 
 
+.col[
+# The American Way of Government
+]
+
+# AFLD (American Flavored Liberal Democracy)
+
+---
+---
+## Democracy
+
+.pull-left[
+<gsu-blockquote-blue> Direct Democracy: “pure” democracy - one in which the people make the decisions in the manner in which political powers should be exercised. </gsu-blockquote-blue>
+]
+
+.pull-right[
+<gsu-blockquote-red> 
+Representative democracy – where the authority of the governments lies with the people (the electorate) that elect representatives to support their interests
+
+</gsu-blockquote-red> 
+
+]
+
+???
+Direct democracy is the original form of democracy. Democracy like 0.1 or raw dogging democracy. There is an important distinction between direct democracy and 
+representative democracy. 
+
+The key distinction is that we delegate some our power to our elected officials. We will talk about this more later on, but this is essentially a principal-agent problem.
+
+
+
+For direct democracy you gotta determine like all the things. If any of you have ever voted at like the end of your ballot you have various things like "Do you want to enact this tax? It pays for schools" You cast your ballot and then boom its law. Just start expanding it out more. As a Californian we have a lot of these. Sometimes they are kind of innocuous like every election cycle somebody tries to get CA seceding on the ballot. Other times civil rights like Gay marriage are put on the ballot. I was like little when this happened. I dont know if this will be brought up in the Civil Rights/Civil Libertis weeks. But Prop 8 was defeated and gay marriage was not legalized in CA. But Prop 8 was crafted to be as like confusing as possible, but with the end goal of homophobia
+
+
+
+Representative democracy  A form of democratic government in which the citizens who make and enforce laws are accountable to (i.e., are controlled by), and do so on behalf of (i.e., represent), the majority of citizens who do not directly participate in making and enforcing laws. (Contrast with Direct Democracy.)
+
+---
+---
+## Constitutional Democracy
+.pull-left[
+<center>
+<gsu-blockquote-alt>
+
+
+Governments, like the United States, that are effectively bound by fundamental laws are called “constitutional governments.”
+
+
+
+
+</gsu-blockquote-alt>
+</center>
+]
+
+.pull-right[
+
+- **Rule of Law**: The idea that **all** citizens, **including government officials**, are bound by laws
+
+- **Fundamental law**: The federal government is bound by the laws declared in the Constitution. If a statute is in conflict with the law of the constitution, then the statute is considered unlawful. ] 
+
+???
+In particular the American flavor of Liberal democracy is all about the our Constitution. In other liberal democracies interpretation of the founding documents is less of a thing. In some cases like in England there is an informal Constitution but not like a piece of paper you can go see in the national archive. The idea of rule of law is sort of intuitive regardless and that is everybody is bound to the same laws.
+
+
+Put another way. Me and Joe Biden can both go shop lift stuff. If we get caught stealing shit we will both be prosecuted by the law. Fundamental law is just the idea that no basic ass laws are higher can take precedence over the constitution. The book uses establishing an official religion as an example. It is in clear conflict with the first amendment's establishment clause. 
+
+
+However, if a state decides to say fuck it and makes WAP, All to Well(Taylor's Version), or something else as their official state anthem over the star spangled banner their is no conflict between fundamental and ordidnary law because the constitution doesnt say anything about an official song.
+---
 
 ---
 
@@ -108,75 +179,8 @@ However, outright organization based off this is not protected. In general we th
 
 ---
 
----
-
-class: section, center, middle, inverse
 
 
-.col[
-# The American Way of Government
-]
-
-# AFLD (American Flavored Liberal Democracy)
-
----
-
-
-
----
-## Democracy
-
-.pull-left[
-<gsu-blockquote-blue> Direct Democracy: “pure” democracy - one in which the people make the decisions in the manner in which political powers should be exercised. </gsu-blockquote-blue>
-]
-
-.pull-right[
-<gsu-blockquote-red> 
-Representative democracy – where the authority of the governments lies with the people (the electorate) that elect representatives to support their interests
-
-</gsu-blockquote-red> 
-
-]
-
-???
-Direct democracy is the original form of democracy. Democracy like 0.1 or raw dogging democracy. There is an important distinction between direct democracy and 
-representative democracy. 
-
-The key distinction is that we delegate some our power to our elected officials. We will talk about this more later on, but this is essentially a principal-agent problem. For direct democracy you gotta determine like all the things. If any of you have ever voted at like the end of your ballot you have various things like "Do you want to enact this tax? It pays for schools" You cast your ballot and then boom its law. Just start expanding it out more. As a Californian we have a lot of these. Sometimes they are kind of innocuous like every election cycle somebody tries to get CA seceding on the ballot. Other times civil rights like Gay marriage are put on the ballot. I was like little when this happened. I dont know if this will be brought up in the Civil Rights/Civil Libertis weeks. But Prop 8 was defeated and gay marriage was not legalized in CA. But Prop 8 was crafted to be as like confusing as possible, but with the end goal of homophobia
-
----
-
-
----
-## Constitutional Democracy
-.pull-left[
-<center>
-<gsu-blockquote-alt>
-
-
-Governments, like the United States, that are effectively bound by fundamental laws are called “constitutional governments.”
-
-
-
-
-</gsu-blockquote-alt>
-</center>
-]
-
-.pull-right[
-
-- **Rule of Law**: The idea that **all** citizens, **including government officials**, are bound by laws
-
-- **Fundamental law**: The federal government is bound by the laws declared in the Constitution. If a statute is in conflict with the law of the constitution, then the statute is considered unlawful. ] 
-
-???
-In particular the American flavor of Liberal democracy is all about the our Constitution. In other liberal democracies interpretation of the founding documents is less of a thing. In some cases like in England there is an informal Constitution but not like a piece of paper you can go see in the national archive. The idea of rule of law is sort of intuitive regardless and that is everybody is bound to the same laws.
-
-
-Put another way. Me and Joe Biden can both go shop lift stuff. If we get caught stealing shit we will both be prosecuted by the law. Fundamental law is just the idea that no basic ass laws are higher can take precedence over the constitution. The book uses establishing an official religion as an example. It is in clear conflict with the first amendment's establishment clause. 
-
-
-However, if a state decides to say fuck it and makes WAP, All to Well(Taylor's Version), or something else as their official state anthem over the star spangled banner their is no conflict between fundamental and ordidnary law because the constitution doesnt say anything about an official song.
 
 
 ---
@@ -221,7 +225,7 @@ Nonviolent, open, and free activities through which people, bound by the same st
  
 ]
 
-
+.footnote[Me and the old textbook really had a disagreement about the stable democratic government portion]
 ???
 How we define politics differs. The book defines it this way however we have taken a stab at it throughout the development of the study of politics. Fundamentally politics is a struggle of preferences and the tactics we use to get them. 
 
