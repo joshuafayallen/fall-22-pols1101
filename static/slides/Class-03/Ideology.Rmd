@@ -41,7 +41,7 @@ class: section, center, middle, inverse
 
 .pull-right[
 <gsu-blockquote-red> 
-Representative democracy – where the authority of the governments lies with the people (the electorate) that elect representatives to support their interests
+Representative democracy  A form of democratic government in which the citizens who make and enforce laws are accountable to (i.e., are controlled by), and do so on behalf of (i.e., represent), the majority of citizens who do not directly participate in making and enforcing laws. (Contrast with Direct Democracy.)
 
 </gsu-blockquote-red> 
 
