@@ -835,14 +835,26 @@ The executive branch can veto legislation. Interpret the laws and enforce them i
 
 - By $\frac{3}{4}$ of the State Legislatures 
 
-- By $\frac{3}{4}$ of ratyifying conventions in the States 
+- By $\frac{3}{4}$ of ratifying conventions in the States 
 
 
 ]
 
 
 ???
-The most common way is: proposal #1, and ratification #1.  No amendment has ever been passed by proposal #2.  Ratification #2 has only been used with the 21st amendment (repealed the 18th amendment ban on alcohol).
+The most common way is: proposal #1, and ratification #1.  No amendment has ever been passed by proposal #2.
+
+
+The Constitution provides that an amendment may be proposed either by the Congress with a two-thirds majority vote in both the House of Representatives and the Senate 
+
+A proposed amendment becomes part of the Constitution as soon as it is ratified by three-fourths of the States (38 of 50 States).
+
+
+
+Ratification #2 has only been used with the 21st amendment (repealed the 18th amendment ban on alcohol).
+
+
+
 
 --- 
 
