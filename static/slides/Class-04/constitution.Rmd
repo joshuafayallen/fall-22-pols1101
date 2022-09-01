@@ -1,6 +1,5 @@
 ---
 title: "The Constitution"
-subtitle: "Chapter 04"  
 author: "Josh Allen"
 date: '`r Sys.Date()`'
 output:
@@ -77,27 +76,6 @@ How I learned about the founding of the U.S was through the lens of picking up t
 However we also can start to think of the subsequent amendments to the constitution we can start to think of these amendments as additional foundings. The 13th amendment is the first of the reconstruction Amendments that started to expand who is considered a citizen and who is granted the de jure protection of the constitution. Many have likened the American Civil war as a second revolutionary war where The industrial capitalist north defeats the landed slave owning aristocracy in the south. 
 ---
 
----
-## The Early Colonies 
-
-
-- People Migrated to America for a variety of reasons
-
-- America has unique qualities when we think about its early days
-
- 1. Lots of Land
- 2. Lots of Cheap Land 
-
-???
-Permanent lack of economic freedom oppression/feudal restrictions. There was very little land for people outside of the traditional landed aristocracy. The early colonial period in Europe was one the first major periods of globalization with inter-continenal trade. This greatly benefitted merchants and artisans but they had no real ability to gain property which was important for status and power in the traditional english system 
-
-Poverty
-Starvation
-
-Political Oppression Religious oppression – pilgrims, Puritans – Winthrop and Cotton in Mass Quakers – William penn’s holy experiment Hugonauts - protestants Vast open spaces Cheap land Diverse population leads to freedom equality and liberty. 
-
-For the puritans they saw the church of england as insufficiently devout and the corrupt vestiges of the catholic church irredeamable. They left because they thought they could do better.
----
 
 ---
 ## Settler Mortality 
@@ -139,16 +117,19 @@ We see very different institutional development in European colonies. They posit
 
 
 ```{r og-plot, echo = FALSE, warning=FALSE, message=FALSE}
-
-ggplot(settler_dat, aes(x = logem4 , y = avexpr)) +
-  geom_smooth(method = "lm", se = FALSE) +
-  geom_text(aes(label = name)) + 
-  labs(x = "Log of Settler Mortality", y = "Average Expropriation Risk in 1985-1995", caption = "This is a replication of figure 3 in Acemoglu, Johnson, and Robinson (2001)") +
+ ggplot(settler_dat, aes(x = logem4 , y = avexpr)) +
+  geom_smooth( method = "lm", se = FALSE) +
+  geom_text(aes(label = name)) +
+  geom_text(data = filter(settler_dat, name == "USA"), aes(label = name, color = "#f2ad22"), show.legend = FALSE) +
+  labs(x = "Log of Settler Mortality", y = "Average Protection Against Expropriation\n(1985-1995)", title = "Figure 2 from Acemoglu Johnson and Robinson(2001") +
   theme_allen_minimal()
+
+
+
 
 ```
 ???
-We will not get into how instrumental variables work. While many have critiqued this piece for violations of their causal identification strategy we will kind of set those  But this shows the naive relationship between the average number of protections against expropriation. The establishment of instituions has lasting economic and political legacies. S
+This shows the naive relationship between the average number of protections against expropriation. The establishment of institutions has lasting economic and political legacies. If we look at this figure we can see that early institutions carry over into the present day. 
 
 
 
@@ -157,26 +138,59 @@ We will not get into how instrumental variables work. While many have critiqued 
 
 
 ---
-## Early Interest Groups 
+# The Early Colonies
+
+
+.pull-left[
+
+### What Was The Draw?
+
+
+- People Migrated to America for a variety of reasons
+  - ~~Lots of Land~~
+  - Lots of Cheap Land
+  - Persecution
+  - etc
+
+
+
+]
+
+
+
+
+.pull-right[
+
+### Early Interest Groups
 
 - New England merchants
 
-- Southern Planters
+- Southern planters
 
-- Royalists 
-
-- Shopkeepers, artisans, and laborers
-
-- New England merchants
-
-- Southern Planters
-
-- Royalists 
+- Royalists (Tories)
 
 - Shopkeepers, artisans, and laborers
 
+- Small farmers
 
-- Small farmers 
+]
+
+???
+America initially attracted a whole host of people. Its a mix of people being sent their to counter claims from other European powers as was the case of Virginia 
+
+Pennsylvania was a tract of land given to William Penn a Quaker by King Charles II to settle a debt the crown owed to his father. Pennsylvania attracted a whole host of peoples whose religion their home countries didnt apporve of ranging from various offshoots of Protestantism, Catholicsm, Jews 
+
+Permanent lack of economic freedom oppression/feudal restrictions. There was very little land for people outside of the traditional landed aristocracy. The early colonial period in Europe was one the first major periods of globalization with inter-continenal trade. This greatly benefitted merchants and artisans but they had no real ability to gain property which was important for status and power in the traditional english system 
+
+Political Oppression Religious oppression – 
+
+The puritans saw the church of england as insufficiently devout and the corrupt vestiges of the catholic church irredeamable. They literally sought to purify the church of england from their catholic practices. This was a movement that had waxed and waned from the time of Elizabeth I  but under Charles I there was a mass emmigration to the united states 
+
+Archbishop William Laud was a favorite advisor of King Charles I and a dedicated Anglican, and he sought to suppress the religious practices of Puritans and other nonconforming beliefs in England. The persecution of many Puritans in the 1620s led them to believe that religious reform would not be possible while Charles was king, and many decided to seek a new life in the New World.
+
+Charles would later be headed after the Great English Civil war 
+
+
 
 
 
@@ -211,8 +225,7 @@ Eventually after years of strife and battle the French were mostly pushed from t
 
 As you might say Britain was down bad because well war is expensive even in the early 18th century 
 
-DQ: Were the taxes imposed by the British really unjust considering the financial ramifications of the war against the French? 
-
+America was kind of a quirky colony. It was mostly self governed and wasnt really bothered by the crown at all. It wasnt exactly a vast collection of territorial holdings that was commissioned by the crown. In a lot of cases it was just people that could find a way there. However, after the war Britain went they should probably pay into this self defense thing. Which is sort of the point of national defense it is a public good that we all pay into. HW Brands has an interesting book on this.
 
 ---
 
@@ -280,20 +293,10 @@ Protests against the British Tax Acts were springing up all around the colonies,
 ---
 
 
----
-## The Declaration of Independence 
-
-The general sketch of the American Creed
 
 
-List of Grievances 
-
-???
-
-This document was founded on the principles of the Social Contract (Discussed before) of John Locke and promoted the Natural Rights of man (fill in the blanks). This statement is considered by far the most influential political statement made in the history of the modern world.  The document was the official declaration of freedom from the rule of the British for the colonies even though the physical fighting still raged on. While it provide the opportunity for freedom, it in no way provided the means (a system of government) to replace the monarchy. 
-
-
-<<<<<<< HEAD
+--- 
+## The American Creed & Self Evident "Truths" from the Declaration
 1. "We hold these truths to be self evident, that all Men are created equal, that they are endowed by their Creator certain inalienable rights, that among these are"
   - Life
   - Liberty,
@@ -306,36 +309,15 @@ This document was founded on the principles of the Social Contract (Discussed be
 
 This document was founded on the principles of the Social Contract (Discussed before) of John Locke and promoted the Natural Rights of man (fill in the blanks). This statement is considered by far the most influential political statement made in the history of the modern world.  The document was the official declaration of freedom from the rule of the British for the colonies even though the physical fighting still raged on. While it provide the opportunity for freedom, it in no way provided the means (a system of government) to replace the monarchy. 
 
-=======
----
-
----
-
-## The American Creed & Self Evident "Truths" from the Declaration 
-
-- We hold these truths to be self evident, that all Men are created equal, that they are endowed by their Creator certain inalienable rights, that among these are 
-  - Life,
-  - Liberty,
-  - and the Pursuit of Happiness 
-
--  “…Governments are instituted among Men, deriving their just powers from the consent of the governed...”
-
-
--  “...that whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government...”
- 
-
 ---
 
 
-
-
-
 ---
-## Break Time
+# Break Time
 
 
 ```{r echo = FALSE}
-countdown::countdown(minutes = 10, play_sound = TRUE)
+countdown::countdown(minutes = 5, play_sound = TRUE)
 ```
 
 
@@ -347,7 +329,7 @@ knitr::include_graphics("images/mel.jpg")
 ---
 
 ---
-class: center, middle 
+class: center, middle, inverse  
 .col[# The Founding Documents]
 --
 
@@ -356,7 +338,7 @@ class: center, middle
 
 
 ---
-## The Articles of Confederation 
+# The Articles of Confederation 
 
 - Was our first try at this thing
 
@@ -575,7 +557,7 @@ gt(plans) %>%
 .col[
 <gsu-blockquote-red>
 “It seemed now to be pretty well understood that the real difference of interests lay, not between the large and small but between the northern and southern states.  The institution of slavery and its consequences formed the line of discrimination.”
-		- James Madison
+	`r tufte::quote_footer("- James Madison")`	
 </gsu-blockquote-red>
 
 ]
@@ -622,7 +604,7 @@ If you are viewing the HTML version of the slides you can see county level data 
 
 - The Slave Trade would continue, and not be considered a point of conversation till 1808 
 
-- Fugitive Slave Clause stated that any “person held to service or labor” (slave, apprentice, or indentured servant) who flees to another state (free or slave) should be returned to the owner in the state from which that person escaped. 
+- .bold[Fugitive Slave Clause] stated that any “person held to service or labor” (slave, apprentice, or indentured servant) who flees to another state (free or slave) should be returned to the owner in the state from which that person escaped. 
 
 
 ???
@@ -704,7 +686,11 @@ You could theoretically try and figure out everything that could possibly arise 
 - Examples ] 
 
 ???
+
+So lots of things were basically just left up to Congress that were not in the constitution. The Constitution basically just states that the judiciary branch exists. Congress can figure it out from there we have major organization of the judiciary branch happening as early as the 
+
 Judiciary Act of 1789: Congress has power to organize the federal court system 
+
 Affordable Care Act:originated as an appropriations bill (interpreted by the court under taxing and spending clause) 
 
 ---
@@ -803,9 +789,23 @@ It means that in all cases the law of the land or the Constitution is supreme (o
 ---
 
 ---
-## Checks and Balances 
+class: center, middle
+## Checks and Balances
 
 ![](https://abaforlawstudents.com/wp-content/uploads/2018/05/separation-of-powers-2.jpg)
+
+
+???
+So I showed you guys this slide without really going over it. The interesting thing about our version of liberal democracy is that we have conflict built into the system. The legislative branch checks the executive branch by approving executive appointments and appropriating money to presidential priorities. It can override presidential vetoes (needs 2/3's in both the house and senate). 
+
+
+Congress can impeach both the president and the judicial branch.
+
+Write laws or amendments that circumvent judicial decisions.
+
+The judicial branch can declare executive actions and laws as unconstitutional. We will go over a lot more procedure when we get to institutions 
+
+The executive branch can veto legislation. Interpret the laws and enforce them in various ways. Makes nominations and negotiates treaties
 
 
 ---
