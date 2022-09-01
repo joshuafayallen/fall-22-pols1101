@@ -78,66 +78,6 @@ However we also can start to think of the subsequent amendments to the constitut
 
 
 ---
-## Settler Mortality 
-
-
-```{r settler-graph, echo= FALSE}
-
-
-settler_dat = haven::read_dta("data/maketable1.dta") %>% 
-  mutate(name = as.factor(shortnam),
-         flag = ifelse(name == "USA", TRUE, FALSE)) %>% 
-  filter(!is.na(logem4), !name %in% c("GBR", "FRA")) %>% 
-    arrange(logem4) %>% 
-  slice(1:20)
-
-ggplot(settler_dat, aes(x = logem4, y = fct_reorder(name, logem4), fill = flag)) +
-  geom_col() +
-  labs(x = "Log of Settler Mortality", y = NULL) +
-  theme_allen_minimal() +
-  scale_fill_manual(values = c("grey70", "#f2ad22")) +
-  guides(fill = "none")
-
-
-```
-
-
-
-
-???
-Another kind of interesting aspect about American political development is the extent to which America had some advantages due to climate.I just took data from Acemoglu, Johnson, and Robinson and plotted it. I subsetted the data to include the only Top 20 lowest colonies by settler mortality. As you can see the U.S. is one of the lowest this is partially because the east coast of the United States does not have some of the diseases that Central, South America, and Africa have that killed lots of European settlers. 
-
-We see very different institutional development in European colonies. They posit that the mechanism that links the kinds of institutions that were and present economic performance their main dependent variable is differences in protection from expropriation. Because white settlers actually lived in these colonies early institutions were more likely to protect rights 
-
-
----
-
----
-## The Effect of Instituions 
-
-
-```{r og-plot, echo = FALSE, warning=FALSE, message=FALSE}
- ggplot(settler_dat, aes(x = logem4 , y = avexpr)) +
-  geom_smooth( method = "lm", se = FALSE) +
-  geom_text(aes(label = name)) +
-  geom_text(data = filter(settler_dat, name == "USA"), aes(label = name, color = "#f2ad22"), show.legend = FALSE) +
-  labs(x = "Log of Settler Mortality", y = "Average Protection Against Expropriation\n(1985-1995)", title = "Figure 2 from Acemoglu Johnson and Robinson(2001") +
-  theme_allen_minimal()
-
-
-
-
-```
-???
-This shows the naive relationship between the average number of protections against expropriation. The establishment of institutions has lasting economic and political legacies. If we look at this figure we can see that early institutions carry over into the present day. 
-
-
-
----
-
-
-
----
 # The Early Colonies
 
 
@@ -195,6 +135,69 @@ Charles would later be headed after the Great English Civil war
 
 
 --- 
+
+
+---
+## Settler Mortality 
+
+
+```{r settler-graph, echo= FALSE}
+
+
+settler_dat = haven::read_dta("data/maketable1.dta") %>% 
+  mutate(name = as.factor(shortnam),
+         flag = ifelse(name == "USA", TRUE, FALSE)) %>% 
+  filter(!is.na(logem4), !name %in% c("GBR", "FRA")) %>% 
+    arrange(logem4) %>% 
+  slice(1:20)
+
+ggplot(settler_dat, aes(x = logem4, y = fct_reorder(name, logem4), fill = flag)) +
+  geom_col() +
+  labs(x = "Log of Settler Mortality", y = NULL) +
+  theme_allen_minimal() +
+  scale_fill_manual(values = c("grey70", "#f2ad22")) +
+  guides(fill = "none")
+
+
+```
+
+
+
+
+???
+Another kind of interesting aspect about American political development is the extent to which America had some advantages due to climate.I just took data from Acemoglu, Johnson, and Robinson and plotted it. I subsetted the data to include the only Top 20 lowest colonies by settler mortality. As you can see the U.S. is one of the lowest this is partially because the east coast of the United States does not have some of the diseases that Central, South America, and Africa have that killed lots of European settlers. 
+
+We see very different institutional development in European colonies. They posit that the mechanism that links the kinds of institutions that were and present economic performance their main dependent variable is differences in protection from expropriation. Because white settlers actually lived in these colonies early institutions were more likely to protect rights 
+
+
+---
+
+---
+## The Effect of Instituions 
+
+
+```{r og-plot, echo = FALSE, warning=FALSE, message=FALSE}
+ ggplot(settler_dat, aes(x = logem4 , y = avexpr)) +
+  geom_smooth( method = "lm", se = FALSE) +
+  geom_text(aes(label = name)) +
+  geom_text(data = filter(settler_dat, name == "USA"), aes(label = name, color = "#f2ad22"), show.legend = FALSE) +
+  labs(x = "Log of Settler Mortality", y = "Average Protection Against Expropriation\n(1985-1995)", caption = "Figure 2 from Acemoglu Johnson and Robinson(2001)") +
+  theme_allen_minimal()
+
+
+
+
+```
+???
+This shows the naive relationship between the average number of protections against expropriation. The establishment of institutions has lasting economic and political legacies. If we look at this figure we can see that early institutions carry over into the present day. 
+
+
+
+---
+
+
+
+
 
 
 
@@ -567,12 +570,12 @@ gt(plans) %>%
 ???
 The inherent tension between the small and large states was the large population of enslaved people in the southern states. In the coming weeks when we talk about the second founding and the reconstruction amendments. However, the big battle that was set to occur that could threaten the constitutional congress was slavery.
 
-The issue was not necessarily whether or not to abolish  of the 55 members of the constitutional convention 25 owned slaves. Only three founding fathers were members of anti-slavery societies John Jay, Alexander Hamilton, and Ben Franklin (a former slave owner). The pro-slavery compromises were framed as the price that they had to pay to keep the south in the talks. However the major compromise was not whether slavery should be abolished. But how the landed southern aristocracy could use slaves to increase their political power to preserve the practice to further their economic interests. 
+The issue was not necessarily whether or not to abolish  of the 55 members of the constitutional convention 25 owned slaves. Only three founding fathers were members of anti-slavery societies John Jay, Alexander Hamilton, and Ben Franklin (a former slave owner). The pro-slavery compromises were framed as the price that they had to pay to keep the south in the talks and in the "Union". However the major compromise was not whether slavery should be abolished. But how the landed southern aristocracy could use slaves to increase their political power to preserve the practice to further their economic interests. 
 
 https://www.gilderlehrman.org/history-resources/teaching-resource/historical-context-constitution-and-slavery
 
 
-Like how profitable slavery was during this period is still a hotly debated topic but 
+
 
 
 
@@ -600,7 +603,7 @@ If you are viewing the HTML version of the slides you can see county level data 
 ## What They Agreed to
 
 
-- *The Three-Fifths Compromise*: held that three of every five slaves would be counted for the purpose of apportioning seats in the House of Representatives.
+- .bold[The Three-Fifths Compromise]: held that three of every five slaves would be counted for the purpose of apportioning seats in the House of Representatives.
 
 - The Slave Trade would continue, and not be considered a point of conversation till 1808 
 
