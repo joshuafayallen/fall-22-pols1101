@@ -1,6 +1,5 @@
 ---
-title: "The Constitution and Federalism"
-subtitle: "Cleanup and Experiments"
+title: "Federalism"
 author: "Josh Allen"
 date: '`r Sys.Date()`'
 output:
@@ -76,11 +75,7 @@ Some states have concealed carry reciprocity. However this varies which makes it
 ---
 ## What is it?  
 
-```{r}
-vembedr::embed_url("https://www.youtube.com/watch?v=J0gosGXSgsI&t=5s")
-
-```
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J0gosGXSgsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ???
 (9:13)
@@ -123,7 +118,7 @@ For fun lets pair up and see what weird state laws you can come up with. I assur
 ---
 
 ---
-## Who Governs
+## Who Governs?
 
 - 87,576 governments within the United States Federal System
 
@@ -272,13 +267,7 @@ If individuals or businesses dislike the package of policies enacted by their st
 ---
 ## Races to the Bottom
 
-```{r }
-
-vembedr::embed_url("https://youtu.be/3XE5m_meLVw?t=81")
-
-```
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3XE5m_meLVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -438,6 +427,18 @@ Police Power: States may enact any law with the aim of promoting the health, saf
 Critically the Supreme court has interpreted the 10th amendment as only giving states police power
 ---
 
+---
+# Break Time 
+
+```{r echo = FALSE, out.width= "50%"}
+knitr::include_graphics("images/uno-melon.png")
+```
+
+```{r echo = FALSE}
+countdown::countdown(minutes = 5)
+```
+
+---
 
 ---
 class: center, middle 
@@ -568,7 +569,18 @@ Allowed Congress the power to regulate commerce under the Commerce Clause of the
 
 ---
 
+---
+# FDR's New Deal 
 
+
+```{r echo = FALSE}
+
+knitr::include_graphics("https://livingnewdeal.org/map/")
+
+```
+
+
+---
 
 
 
@@ -597,7 +609,12 @@ FDR's proposal was a vast expansion of the reach of the federal government in th
 
 After a little trouble with the Supreme Court, (anyone ever heard of the switch in time that saved nine) the programs finally began to be implemented and the federal and state governments no longer had such clean lines concerning their responsibilities and powers. Things tended to be shared. 
 
-Switch in Time that Saved Nine – The Supreme Court at the time of Roosevelt’s election and first term was a bunch of grumpy, old, and White conservatives that felt that the programs that FDR were proposing were too liberal thus an overextension of the clearly stated powers that Congress and the President had. So each time legislation would come before them, it was declared unconstitutional and the status quo of the depression stayed the same. Finally Roosevelt got fed up, and he has a bill proposed that would allow him (as the president) to add justices to the Court for every justice at the time sitting on the court that was over the age of 70. This would add 6 judges to the court bringing the total to 15 and an obvious majority in favor of Roosevelt. In fear of the this drastic threat to their job and the institution of the court itself, the subsequent cases were all found in Roosevelt’s favor and ultimately lead to the social and economic programs that would save the country. 
+Switch in Time that Saved Nine – The Supreme Court at the time of Roosevelt’s election and first term was a bunch of grumpy, old, and White conservatives that felt that the programs that FDR were proposing were too liberal thus an overexertion of the clearly stated powers that Congress and the President had. So each time legislation would come before them, it was declared unconstitutional and the status quo of the depression stayed the same.
+
+
+Finally Roosevelt got fed up, and he has a bill proposed that would allow him (as the president) to add justices to the Court for every justice at the time sitting on the court that was over the age of 70. This would add 6 judges to the court bringing the total to 15 and an obvious majority in favor of Roosevelt. In fear of the this drastic threat to their job and the institution of the court itself, the subsequent cases were all found in Roosevelt’s favor and ultimately lead to the social and economic programs that would save the country. 
+
+There is considerable debate about whether FDR's threat of court packing actually caused this. Some argue that members of the judiciary where already being pursuaded due to private shifts in their ideology, bowing to public opinion. What is clear is that at a somewhat early time the US supreme court started shifting their opinions that would greatly benefit the Roosevelt administration. The clearest advantage the Roosevelt administaration ends up gettting is that judges just die of old age or retire.
 
 
 Substantial Effects Doctrine: Commerce Clause lets Congress regulate any economic activity that has a substantial effect on interstate commerce.
@@ -631,7 +648,15 @@ Two types of grants-in-aid:  block grants and categorical grants
 
 Once we move to the great society program lots of federal funds to the state took the form of grant money. The federal government started to use these to get states closer aligned to federal priorities. However, conservatives did not like this because they thought that states should have more public policy power and that the liberal approach to providing funds to the state were coercive. 
 
+
+Unfunded mandates are basically the federal government telling states what the new regulatory standard or law is. Then they have to comply with them without any funds in order to do this. The federal government pases this is the 1980s. States were in charge of overseeing the implementation of this law. This included creating new licensing requirements, adverstisements and legal processes for this. 
+
+
+
+
 One particular example is how the federal government made the drinking age 21 across the nation. States were required to enforce the current drinking age or risk losing out of 10% of federal highway funds. Louisana was like the last state to do this with the Clinton administration threatening to withhold 17 million dollars in federal highway funds.
+
+
 
 
 ---
