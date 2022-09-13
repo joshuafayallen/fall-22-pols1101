@@ -98,9 +98,14 @@ ggplot(cert_sum, aes(x = total_jurisdiction, y = fct_reorder(qual_jurisdiction, 
 
 ```
 ???
-Parties who are not satisfied with the decision of a lower court must petition the U.S. Supreme Court to hear their case. The primary means to petition the court for review is to ask it to grant a writ of certiorari. This is a request that the Supreme Court order a lower court to send up the record of the case for review. The Court usually is not under any obligation to hear these cases, and it usually only does so if the case could have national significance, might harmonize conflicting decisions in the federal Circuit courts, and/or could have precedential value
+Parties who are not satisfied with the decision of a lower court must petition the U.S. Supreme Court to hear their case. The primary means to petition the court for review is to ask it to grant a writ of certiorari. 
+
+This is a request that the Supreme Court order a lower court to send up the record of the case for review. The Court usually is not under any obligation to hear these cases, and it usually only does so if the case could have national significance, might harmonize conflicting decisions in the federal Circuit courts, and/or could have precedential value
 
 
+
+
+.bold[Original] - the power of the court to hear a case for the first time without needing to go through a trial level case.
 
 
 ---
