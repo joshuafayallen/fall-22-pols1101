@@ -537,6 +537,9 @@ The state of Maryland decided to pass a law as a way to rectify this and hopeful
 
 
  Congress has implied Constitutional powers that allow it to implement its expressed powers
+ 
+ 
+ McCulloch v. Maryland (1819) is one of the first and most important Supreme Court cases on federal power. In this case, the Supreme Court held that Congress has implied powers derived from those listed in Article I, Section 8. The “Necessary and Proper” Clause gave Congress the power to establish a national bank.
 
  State action cannot impede valid exercises of federal power (i.e. producing bank notes)
 
@@ -568,6 +571,8 @@ Allowed Congress the power to regulate commerce under the Commerce Clause of the
 
 
 ---
+
+
 
 ---
 # FDR's New Deal 

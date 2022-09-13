@@ -30,16 +30,73 @@ class: center, middle
 
 ---
 
+---
+# Important Concept For The Test
+## And Basically the Rest of American Government 
+
+- The Supreme Court has very narrow authority under a strict originalist interpretation of the constitution
+  - Typically, the disputes between states coming to the Court involve conflicting property claim 
+  - disputes between a state and a citizen of another state
+
+--
+However, the modern Supreme court 
+
+- .bold[Judicial Review]: is the implied power of the Supreme Court to have the authority to declare laws of Congress and acts of the executive branch unconstitutional.
+
+- Established in Marburry v. Madison(1803)
+
+???
+
+We have heard me at various times say: this was adjuduicated in court 
+
+
+The presidential election of 1800 was a critical time in early American politics. The two main parties (review from Foundations) were the Federalist and Anti-Federalist (often called the Democratic-Republican) parties, and each was vying for an extra ounce of power. In a close election, Thomas Jefferson (D-R)  beat out John Adams (F) to become the 3rd president of the United States. The election took place in February, but Jefferson did not assume office until the middle of March. During this time the federalist party was doing everything possible to maintain any political power they could. 
+
+In this case, John Adams went on a spree of appointments of judges since he was still the president and his party still controlled the Congress. In those few weeks he appointed over 60 individuals to federal court judgeships and justice of the peace positions, including one to William Marbury (pictured far left), a wealthy Virginia businessman.  These individuals came to be known as “midnight judges” since their appointments and confirmations occurred in the space of a day. The confirmations all occurred, but Adams ran out of time before all the commissions could be delivered.  
 
 ---
-class: center, middle, inverse 
 
-# Chapter 1 
-
+```{r}
 
 
+court_data = read_csv("SCDB_2021_01_caseCentered_Citation.csv")
 
----
+
+cert_decision_data = court_data |> 
+  select(term, jurisdiction) |> 
+  mutate(qual_jurisdiction = case_when(jurisdiction == 1 ~ "cert",
+                                       jurisdiction == 2 ~ "appeal",
+                                       jurisdiction == 3 ~ "bail",
+                                       jurisdiction == 4 ~ "certificaation",
+                                       jurisdiction == 5 ~ "docketing fee",
+                                       jurisdiction == 6 ~ "rehearing or restored to calendar for reargument",
+                                       jurisdiction == 7 ~ "injunction",
+                                       jurisdiction == 8 ~ "mandamus",
+                                       jurisdiction == 9 ~ "original",
+                                       jurisdiction == 10 ~ "prohibition",
+                                       jurisdiction == 12 ~ "stay",
+                                       jurisdiction == 13 ~ "writ of error",
+                                       jurisdiction == 14 ~ "writ of habeas corpus",
+                                       jurisdiction == 15 ~ "unspecified, other"))
+
+
+cert_sum = cert_decision_data |> 
+  group_by(qual_jurisdiction) |> 
+  summarise(total_jurisdiction = n()) |> 
+  filter(qual_jurisdiction %in% c("original", "appeal", "cert")) |> 
+  mutate(qual_jurisdiction = str_to_title(qual_jurisdiction))
+
+ggplot(cert_sum, aes(x = total_jurisdiction, y = fct_reorder(qual_jurisdiction, total_jurisdiction), fill = qual_jurisdiction)) +
+  geom_col(alpha = 0.7) +
+  labs(y = "Type of Jurisdiction", x = "Total", fill = NULL, title = "Kinds of Cases the Court Hears",
+       subtitle = "1946-2021") +
+  geom_text(aes(label = total_jurisdiction), nudge_x = 220) +
+  guides(fill = 'none') +
+  MetBrewer::scale_fill_met_d("Demuth") +
+  theme_allen_minimal(has_subtitle = TRUE)
+
+
+```
 
 
 ---
@@ -47,6 +104,11 @@ class: center, middle, inverse
 
 A Set of institutions that 
 
+-
+
+-
+
+-
 
 
 ???
@@ -65,81 +127,42 @@ A Set of institutions that
 
 
 ---
-## Authoritative 
+## Matching Governments to Branches
 
-- Legitmate Authority: 
-
-
-- .bold[Ordinances]:
-
-???
+What branch of government would we consider these?
 
 
-
-Where does the US government derive their legitimate authority to make and enforce laws? 
-
-
-
-.bold[Legitimate] Authority: A rightful or justified authority to claim authority over another
+```{r}
+pacman::p_load("ggwordcloud")
 
 
-- .bold[Ordinances]: A law made by a city (or municipal) legislature (such as the Atlanta City Council).
+branches_of_gov = tribble(~branch,
+                          "Bureacratic Agencies",
+                          "Supreme Court of the United States",
+                          "The Governor of Georgia",
+                          "The Georgia General Assembly",
+                          "Supreme Court of Georgia",
+                          "The President of the United States",
+                          "The U.S. House of Representatives",
+                          "The U.S. Senate",
+                          "Federal Courts")
 
-- .bold[Statutes]: A law made by Congress or a state legislature
 
-- .bold[Regulations]: Rules made by bureaucratic agencies that have the force of law
+ggplot(branches_of_gov, aes(label = branch)) +
+  geom_text_wordcloud() +
+  theme_minimal()
 
 
+```
 
-The book frames laws as the way governments formally issue commands. The enforcement  can have lots of interpretations making regulations slightly inconcsistent. When you get to the federal levels there are lots of lawyers who spend their time figuring this stuff out. And like really good ones who once they leave will go and teach at fancy law schools
+
 
 
 
 ---
 
 
----
-## Our Aside on Weber 
 
-.pull-left[
-
-<gsu-blockquote-red>
-We have to say that a state is a human community that (successfully) claims the monopoly of the legitimate use of physical force within a given territory
-</gsu-blockquote-red>
-
-]
-
-
-.pull-right[
-### Why Does the Book Not Like Weber?
-
-- Emphasis on the 
-
-- The concept of 
-
-- Sovereignty
-
-
-
-]
-???
-Can some body remind us what sovereignty is? 
-
-Sovereignty: To have sovereignty is to be the highest authority to rule over a given territory
-
-
-- Emphasis on the *Executive* function of government
-
-- The concept of the  *monopoly* of the use of force 
-
-- Sovereignty
-
-
-
-The book in particular gets huffy about this. Because ultimately the U.S government derives its ultimate authority from the people. The book kind of sees Weber as the state inherently having the ultimate authority. This is not an unfair reading of Weber. There are parts of the same piece that elude to popular sovereignty but it not really elucidated. Conceptually we can kind of think of this difference as like how is the power to use force elucidated
-
-Does this substantively matter for your day to day experience with government? No not really.  
----
 
 
 ---
@@ -194,7 +217,6 @@ selective_incentives = tribble(~Incentives,
                                "Production Based Incentives", "Jail Time")
 
 
-pacman::p_load("ggwordcloud")
 
 
 ggplot(selective_incentives, aes(label = Incentives )) +
@@ -210,15 +232,6 @@ Okay using what we know about government so far how can we start to think of wha
 
 ---
 
-
-
----
-class: center, middle, inverse
-
-# American Way of Politics
-
-
----
 
 ---
 ## Rule of Law 
@@ -286,6 +299,28 @@ Done Through auxiliry precautions  Dependence of the people Checks and Balances
 
 ---
 
+---
+# Two Kinds of Democracy 
+
+- Direct Democracy: 
+
+
+- Representative Democracy 
+
+
+
+???
+Direct Democracy: “pure” democracy - one in which the people make the decisions in the manner in which political powers should be exercised.
+
+
+Representative democracy – where the authority of the governments lies with the people (the electorate) that elect representatives to support their interests
+
+
+---
+
+
+
+
 
 ---
 class: center, middle, inverse
@@ -299,7 +334,7 @@ class: center, middle, inverse
 ## Ideological Positions 
 
 ```{r echo= FALSE}
-ideology_dt = tribble(~`Issue Area`, ~Liberals, ~Conservatives, 
+ideology_dt = tribble(~Issue, ~Liberals, ~Conservatives, 
                        "Regulating the Economy", "Supports Govt Regulations", "Supports Less Govt Regulation",
                        "Economic Security", "More Supportive Programs", "Supports Programs but at lower levels",
                        "Government Promotion of Social Equality", "Wants laws/programs to increase social standing of historically oppressed groups", "Generally favor the status quo",
@@ -307,8 +342,18 @@ ideology_dt = tribble(~`Issue Area`, ~Liberals, ~Conservatives,
                        "Law Enforcement and Criminal Justice", "Want body cams on police/dashboard.  Oppose: death penalty, long prison sentence, mandatory minimum sentencing laws, restrictions of felons after serving their time.", 
                        "Greater leeway to police.  More likely to support “Law & Order” policies like the death penalty, long prison sentences, mandatory minimums, restricted rights for former felons.")
 
-gt(ideology_dt) %>% 
-  gtExtras::gt_theme_espn()
+ideology_dt_long = ideology_dt |> 
+   pivot_longer(cols = c("Liberals", "Conservatives"),
+               names_to = "Ideology",
+               values_to = "Stance") |> 
+  slice(1:8)
+
+
+
+ggplot(ideology_dt_long, aes(label = Stance)) +
+  geom_text_wordcloud() +
+  scale_size_area(max_size = 14) +
+  theme_minimal()
 
 ```
 
@@ -324,7 +369,16 @@ Politics of Principle: Political conflicts emanating from genuine disagreements 
 
 ---
 
+---
+# Answers 
 
+```{r}
+gt(ideology_dt) |> gtExtras::gt_theme_espn()
+```
+
+
+
+---
 
 
 
