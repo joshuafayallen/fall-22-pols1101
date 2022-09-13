@@ -83,7 +83,7 @@ cert_decision_data = court_data |>
 cert_sum = cert_decision_data |> 
   group_by(qual_jurisdiction) |> 
   summarise(total_jurisdiction = n()) |> 
-  filter(qual_jurisdiction %in% c("original", "appeal", "cert")) |> 
+  filter(qual_jurisdiction %in% c("original", "cert")) |> 
   mutate(qual_jurisdiction = str_to_title(qual_jurisdiction))
 
 ggplot(cert_sum, aes(x = total_jurisdiction, y = fct_reorder(qual_jurisdiction, total_jurisdiction), fill = qual_jurisdiction)) +
@@ -97,6 +97,10 @@ ggplot(cert_sum, aes(x = total_jurisdiction, y = fct_reorder(qual_jurisdiction, 
 
 
 ```
+???
+Parties who are not satisfied with the decision of a lower court must petition the U.S. Supreme Court to hear their case. The primary means to petition the court for review is to ask it to grant a writ of certiorari. This is a request that the Supreme Court order a lower court to send up the record of the case for review. The Court usually is not under any obligation to hear these cases, and it usually only does so if the case could have national significance, might harmonize conflicting decisions in the federal Circuit courts, and/or could have precedential value
+
+
 
 
 ---
