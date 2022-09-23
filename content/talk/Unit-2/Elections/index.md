@@ -13,5 +13,5 @@ links:
   url: "slides/Campaigns-Elections/elections.html"
 show_post_time: false
 subtitle: Campaigns and Elections
-title: Chapter 8
+title: Chapter 7 part II
 ---

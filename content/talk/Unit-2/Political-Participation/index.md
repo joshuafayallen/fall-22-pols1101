@@ -13,5 +13,5 @@ links:
   url: "slides/Political Participation/political-participation.html"
 show_post_time: false
 subtitle: Political Participation and Voting
-title: Chapter 8
+title: Chapter 7 part I
 ---
