@@ -272,11 +272,42 @@ Downs essentially argues that the indivdual is better of free-riding
 
 ---
 
+--
+
+# Rational Voting Calculus 
+.pull-left[
+
+$$
+\begin{align}
+\text{R} = \text{B}\times \text{P} - \text{C}
+\end{align}
+$$
+
+]
+
+
+.pull-right[
+```{r echo = TRUE}
+1/100000000 * 0.0001 -  0.0001
+```
+
+]
+
+???
+In this case I just ended up wrapping 
+
+We can kind of Think of it like this basically if C is any positive number the reward will always be negative 
+
+I just choose some arbitrary small value and did it but you can just use basic math and see that no matter what the reward will be negative. 
+---
+
+
 
 --- 
 ## An Example 
 
 ```{r}
+options(scipen = 999)
 pacman::p_load("namedropR")
 
 
@@ -319,6 +350,41 @@ Riker and Ordeshook don't neccessarily disagree with Downes if you view voting s
 
 The D term can be a whole host of stuff like a sense of civic duty, social pressure, patriotism etc essentially D is the satisfaction that people derive from the act of voting. My kind of rough heuristic for understanding the D term is that there is inherent non-material benefit to voting. There is nothing quite like telling somebody fuck you. And in this case if you are voting against somebody it is a form of the middle finger 
 ---
+
+---
+layout: false 
+class: center, middle
+
+.pull-left[
+
+$$ 
+\begin{align}
+\text{R} = \text{B} * \text{P} - \text{C} + \text{D}
+\end{align}
+$$
+
+]
+
+.pull-right[
+
+
+```{r echo = TRUE}
+
+1/100000000 * 0.0001 -  0.0001 +  0.0001
+```
+
+
+
+]
+
+
+???
+
+Whereas if we look at the model with the D term you are just adding a small positive value which will make the reward positive 
+
+---
+
+
 
 ---
 ## Who Votes?

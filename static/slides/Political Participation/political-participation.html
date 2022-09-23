@@ -4,7 +4,7 @@
     <title>Political Participation &amp; Voting</title>
     <meta charset="utf-8" />
     <meta name="author" content="Josh Allen" />
-    <meta name="date" content="2022-08-12" />
+    <meta name="date" content="2022-09-23" />
     <script src="political-participation_files/header-attrs/header-attrs.js"></script>
     <link href="political-participation_files/remark-css/default.css" rel="stylesheet" />
     <link href="political-participation_files/panelset/panelset.css" rel="stylesheet" />
@@ -30,7 +30,7 @@ class: center, middle, inverse, title-slide
 ### Josh Allen
 ]
 .date[
-### 2022-08-12
+### 2022-09-23
 ]
 
 ---
@@ -467,28 +467,32 @@ GSU fonts
 Author: Josh Allen
 Updated: 05/24/2021
 
-this is similar enough to minion pro
+
 */
 
 /* Add maven for code font (keep other xaringan defaults */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nobile:ital@1&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&amp;display=swap')
 
-body { font-family:'Crimson Text' serif; }
 
-h1, h2, h3 {
-  font-family: 'Roboto Condensed';
+body { font-family:'Libre Franklin' serif; }
+
+h1 {
+  font-family: 'Cabin';
   font-weight: normal;
 }
 
-/*
+
 h2, h3 {
-  font-family: 'Roboto Condensed';
+  font-family: 'Nobilie';
   font-weight: normal;
 }
-*/
+
 
 .remark-code, .remark-inline-code { font-family: 'Inconsolata', monospace; }
 .remark-code-line-highlighted     { background-color: #ffff88; }
@@ -751,16 +755,44 @@ Downs essentially argues that the indivdual is better of free-riding
 
 ---
 
+--
+
+# Rational Voting Calculus 
+.pull-left[
+
+$$
+`\begin{align}
+\text{R} = \text{B}\times \text{P} - \text{C}
+\end{align}`
+$$
+
+]
+
+
+.pull-right[
+
+```r
+1/100000000 * 0.0001 -  0.0001
+```
+
+```
+[1] -1e-04
+```
+
+]
+
+???
+In this case I just ended up wrapping 
+
+We can kind of Think of it like this basically if C is any positive number the reward will always be negative 
+
+I just choose some arbitrary small value and did it but you can just use basic math and see that no matter what the reward will be negative. 
+---
+
+
 
 --- 
 ## An Example 
-
-
-```
-
-The downloaded binary packages are in
-	/var/folders/0k/jvdgmwf56zg1dw7n9mm2wzvc0000gp/T//Rtmp43SdBJ/downloaded_packages
-```
 
 <table class="visual-citation">
   <tr>
@@ -815,6 +847,45 @@ Riker and Ordeshook don't neccessarily disagree with Downes if you view voting s
 
 The D term can be a whole host of stuff like a sense of civic duty, social pressure, patriotism etc essentially D is the satisfaction that people derive from the act of voting. My kind of rough heuristic for understanding the D term is that there is inherent non-material benefit to voting. There is nothing quite like telling somebody fuck you. And in this case if you are voting against somebody it is a form of the middle finger 
 ---
+
+---
+layout: false 
+class: center, middle
+
+.pull-left[
+
+$$ 
+`\begin{align}
+\text{R} = \text{B} * \text{P} - \text{C} + \text{D}
+\end{align}`
+$$
+
+]
+
+.pull-right[
+
+
+
+```r
+1/100000000 * 0.0001 -  0.0001 +  0.0001
+```
+
+```
+[1] 0.000000000001
+```
+
+
+
+]
+
+
+???
+
+Whereas if we look at the model with the D term you are just adding a small positive value which will make the reward positive 
+
+---
+
+
 
 ---
 ## Who Votes?
