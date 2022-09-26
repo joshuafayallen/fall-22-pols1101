@@ -645,29 +645,14 @@ Electoral maps can and should be redrawn to reflect the underlying population tr
 ---
 
 ---
+# Georgia Data
 
-```{r}
-knitr::include_graphics("gerrymandering.png")
-```
-
-
----
-
-
-
-
----
-
-```{r cache= TRUE, warning= FALSE, message=FALSE, results= 'hide'}
+```{r cache= TRUE, warning= FALSE, message=FALSE, results='hide'}
 
 pacman::p_load("tmap", "tidycensus", "sf", "scico")
-
-# https://api.census.gov/data/2020/acs/acs5/variables.html
-
-atl_race <- get_decennial(
+georgia_map_data <- get_decennial(
   geography = "tract",
   state = "GA",
-  county = c("Cobb", "Fulton", "Dekalb", "Clayton", "Gwinnett"),
   variables = c(
     White = "P2_005N",
     Black = "P2_006N",
@@ -677,28 +662,71 @@ atl_race <- get_decennial(
   summary_var = "P2_001N",
   year = 2020,
   geometry = TRUE
-) %>%
+) |> 
   mutate(percent = 100 * (value / summary_value)) |> 
   filter(!is.na(percent))
 
- tm_shape(atl_race) + 
-  tm_facets(by = "variable", scale.factor = 4) + 
-  tm_fill(col = "percent",
-          style = "quantile",
-          n = 6,
-          palette = "-magma",
-          title = "Race and Ethnicity in Atlanta\n from the 2020 US Census",
-          legend.reverse = TRUE) + 
-  tm_layout(bg.color = "white", 
-            legend.position = c(0.1, 0.15),
-            panel.label.bg.color = "white",
-            aes.palette = "-")
+ggplot() +
+  geom_sf(data = georgia_map_data ,aes(fill = percent), color = NA) +
+  theme_void() +
+  scale_fill_scico(palette = "vikO", direction = 1) +
+  facet_wrap(vars(variable))
+
 
 
 ```
 
+???
+Lets just pull all the data from the last decennial census and then plot it. Here I am just recyling some code from the ideology presentation but rather than just pulling specific tracts in and around atlanta here I am just pulling all the data from georgia. I just seperated it out by race. This is just more of a clarity decision on my part. Here we get a rough snapshot about some of the population distribution patterns in the state of georgia.
+
+
+---
+
+
+
+
+
+---
+
+```{r cache= TRUE, warning= FALSE, message=FALSE, results='hide'}
+
+time_census = microbenchmark::microbenchmark(get_decennial(
+  geography = "tract",
+  state = "GA",
+  variables = c(
+    White = "P2_005N",
+    Black = "P2_006N",
+    Asian = "P2_008N",
+    Hispanic = "P2_002N"
+  ),
+  summary_var = "P2_001N",
+  year = 2020,
+  geometry = TRUE
+), times = 5)
+
+# https://api.census.gov/data/2020/acs/acs5/variables.html
+
+
+time_census
+
+
+```
+
+```{r}
+time_census 
+```
+
+
+
 
 ???
+ 
+
+
+The Total siuze of the data frame is about 11,136
+
+
+
 On my machine it took like less than a second to collect and plot all this data. It took longer to get a census api and then figure out I had spelt Gwinett wrong than to get the actaul data. Using the last census or the last 2 census's we can very easily start to gather a ton of data for no cost at all. You can just as quickly get data on income, education, gender, and other demographic characteristics that are going to do a good job of figuring out partisanship and then just move the lines to advantage or disadvantage people. For the 538 thing all I would have to do is just pull some partisanship data. Then just start overlaying existing congressional districts. The point is that the gerrymandering we see today is so much easier and data driven than it ever was previously. All in all it took 32 lines of code to make these maps and part of that was just for readibility  
 
 ---
@@ -749,8 +777,15 @@ Sociotropic: How well you think the nation is doing economically
 
 Pocketbook: How well are you doing personally?
 
+These are essentially just retrospective assessments. 
 
 People tend to blame themselves for their own financial state, so your own situation does not effect your vote that much, BUT people ten to blame the government for how well the nation as a whole is doing- so that significantly impacts vote choice (Republicans and Pres. Bush punished in 2008)
+
+
+This results in lots of people being sociotropic voters. Which economoy people consider is like a huge fight. What we do know is that people tend reward/punish the party in power by voting for or against the party in the white house. However this tends to be constrained to governors and repersentatives rather than all candidates Kessner and Warshaw(2020)
+
+
+
 
 
 

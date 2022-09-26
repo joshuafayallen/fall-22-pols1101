@@ -39,28 +39,31 @@ class:middle, center
 ---
 
 ---
-## Types of Political Participation 
+## What is Political Participation?
 
 .bold[Political Participation]: Any action aimed at changing or supporting the actions of political agents and officials 
 
 .pull-left[
 
-.hiro-red[Conventional Participation]: Common actions considered culturally acceptable political activity that communicates preferences through established institutions
+.hiro-red[Conventional Participation]: Common actions considered culturally acceptable political activity that communicates preferences .bold[through] established institutions
 
 
 ]
 
 
 .pull-right[
-.hiro-dark-blue[Unconventional Participation]: Political activity that takes place outside of established institutions and challenges cultural norms
+.hiro-dark-blue[Unconventional Participation]: Political activity that takes place .bold[outside] of established institutions and challenges cultural norms
 
 ]
 ???
-What is an example of each? 
+What is an example of each?  
+
+Generally where these differ is on 
+
 ---
 
 ---
-## What is Political Participation?
+## Types of Political Participation
 
 Participating in politics can take many forms
 
@@ -148,15 +151,18 @@ As a political violence scholar I would remissed if I didnt add that political v
 
 - The Resources
   - Time
-  - Skills
   - Money
-  
+  - Skills etc.  
 - Interest 
   - Policy Interest 
-  - Candidate Appeal
+  - Candidate Appeal etc.
 
-- Recuritment
+- Recruitment
   - When people are asked to get involved 
+  
+  
+???
+Skills is like pretty broad we can think of this as information, ability to get there. Just like impute any sort of defintion of things that go into voting that arent just like these things.
 
 
 ---
@@ -190,6 +196,8 @@ Picking up on a broad theme of this class is you could take a graduate class jus
 
 
 
+
+
 ---
 ## Two Types of Voting
 
@@ -210,11 +218,19 @@ Retrospective voting tends to be used more by voters, and can be used in two way
 
 MRE’s: Mediated through personal predispositions (PID) and experiences of the voter. But they are also mediated through other things like the information we consume 
 
-are those evaluations that depend on some intermediary; for example, I need the media to provide me with information about the macroeconomy, but I can also use my SREs to make mediated judgments (e.g. I can use my experience with personal finance to make judgments about the national economy). MREs are mediated by a citizen's choice of information sources and opinion leaders.
+are those evaluations that depend on some intermediary; for example, I need the media to provide me with information about the macro economy, but I can also use my SREs to make mediated judgments (e.g. I can use my experience with personal finance to make judgments about the national economy). MREs are mediated by a citizen's choice of information sources and opinion leaders.
 
 SRE’s: : Based mainly on personal finance, war, civil rights, and similar things. These are things that voters have direct experience with, so their retrospective evaluations are unmediated by the media or anything
 
+
+
+
+
+
 ---
+
+
+
 
 
 ---
@@ -268,7 +284,7 @@ Costs are fairly intuitive: They can be a simple as the amount of time it takes 
 
 So people end up being free riders, because their individual vote will not influence the outcome of the election – therefore it is more rational for you to stay home and enjoy the benefit of other people voting, rather than vote yourself. 
 
-Downs essentially argues that the indivdual is better of free-riding 
+Downs essentially argues that the individual is better of free-riding. The real sort of theoretical nuance that Downes and others try to figure out is this idea of why given the inherent irrationality of voting 
 
 ---
 
@@ -294,9 +310,9 @@ $$
 ]
 
 ???
-In this case I just ended up wrapping 
+You can use any order of precedence you want. What will end up happening is this 
 
-We can kind of Think of it like this basically if C is any positive number the reward will always be negative 
+ if C is any positive number the reward will always be negative 
 
 I just choose some arbitrary small value and did it but you can just use basic math and see that no matter what the reward will be negative. 
 ---
@@ -605,6 +621,9 @@ Socialization: Most people tend to adopt the PID of their parents
 Retrospective: Voters keep a tally of the good/bad things each party has done (ex. Great Depression & FDR led many voters to become Democrats)
 .
 
+
+
+
 ---
 
 ---
@@ -643,6 +662,8 @@ Media (Clinton and Benghazi)
 Candidates also set the agenda (Sanders and Income Inequality; Trump and Immigration)
 
 One issue that is always salient to American voters is the economy, but economic well being effects voting in varied ways
+
+
 Sociotropic: How well you think the nation is doing economically
 
 Pocketbook: How well are you doing personally?
