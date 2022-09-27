@@ -266,6 +266,9 @@ It’s irrational: We’ll return to this concept in just a little
 ---
 ## Rational Voting Calculus
 
+```{r}
+options(scipen = 999)
+```
 
 
 $$
@@ -323,7 +326,7 @@ I just choose some arbitrary small value and did it but you can just use basic m
 ## An Example 
 
 ```{r}
-options(scipen = 999)
+
 pacman::p_load("namedropR")
 
 
