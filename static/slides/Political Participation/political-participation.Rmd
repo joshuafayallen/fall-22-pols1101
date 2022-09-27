@@ -562,21 +562,10 @@ knitr::include_graphics("images/turnout_real_2016.png")
 
 ???
 
-the dark grey bars are the validated vote share.
+the dark grey bars are the validated vote share. The light grey bars are self reported vote share from the anes. The black bars are nationwide vote share. 
 
+The denominator is the voter eligible population.
 
----
-
----
-class: center, middle
-
-```{r out.width= "80%"}
-
-knitr::include_graphics("images/turnout_real_2014.png")
-
-```
-
-??? 
 
 It is important to note that another of their key findings is looking for so called turnout deserts 
 
@@ -592,6 +581,19 @@ deserts. This finding holds if we define a turnout desert based on arbitrary thr
 For example, if we define a turnout desert as a precinct where turnout was one standard
 deviation lower than the national average, Black, Hispanic, and Asian individuals are 3, 4, and
 2.5 times more likely to live in a turnout desert than whites, respectively
+
+---
+
+---
+class: center, middle
+
+```{r out.width= "80%"}
+
+knitr::include_graphics("images/turnout_real_2014.png")
+
+```
+
+
 
 ---
 
