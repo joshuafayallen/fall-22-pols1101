@@ -365,6 +365,40 @@ You the voter knows that one of the larger parties will likely win but will not 
 ---
 
 ---
+# Hopefully A Useful Heuristic
+
+```{r}
+set.seed(1994)
+n = 100
+parties_data = tibble(party_a = rnorm(n, mean = 2),
+                      party_b = rnorm(n, mean = -2))
+
+ggplot(parties_data) +
+  geom_density(aes(x = party_a), alpha = 0.4 , fill = "blue") +
+  geom_density(aes(x = party_b), alpha = 0.4, fill = "red") +
+  annotate(geom = "text",
+           x = c(-5, -1, 5),
+           y = c(0.4, 0.4, 0.4),
+           label = c("Party A", "Neutral Point", "Party B")) +
+  labs(x = NULL) +
+  geom_vline(xintercept = 0)  +
+  theme_light() +
+  theme(axis.title.y=element_blank(),
+           axis.text.y=element_blank(), 
+           axis.ticks.y=element_blank()) 
+
+
+```
+
+???
+Parties may try and contend around this space. Voters may pref
+
+
+---
+
+
+
+---
 class: center, middle, inverse
 
 # Parties Over the Years

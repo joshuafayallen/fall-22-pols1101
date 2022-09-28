@@ -543,7 +543,14 @@ Essentially Duverger's law argues that in first past the post systems there will
  Your party may represent that salient issue perfectly but either the democratic or republican party represents that issue imperfectly but other issues better than that party.
  
 You the voter knows that one of the larger parties will likely win but will not have that interest perfectly represented. You do not want to waist your vote so you choose the big party.
+
+Lets think of a plate full of food that we would like to eat. Lets say we are looking at my plate. I have supposedly three option. Brocolli, Wings, and Beets. These can represent our political parties that are competing to get onto my plate. I would generally prefer not to eat beets not a huge beet guy just don't really like the taste. I would prefer to have a plate full of pizza. But I will eat the brocolli because I know it is good for me. Lets say the dreaded beet party has 35% support for making it on the plate this is an outcome I would not want. Lets say the pizza party has very few supporters lets say about 10%. But the brocolli party has 40% support. 
+
+In a winner take all system people are generally going to vote for the brocolli party even if their true preference is the pizza party. While the pizza party perfectly represents our preferences the issue is that in our little district we have a lot of beet lovers. In order to not eat a beet I would take the broccili. Since there can only be one winner people are willing to settle for a more popular party that represents our preferences even it is option number 2 
+
 ---
+
+
 
 ---
 class: center, middle, inverse
@@ -554,11 +561,11 @@ class: center, middle, inverse
 ---
 
 ---
-## Congressional Districts
+# Congressional Districts
 
 - 435 Congressional Districts 
 
-- Each State has 1
+- Each State has at least 1
 
 - Districts are based on population and district lines that are drawn by states
 
@@ -669,8 +676,9 @@ georgia_map_data <- get_decennial(
 ggplot() +
   geom_sf(data = georgia_map_data ,aes(fill = percent), color = NA) +
   theme_void() +
+  theme(plot.background = element_rect(fill = "#fffce3")) +
   scale_fill_scico(palette = "vikO", direction = 1) +
-  facet_wrap(vars(variable))
+  facet_wrap(vars(variable)) 
 
 
 
@@ -691,17 +699,11 @@ Lets just pull all the data from the last decennial census and then plot it. Her
 ```{r cache= TRUE, warning= FALSE, message=FALSE, results='hide'}
 
 time_census = microbenchmark::microbenchmark(get_decennial(
-  geography = "tract",
-  state = "GA",
-  variables = c(
+  geography = "tract", state = "GA", variables = c(
     White = "P2_005N",
     Black = "P2_006N",
     Asian = "P2_008N",
-    Hispanic = "P2_002N"
-  ),
-  summary_var = "P2_001N",
-  year = 2020,
-  geometry = TRUE
+    Hispanic = "P2_002N" ), summary_var = "P2_001N", year = 2020, geometry = TRUE
 ), times = 5)
 
 # https://api.census.gov/data/2020/acs/acs5/variables.html
@@ -723,11 +725,10 @@ time_census
  
 
 
-The Total siuze of the data frame is about 11,136
+The Total siuze of the data frame is about 1 second. It took 6 lines of code. I could very easily overlay any kind of censusus data I want. If you need election data overlayed. Easy. I would just need election returns. It would end up taking me longer to make a prettier map
 
 
 
-On my machine it took like less than a second to collect and plot all this data. It took longer to get a census api and then figure out I had spelt Gwinett wrong than to get the actaul data. Using the last census or the last 2 census's we can very easily start to gather a ton of data for no cost at all. You can just as quickly get data on income, education, gender, and other demographic characteristics that are going to do a good job of figuring out partisanship and then just move the lines to advantage or disadvantage people. For the 538 thing all I would have to do is just pull some partisanship data. Then just start overlaying existing congressional districts. The point is that the gerrymandering we see today is so much easier and data driven than it ever was previously. All in all it took 32 lines of code to make these maps and part of that was just for readibility  
 
 ---
 
