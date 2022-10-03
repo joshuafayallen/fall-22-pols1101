@@ -4,7 +4,7 @@
     <title>Political Parties &amp; Interest Groups</title>
     <meta charset="utf-8" />
     <meta name="author" content="Josh Allen" />
-    <meta name="date" content="2022-04-05" />
+    <meta name="date" content="2022-10-03" />
     <script src="political-parties_files/header-attrs/header-attrs.js"></script>
     <link href="political-parties_files/remark-css/default.css" rel="stylesheet" />
     <link href="political-parties_files/panelset/panelset.css" rel="stylesheet" />
@@ -23,9 +23,15 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Political Parties &amp; Interest Groups
+]
+.author[
 ### Josh Allen
-### 2022-04-05
+]
+.date[
+### 2022-10-03
+]
 
 ---
 
@@ -65,7 +71,7 @@ a, a &gt; code {
 
 /* color tweak */
 .inverse {
-  background-color: #8f9186;
+  background-color: #0039A6;
   color: #FFFFFF;
   text-shadow: 0 0 20px #333;
 }
@@ -367,8 +373,8 @@ gsu-blockquote-alt {
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
-  border-left: solid 20px #776E64;
-  border-right: solid 20px #776E64;
+  border-left: solid 20px #97CAEB;
+  border-right: solid 20px #97CAEB;
   background-color: #dadfe1	;
   padding: 1em;
   color: #000000;
@@ -408,6 +414,51 @@ gsu-blockquote-alt {
 .bold-last-item &gt; ol &gt; li:last-of-type {
   font-weight: bold;
 }
+
+
+.my-one-page-font {
+  font-size: 18px;
+}
+
+
+/* Side-by-side code/plot stuff https://www.garrickadenbuie.com/blog/decouple-code-and-output-in-xaringan-slides/ */
+.left-code {
+  color: #777;
+  width: 48%;
+  height: 94%;
+  float: left;
+}
+
+.right-plot {
+  width: 50%;
+  float: right;
+  padding-left: 1%;
+}
+
+.right-code {
+  color: #777;
+  width: 48%;
+  height: 92%;
+  float: right;
+}
+
+.left-plot {
+  width: 50%;
+  float: left;
+  padding-right: 1%;
+}
+
+.left-code .remark-code,
+.left-code .remark-inline-code,
+.right-code .remark-code,
+.right-code .remark-inline-code {
+  font-size: 0.5em;
+}
+
+.small-code .remark-code,
+.small-code .remark-inline-code {
+  font-size: 0.5em;
+}
 &lt;/style&gt;
 
 &lt;style type="text/css"&gt;
@@ -416,30 +467,32 @@ GSU fonts
 Author: Josh Allen
 Updated: 05/24/2021
 
-I am just borrowing fonts used in the https://www.andrewheiss.com/blog/ 
+
 */
 
 /* Add maven for code font (keep other xaringan defaults */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&amp;display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&amp;display=swap');
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nobile:ital@1&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&amp;display=swap')
 
-body { font-family:'Roboto', 'Barlow Semi Condensed', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif; }
 
-h1, h2, h3 {
-  font-family: 'Archivo Narrow';
+body { font-family:'Libre Franklin' serif; }
+
+h1 {
+  font-family: 'Cabin';
   font-weight: normal;
 }
 
-/*
+
 h2, h3 {
-  font-family: 'Roboto Condensed';
+  font-family: 'Nobilie';
   font-weight: normal;
 }
-*/
+
 
 .remark-code, .remark-inline-code { font-family: 'Inconsolata', monospace; }
 .remark-code-line-highlighted     { background-color: #ffff88; }
@@ -713,6 +766,19 @@ You the voter knows that one of the larger parties will likely win but will not 
 
 
 ---
+
+---
+# Hopefully A Useful Heuristic
+
+&lt;img src="figs/unnamed-chunk-4-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+???
+Parties may try and contend around this space. Voters may pref
+
+
+---
+
+
 
 ---
 class: center, middle, inverse
@@ -1019,7 +1085,7 @@ class: center, middle
 ---
 
 
-&lt;img src="figs/unnamed-chunk-7-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="figs/unnamed-chunk-8-1.gif" width="100%" style="display: block; margin: auto;" /&gt;
 
 
 
@@ -1206,6 +1272,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

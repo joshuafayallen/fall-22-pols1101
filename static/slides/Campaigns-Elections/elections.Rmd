@@ -235,7 +235,7 @@ class: center, middle, inverse
 
 - Leading up to the General Election, candidates from either party will face each other in the Presidential Debates
 
-- In the United States, election are based on the .bold[first past] the post or .bold[plurality electoral rules]
+- In the United States, election are based on the .bold[first past the post] or .bold[plurality electoral rules]
 
 - Lastly, the Electoral College casts its vote, usually based upon the popular vote, for President
 
@@ -550,6 +550,42 @@ In a winner take all system people are generally going to vote for the brocolli 
 
 ---
 
+---
+# Hopefully A Useful Heuristic
+
+```{r}
+set.seed(1994)
+n = 100
+parties_data = tibble(left_party = rnorm(n, mean = -3, sd = 2),
+                      right_party = rnorm(n, mean = 3, sd = 2),
+                      far_left = runif(n, min = -15, max = -8),
+                      far_right = runif(n, min = 8, max = 15),
+                      majority_pop = rnorm(n, mean = 0, sd = 4))
+
+ggplot(parties_data) +
+  geom_density(aes(x = left_party), alpha = 0.9 , fill = "#5d6174") +
+  geom_density(aes(x = right_party), alpha = 0.9, fill = "#b64f32") +
+  geom_density(aes(x = far_left), fill = "#262d42", alpha = 0.7) +
+  geom_density(aes(x = far_right), fill = "#591c19", alpha = 0.7 ) +
+  geom_density(aes(x = majority_pop), fill = "#b9b9b8", alpha = 0.6) +
+  annotate(geom = "text",
+           x = c(-11,-4, 0 ,4, 11),
+           y = c(0.25, 0.25, 0.01, 0.25, 0.25),
+           label = c("Far Left Party","Moderate Left Party", "Preferences of Voters", "Moderate Right Party", "Far Right Party"))  +
+  labs(x = "Ideology Scores") +
+  theme_allen_minimal() +
+  theme(axis.title.y=element_blank(),
+           axis.text.y=element_blank(), 
+           axis.ticks.y=element_blank()) 
+
+
+```
+
+???
+Parties may try and contend around this space. In this case since the we have a winner take all as you can see the majority of people in the electorate may be distributed around the ideology scores of the various parties. As you can see 
+
+
+---
 
 
 ---
@@ -656,7 +692,7 @@ Electoral maps can and should be redrawn to reflect the underlying population tr
 
 ```{r cache= TRUE, warning= FALSE, message=FALSE, results='hide'}
 
-pacman::p_load("tmap", "tidycensus", "sf", "scico")
+pacman::p_load("tmap", "tidycensus", "sf", "scico", "leaflet")
 georgia_map_data <- get_decennial(
   geography = "tract",
   state = "GA",
@@ -679,6 +715,10 @@ ggplot() +
   theme(plot.background = element_rect(fill = "#fffce3")) +
   scale_fill_scico(palette = "vikO", direction = 1) +
   facet_wrap(vars(variable)) 
+
+
+
+
 
 
 
