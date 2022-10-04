@@ -19,16 +19,7 @@ output:
 ```{r preamble, child = here::here('preamble.Rmd')}
 ```
 
----
-# Looming Deadlines
 
-.bold[April 10]: Last chance to turn in NCCHR assignment
-
-
-???
-Scholars as a reminder if you have not completed the NCCHR assignment please do so this week! Some of you have also been asking me about grades! If you want there is a posted grade calculator tool on iCollege. You can play around with the grade calculator tool to see what you will need on the next exam. Unfortunately I have not baked in a solve for y bit. Where you plug in your grades and it will solve for what test grade you need to get a C. If you have any concerns about it than plase
-
----
 
 
 ---
@@ -53,9 +44,11 @@ class: middle, center, inverse
 </center>
 
 ???
- In comparative politics the age old debate is between what is known as structure and agency. We generally define agency as stuff that impacts individual level decisions. In unit 2 we focused on individual level factors whether we are talking about information processing, broadly defined identity, etc. However, we also have some stuff about institutions. Institutions whether we are talking about voting and how we the constraints on voting, the media is an institutions. Institutions they are the agreed upon rules of the game that we must all abide by. They limit the available choices for the individual. Institutions establish acceptable forms of dissent and cooperation and are supposed to make breaking of the rules costly and make compliance cheaper. Importantly they are also enduring and reinforce these practices.
+ In comparative politics the age old debate is between what is known as structure and agency. We generally define agency as stuff that impacts individual level decisions. In unit 2 we focused on individual level factors whether we are talking about information processing, broadly defined identity, etc. However, we also have some stuff about institutions. Institutions whether we are talking about voting and how we the constraints on voting, the media is an institutions.
  
- Parties are just small institutions or in the parlance of CP are endogenous institutions. Political institutions influence  policy, but they are themselves endogenous since they are chosen, in some way, by members of the polity. They make and reinforce the acceptable practice of politics, they structure preferences, and punish members when they stray outside the norms and practices of the party institutions. 
+ Institutions they are the agreed upon rules of the game that we must all abide by. They limit the available choices for the individual. Institutions establish acceptable forms of dissent and cooperation and are supposed to make breaking of the rules costly and make compliance cheaper. Importantly they are also enduring and reinforce these practices.
+ 
+ Parties are just small institutions or in the parlance of CP are endogenous institutions. Political institutions influence  policy, but they are themselves endogenous since they are chosen, in some way, by members of the polity. They make and reinforce the acceptable practice of politics, they structure preferences, and punish members when they stray outside the norms and practices of the party institutions. This is sort of a more institutions as equilibria approach 
  
 Side note once you start a political science or Economics grad degree you basically lose all ability to spell it right on the first try
 
