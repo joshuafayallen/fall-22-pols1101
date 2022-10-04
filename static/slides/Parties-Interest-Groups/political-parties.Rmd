@@ -696,7 +696,7 @@ vembedr::embed_url("https://youtu.be/MepXBJjsNxs")
 ---
 
 ---
-# Top Donors
+
 
 ```{r }
 spender_raw = read_csv("data/pac-all.csv") %>% janitor::clean_names() 
