@@ -4,7 +4,7 @@ pacman::p_load("tidyverse", "rvest")
 root <- "https://www.opensecrets.org/federal-lobbying/top-spenders?cycle="
 
 # second part of url (election years as a sequence)
-year <- seq(from = 1998, to = 2020, by = 2)
+year <- seq(from = 1998, to = 2022, by = 2)
 
 # construct urls by pasting first and second parts together
 urls <- paste0(root, year)
@@ -54,4 +54,4 @@ pac_all <- map_dfr(urls, scrape_pac)
 
 # write data -------------------------------------------------------------------
 
-write_csv(pac_all, path = here::here("Parties-Interest-Groups","data", "pac-all.csv"))
+write_csv(pac_all, file = here::here("Parties-Interest-Groups","data", "pac-all.csv"))
