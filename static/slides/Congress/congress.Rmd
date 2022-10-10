@@ -32,7 +32,7 @@ class: center, middle, inverse
 
 
 ---
-## Where We Have Been 
+# Where We Have Been 
 
 
 ```{r}
@@ -65,7 +65,7 @@ Additionally, Section 8 enumerates the powers of Congress and contains the “Ne
 ---
 
 ---
-## House of Reps vs. Senate 
+# House of Reps vs. Senate 
 
 ```{r}
 bicameral = tibble::tribble(~"Basics", ~"House", ~"Senate",
@@ -100,7 +100,7 @@ Advice and Consent – this is a special “power” of the Senate in which they
 ---
 
 ---
-## Differences Between the the First Congress and the 117th Congress
+# Differences Between the the First Congress and the 117th Congress
 
 - Position and Workload
 
@@ -134,7 +134,7 @@ Upon ACA’s passage a Senate staffer decided to bring home a completed copy in 
 
 
 ---
-## Where Do We Get 435?
+# Where Do We Get 435?
 
 - First House had 65 members: 13 states
   - 1790 Census: expanded to 105 members
@@ -160,7 +160,7 @@ This act has a large impact on how “well” the people are represented in Cong
 ---
 
 ---
-## What Would it Look Like Today?
+# What Would it Look Like Today?
 
 ```{r}
 knitr::include_url("https://projects.fivethirtyeight.com/435-representatives/")
@@ -170,7 +170,7 @@ knitr::include_url("https://projects.fivethirtyeight.com/435-representatives/")
 ---
 
 ---
-## Redistricting 
+# Redistricting 
 
 .pull-left[
 
@@ -212,7 +212,7 @@ vembedr::embed_url("https://www.youtube.com/watch?v=A-4dIImaodQ")
 ---
 
 ---
-##  How Do We Know This is a Problem?
+#  How Do We Know This is a Problem?
 
 - Efficiency gap – a measure created by political scientists to show which political party is benefiting most from a gerrymandered district
   - $\text{Efficiency Gap} =\frac{\text{Wasted Vote Party A} - \text{Wasted Vote Party B}}{\text{Total Votes}}$
@@ -244,7 +244,7 @@ Partisan vote share is the newest one where it looks at the difference between v
 
 
 ---
-## Is it Gerrymandering all The Way Down?
+# Is it Gerrymandering all The Way Down?
 
 
 - Ehh no
@@ -283,7 +283,7 @@ As you can see the racial diversity of congress is some what on the lacking side
 
 
 ---
-## Gender
+# Gender
 
 
 ```{r}
@@ -375,7 +375,7 @@ Politico: elected representatives will act as either a trustee or delegate depen
 
 
 ---
-## Do People Like Congress?
+# Do People Like Congress?
 
 ```{r}
 knitr::include_graphics("approval.png")
@@ -387,10 +387,10 @@ Congress is almost comically hated in fact Public policy polling was curious abo
 ---
 
 ---
-## "What do you have a higher opinion of?"
+# "What do you have a higher opinion of?"
 
 .pull-left[
-### Things Congress Lost to
+#### Things Congress Lost to
 
 - Lice 67% vs. Congress 19%
 - Colonoscopies 58% vs. Congress 31%
@@ -427,7 +427,7 @@ Congress is almost comically hated in fact Public policy polling was curious abo
 
 
 ---
-## Does this translate to re-election?
+# Does this translate to re-election?
 
 .pull-left[
 ### House of Reps
@@ -465,7 +465,7 @@ Despite almost universal hatred by the the general public congress has a pretty 
 ---
 
 ---
-## Incumbency Advantage 
+# Incumbency Advantage 
 
 - Incumbency Effect
   - “Throw the rascals out! …but not my representative”
@@ -481,7 +481,7 @@ The tendency for incumbents to win reelection despite Congress having relatively
 
 
 ---
-## Dimensions of the Advantage 
+# Dimensions of the Advantage 
 
 - Incumbency Advantage
   - Name Recognition    
