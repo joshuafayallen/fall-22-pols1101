@@ -160,7 +160,7 @@ This act has a large impact on how “well” the people are represented in Cong
 ---
 
 ---
-## What Would it look like today 
+## What Would it Look Like Today?
 
 ```{r}
 knitr::include_url("https://projects.fivethirtyeight.com/435-representatives/")
@@ -327,17 +327,18 @@ Finally, changes to campaign finance rules in recent years have made it easier t
 
 
 ---
-## Two Models of Representation
+# Models of Representation
 
 .bold[Descriptive Representation] – member of Congress that shares the characteristics of constituents
 
-.bold[Substantive Representation] – member of Congress that represents constituents interests on policy concerns
 
 .bold[Delegate ] a member of congress that loyally represents constituents direct interests. 
 
 
 .bold[Trustee] a member of congress that represents constituents interests while also taking into the bigger picture of national political concerns.
 
+
+.bold[Politico]: elected representatives will act as either a trustee or delegate depending on rational political calculations about who is best served: their constituency or the nation.
 
 ???
 The relative lack of diversity in Congress is important because it has a profound impact on how elected officials represent their constituencies. One of the more obvious ways that representatives can represent their constituencies is descriptively.
@@ -363,46 +364,14 @@ Second, a representative may choose to act more as a trustee. These members see 
 Trustee – (key term) – a member of congress that represents constituents interests while also taking into the bigger picture of national political concerns.
 
 
+Politico: elected representatives will act as either a trustee or delegate depending on rational political calculations about who is best served: their constituency or the natio
+
+
 ---
 
 
 
----
-## What Does it Mean to be "Represented"
 
-Three models on the National level:
-
-.bold[Burkean Model (Edmund Burke)] – Legislators work for what they know is best for their districts and the nation
-  - Trustee
-
-.bold[Instructed Delegate Model] – Legislators will follow the will, or the voice, of the people in their districts exactly
-  - Delegate
-
-.bold[Responsible Party Model] – National party leadership with compromise between the two parties for the best outcome for the people 
-
-
-???
-
-These representation styles generally conform to one of three theoretical models of representation used by political scientists
-
-First, the Burkean Model, named for Edmund Burke, states that legislators work for what they know is best for their districts and the nation. This may sometimes align with the will of their constituents, but may at other times be in conflict with those interests. This model is most inline with the Trustee representation type from the previous slide.
-
-
-Trustee – (key term) – a member of congress that represents constituents interests while also taking into the bigger picture of national political concerns.
-
-
-Second, the Instructed Delegate Model, contends that representatives will follow the will of their constituents at all times, exactly as they prefer, without concern for what the representative believes is best or what is in the best interest of the nation as a whole.
-
-Delegate – (key term) – a member of congress that loyally represents constituents direct interests. 
-
-However, I’m sure we can all think of problems with both of these models of representation. While we certainly want representatives that will represent our preferences and advocate for policies that we would personally prefer in Congress, doing so without regard for what the nation as a whole wants or needs is not ideal. After all, we all have to live with federal policies even if our representatives didn’t vote for them. Because of these concerns, there is a third model of representation that an elected official may strive to uphold.
-
-The Responsible Party Model, contends that national party leadership should seek to compromise on their ideals in order to provide the best policy solutions for the nation. The idea here is that leadership can debate and work to craft policy that provides some advantages to each ideological position, while balancing the needs and preferences of everyone. Once this policy is crafted, these leaders can communicate the “wins” that their party has secured, guaranteeing support among their party members, and providing the best solutions to the nation.
-
-
-This is where we are going to end today. On Thursday, we will spend a little more time taking about what the American people think of Congress and the electoral impact of those attitudes. We will then spend a significant amount of time talking about the powers of Congress, how the legislative process functions, and the role party leadership in this process.
-
----
 
 
 ---
