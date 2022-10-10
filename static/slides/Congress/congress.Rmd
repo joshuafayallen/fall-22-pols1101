@@ -332,13 +332,13 @@ Finally, changes to campaign finance rules in recent years have made it easier t
 .bold[Descriptive Representation] – member of Congress that shares the characteristics of constituents
 
 
-.bold[Delegate ] a member of congress that loyally represents constituents direct interests. 
+.bold[Delegative Representation ] a member of congress that loyally represents constituents direct interests. 
 
 
-.bold[Trustee] a member of congress that represents constituents interests while also taking into the bigger picture of national political concerns.
+.bold[Trustee Representation] a member of congress that represents constituents interests while also taking into the bigger picture of national political concerns.
 
 
-.bold[Politico]: elected representatives will act as either a trustee or delegate depending on rational political calculations about who is best served: their constituency or the nation.
+.bold[Politico Representation]: elected representatives will act as either a trustee or delegate depending on rational political calculations about who is best served: their constituency or the nation.
 
 ???
 The relative lack of diversity in Congress is important because it has a profound impact on how elected officials represent their constituencies. One of the more obvious ways that representatives can represent their constituencies is descriptively.
