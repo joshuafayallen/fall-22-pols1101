@@ -217,17 +217,10 @@ Congress’s oversight abilities apply to the Bureaucracy, and refers to their e
 
 
 These investigations can be pretty sprawling and lead to pretty significant findings or are tucked away in reports. You can go to the page and read the reports. There are a ton of them. 
-<<<<<<< HEAD
 
 y the early years of the 1970s, a series of troubling revelations had appeared in the press concerning intelligence activities. First came the revelations by Army intelligence officer Christopher Pyle in January 1970 of the US Army's spying on the civilian population  and Senator Sam Ervin's Senate investigations produced more revelations. Then on December 22, 1974, The New York Times published a lengthy article by Seymour Hersh detailing operations engaged in by the CIA over the years that had been dubbed the "family jewels". Covert action programs involving assassination attempts on foreign leaders and covert attempts to subvert foreign governments were reported for the first time. In addition, the article discussed efforts by intelligence agencies to collect information on the political activities of US citizens
 
 
-=======
-
-y the early years of the 1970s, a series of troubling revelations had appeared in the press concerning intelligence activities. First came the revelations by Army intelligence officer Christopher Pyle in January 1970 of the US Army's spying on the civilian population  and Senator Sam Ervin's Senate investigations produced more revelations. Then on December 22, 1974, The New York Times published a lengthy article by Seymour Hersh detailing operations engaged in by the CIA over the years that had been dubbed the "family jewels". Covert action programs involving assassination attempts on foreign leaders and covert attempts to subvert foreign governments were reported for the first time. In addition, the article discussed efforts by intelligence agencies to collect information on the political activities of US citizens
-
-
->>>>>>> master
 The revealations about COINTELPRO were from a series of Senate select oversight committee hearings most commmonly refered to as the church committee 
 
  a series of covert and illegal projects actively conducted by the United States Federal Bureau of Investigation (FBI) aimed at surveilling, infiltrating, discrediting, and disrupting domestic American political organizations. FBI records show COINTELPRO resources targets groups and individuals the FBI deems subversive, including feminist organizations, the Communist Party USA, anti–Vietnam War organizers, activists of the civil rights movement and Black Power movement (e.g. Martin Luther King Jr., the Nation of Islam, and the Black Panther Party), environmentalist and animal rights organizations, the American Indian Movement (AIM), independence movements (including Puerto Rican independence groups such as the Young Lords and the Puerto Rican Socialist Party), a variety of organizations that were part of the broader New Left, and far-right groups such as the Ku Klux Klan and the National States' Rights Party
