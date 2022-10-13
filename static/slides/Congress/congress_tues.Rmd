@@ -20,12 +20,7 @@ output:
 ```{r preamble, child = here::here('preamble.Rmd')}
 ```
 
----
-# Looming Deadlines
 
-.bold[Misinfo Activity] Due Sunday
-
----
 
 
 
@@ -341,7 +336,7 @@ representatives
 
 
 ---
-# Congressional Ideology 
+layout: false
 
 
 ```{r}
@@ -379,11 +374,18 @@ ggplot(house_ideo,aes(x=nominate_dim1,y=as.factor(congress),fill=party)) +
   scale_fill_manual(values=c("Democratic"="blue","Republican"="red")) +
   labs(title="Polarization Between House Members, 1960-2017",
        x="Ideology (DW-NOMINATE)",
-       y="Congress") +
+       y="Congress",
+       fill = "Party") +
   theme_allen_minimal()
 ```
 
+???
+The first dimension in this measure looks at the distance between parties. 
+These are Dw-Nominate scores which looks at role call votes. 
 
+This procedure was developed by Poole and Rosenthal in the 1980s and is a "scaling procedure", representing legislators on a spatial map. In this sense, a spatial map is much like a road map--the closeness of two legislators on the map shows how similar their voting records are. Using this measure of distance, DW-NOMINATE is able to recover the "dimensions" that inform congressional voting behavior. 
+
+As you can see over the years the ideological distance between the two parties is pretty stark 
 
 
 ---
