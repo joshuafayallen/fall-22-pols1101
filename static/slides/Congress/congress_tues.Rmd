@@ -20,12 +20,7 @@ output:
 ```{r preamble, child = here::here('preamble.Rmd')}
 ```
 
----
-# Looming Deadlines
 
-.bold[Misinfo Activity] Due Sunday
-
----
 
 
 
@@ -162,6 +157,9 @@ Some of the offenses for which impeachment charges have been brought include: ab
 
 - .vero-brown[War Powers Resolution of 1973]
   - Federal law intended to check the president’s power to commit - the United States to an armed conflict without the consent of - Congress
+  
+- .hiro-orange[Authorization For The Use of Military Force (2001)]: authorizing the use of the United States Armed Forces against those responsible for the September 11 attacks.
+  - The authorization granted the President the authority to use all "necessary and appropriate force" against those whom he determined "planned, authorized, committed or aided" the September 11 attacks, or who harbored said persons or groups
 
 
 ???
@@ -171,6 +169,10 @@ Despite it’s rare usage, Congress has passed a number of bills related to it�
 The first was the War Powers Act of 1941. This act dramatically increased federal power during World War II, authorizing Franklin Roosevelt to reorganize the Executive branch and the Bureaucracy to streamline the war effort. A subsequent act passed in 1942 which allowed the federal government to acquire any land within the United States for the war effort, among other things.
 
 Following the Executive branches continued willingness to engage in military conflicts without a declaration of war, Congress passed the War Powers Resolution of 1973. This act requires the president to notify Congress within 48 hours of committing armed forces to military action, and requires the president to seek continued approval for troop deployments within the first 60 days.
+
+The authorization of the use of military force was passed shortly after 9/11. The AUMF has been used a lot in the past two decades for lots of reasons.
+
+According to a report by the Congressional Research Service, published May 11, 2016, at that time the 2001 AUMF had been cited 37 times in connection with actions in 14 countries and on the high seas. The report stated that "Of the 37 occurrences, 18 were made during the Bush Administration, and 19 have been made during the Obama Administration." The countries that were mentioned in the report included Afghanistan, Cuba (Guantanamo Bay), Djibouti, Eritrea, Ethiopia, Georgia, Iraq, Kenya, Libya, the Philippines, Somalia, Syria and Yemen
 
 
 ---
@@ -205,6 +207,8 @@ gt::gt(df) %>%
 
 - Oversight – over Bureaucracy
   - Efforts by Congress to make sure that laws are implemented correctly by the bureaucracy after they have been passed
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xx4x2L0TKGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ???
@@ -212,7 +216,14 @@ Congress’s oversight abilities apply to the Bureaucracy, and refers to their e
 
 
 
+These investigations can be pretty sprawling and lead to pretty significant findings or are tucked away in reports. You can go to the page and read the reports. There are a ton of them. 
 
+y the early years of the 1970s, a series of troubling revelations had appeared in the press concerning intelligence activities. First came the revelations by Army intelligence officer Christopher Pyle in January 1970 of the US Army's spying on the civilian population  and Senator Sam Ervin's Senate investigations produced more revelations. Then on December 22, 1974, The New York Times published a lengthy article by Seymour Hersh detailing operations engaged in by the CIA over the years that had been dubbed the "family jewels". Covert action programs involving assassination attempts on foreign leaders and covert attempts to subvert foreign governments were reported for the first time. In addition, the article discussed efforts by intelligence agencies to collect information on the political activities of US citizens
+
+
+The revealations about COINTELPRO were from a series of Senate select oversight committee hearings most commmonly refered to as the church committee 
+
+ a series of covert and illegal projects actively conducted by the United States Federal Bureau of Investigation (FBI) aimed at surveilling, infiltrating, discrediting, and disrupting domestic American political organizations. FBI records show COINTELPRO resources targets groups and individuals the FBI deems subversive, including feminist organizations, the Communist Party USA, anti–Vietnam War organizers, activists of the civil rights movement and Black Power movement (e.g. Martin Luther King Jr., the Nation of Islam, and the Black Panther Party), environmentalist and animal rights organizations, the American Indian Movement (AIM), independence movements (including Puerto Rican independence groups such as the Young Lords and the Puerto Rican Socialist Party), a variety of organizations that were part of the broader New Left, and far-right groups such as the Ku Klux Klan and the National States' Rights Party
 ---
 
 
@@ -267,6 +278,8 @@ Next, the Majority and Minority Leaders assist leadership by guiding, articulati
 
 Finally, the Majority and Minority Whips further help leadership in the passage or opposition to proposed pieces of legislation. Their job is literally to “whip” their members into line, and to leverage future pieces of legislation, specific amendments, committee assignments, and future electoral support to encourage their members to vote for/against pieces of legislation. The Majority Whip is currently James Clyburn and the Minority Whip is Steve Scalise.
 
+
+here is, however, a highly structured committee system in both houses of Congress, and a whip may be able to offer promotion or threaten demotion within that system instead. In the House of Representatives, the influence of a single member individually is relatively small and therefore depends a great deal on the representative's seniority (i.e., in most cases, on the length of time they have held office). 
 
 
 ---
@@ -326,6 +339,62 @@ representatives
 
 ```
 
+
+
+---
+
+
+---
+layout: false
+
+
+```{r}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# read in the data
+house_ideo <- read_csv("https://voteview.com/static/data/out/members/Hall_members.csv")
+
+# filter the data just for Democrats (100) and Republicans (200), and recode
+# also, only keep for congresses after 1960 (the 89th)
+house_ideo <- house_ideo %>%
+  filter(party_code %in% c(100,200),congress>89) %>%
+  mutate(party = case_when(party_code == 100 ~ "Democratic",
+                           party_code == 200 ~ "Republican"))
+
+# compute median ideology for each year
+ideo <- house_ideo %>%
+  group_by(congress,party) %>%
+  summarise(ideo = median(nominate_dim1,na.rm=T))
+
+# create a measure of distance between the median member
+distance <- ideo %>%
+  spread(party, ideo) %>%
+  mutate(distance = abs(Democratic - Republican))
+
+# make a table
+
+
+library(ggridges)
+
+ggplot(house_ideo,aes(x=nominate_dim1,y=as.factor(congress),fill=party)) +
+  ggridges::geom_density_ridges2(rel_min_height = 0.05,col=NA,scale=4,alpha=0.5) +
+  scale_fill_manual(values=c("Democratic"="blue","Republican"="red")) +
+  labs(title="Polarization Between House Members, 1960-2017",
+       x="Ideology (DW-NOMINATE)",
+       y="Congress",
+       fill = "Party") +
+  theme_allen_minimal()
+```
+
+???
+The first dimension in this measure looks at the distance between parties. 
+These are Dw-Nominate scores which looks at role call votes. 
+
+This procedure was developed by Poole and Rosenthal in the 1980s and is a "scaling procedure", representing legislators on a spatial map. In this sense, a spatial map is much like a road map--the closeness of two legislators on the map shows how similar their voting records are. Using this measure of distance, DW-NOMINATE is able to recover the "dimensions" that inform congressional voting behavior. 
+
+As you can see over the years the ideological distance between the two parties is pretty stark 
 
 
 ---
