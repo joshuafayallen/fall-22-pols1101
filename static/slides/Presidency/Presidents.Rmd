@@ -153,9 +153,32 @@ class: center, middle
 
 ???
 
-Head of state: they are the symbolic representation of the United states. They do cute little things like welcoming diplomats or greeting the championship winning teams. 
+
 
 ---
+
+---
+# Roles of The President 
+
+- Head of State
+- Chief Executive
+- Commander In-Chief
+- Crisis Manager
+- Chief Diplomat
+- Chief Legislator
+- Party Leader
+
+
+???
+Head of state: they are the symbolic representation of the United states. They do cute little things like welcoming diplomats or greeting the championship winning teams. 
+
+Chief Executive: The President is also chief executive, vested by the Constitution with broad executive powers. This power is used at home on domestic issues and also extends to foreign affairs. The executive power is limited, however, by our government’s system of checks and balances.
+
+
+Chief Legislator	As chief legislator, the President shapes public policy. The President may suggest, request, and insist that Congress enact laws he believes are needed. Sometimes, Congress does not agree with the President and decides against legislation. Working with Congress takes up a major part of the President’s time. It is more in the sense that they sort of steward things 
+
+---
+
 
 
 ---
