@@ -13,5 +13,5 @@ links:
   url: "slides/Presidency/Presidents.html"
 show_post_time: false
 subtitle: Presidency
-title: Chapter 13
+title: Chapter 12
 ---
