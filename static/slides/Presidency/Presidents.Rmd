@@ -113,6 +113,38 @@ Legislative - Executive orders are a regulation issued by the president that has
 The Roosevelt Presidents issued the most number of presidential pardons during their presidencies ( FDR – 3500 and Teddy – 1281). Coolidge and Wilson follow in close third and fourth with over 1000 each. 
 
 Executive Orders – are orders signed into effect by presidents in order to ensure that the government and all of its agencies can essentially function. They have the full force of law
+---
+
+---
+# How Elected 
+
+ $$\text{Electoral College Votes} = \text{House Reps} + \text{Senators}$$
+- Absolute majority to win
+  - presently 270 to win 
+  
+- What are some of the problems?
+
+
+???
+Small states have relatively more political power. Just take the total population and divide 
+
+The contingency plan really really sucks. Remember each delegation gets one vote 
+
+
+The whole issue of being a democracy 
+
+
+---
+
+---
+
+```{r}
+knitr::include_url("https://usafacts.org/visualizations/electoral-college-states-representation/")
+```
+
+
+---
+
 
 ---
 class: center, middle 
@@ -122,6 +154,9 @@ class: center, middle
 ???
 
 Head of state: they are the symbolic representation of the United states. They do cute little things like welcoming diplomats or greeting the championship winning teams. 
+
+---
+
 
 ---
 ## Rise of Presidential Power
