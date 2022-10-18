@@ -13,5 +13,5 @@ links:
   url: "slides/Parties-Interest-Groups/political-parties.html"
 show_post_time: false
 subtitle: Political Parties
-title: Chapter 11
+title: Chapter 10
 ---
