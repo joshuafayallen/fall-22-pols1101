@@ -219,6 +219,9 @@ Discretionary – (key term) – the power of the Supreme Court to pick and choo
 
 ---
 
+
+
+
 ---
 ## Federal Court Structure
 
@@ -308,8 +311,8 @@ in Atlanta, hears appeals from the district courts located in Alabama, Florida, 
 layout:false
 
 
-```{r out.width= "60%", fig.cap="Front row, left to right: Associate Justice Samuel A. Alito, Jr., Associate Justice Clarence Thomas, Chief Justice John G. Roberts, Jr., Associate Justice Stephen G. Breyer, and Associate Justice Sonia Sotomayor. Back row, left to right: Associate Justice Brett M. Kavanaugh, Associate Justice Elena Kagan, Associate Justice Neil M. Gorsuch, and Associate Justice Amy Coney Barrett. not pictured: Associate Justice Ketanji Brown Jackson"}
-knitr::include_graphics("juitices-group.jpg")
+```{r out.width= "60%", fig.cap="Front row, left to right: Associate Sonya Sotomayor, Jr., Associate Justice Clarence Thomas, Chief Justice John G. Roberts, Jr., Associate Justice Samuel Alito, and Associate Justice Elena Kagan. Back row, left to right: Associate Justice Amy Coney Barrett, Associate Justice Neil Gorsuch, Associate Justice Brett Kavanaugh, and Associate Justice Ketanji Brown Jackson"}
+knitr::include_graphics("justices-group.png")
 ```
 
 ???
@@ -538,6 +541,9 @@ Judicial Restraint – (key term) – a judicial philosophy who adheres to the t
 
 Judicial Activism – (key term) – the opposing belief of judicial philosophy that posits that the Court and justices need to look beyond the words of the Constitution in interpreting the meaning of the law. 
 
+
+The constitution in lots of places is full of textual ambiguity a lack of shared understanding of what the hell original intent is and close to no case precedence close to the ratification of the constitution. For close to the first 150 years of the nation there was close to no stance on what The First Amendment provides that Congress make no law respecting an establishment of religion or prohibiting its free exercise. The court has ruled as recently as june what we mean by estalishing and free excercise. More on this in unit 3
+
 One way that political scientists and many Con law professors with the exception of ours differ is how we view judges and judicial decision making. The common myth of the supreme court justice and judges in general is that they are these apolitical beings that just call balls and strikes. They look at the case facts and the precedent, intent of the framers, and the then rule based on these things
 
 
@@ -555,9 +561,7 @@ They have a life tenure and are honestly generally unconstrained actors.
 
 ---
 ## Weaknesses of The Court
-- Internal Limits
 - Precedent
-- Cannot simply become “reactionary”
 - External Limits
   - Congress can
   - Cut their budgets
@@ -567,6 +571,9 @@ They have a life tenure and are honestly generally unconstrained actors.
   - Worcester v. Georgia (1832): finding that Georgia law to seize Cherokee land violated federal treaties.
 “John Marshall has made his decision, now let him enforce it” –President Jackson
 
+???
+
+Generally, a state supreme court, like most appellate tribunals, is exclusively for hearing appeals of legal issues. Although state supreme court rulings on matters of state law are final, rulings on matters of federal law can be appealed to the Supreme Court of the United States. One important and intersting thing is that they will have to interpret what the Supreme court means in its decisions and how they relate to the state constitution. In many cases they have variation hwo they treat case precedence from SCOTUS this ranges from just citing it or a superficial engagement with the precedent while achieving policy goals. The vaguer the standard the more leeway that state high courts have when trying to apply tnem 
 
 ---
 
