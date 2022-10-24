@@ -1,5 +1,5 @@
 ---
-title: "Exam 3 Review"
+title: "Exam 2 Review"
 author: "Josh Allen"
 date: '`r Sys.Date()`'
 output:
@@ -19,205 +19,158 @@ output:
 ```{r preamble, child = here::here('preamble.Rmd')}
 ```
 
-```{r xaringan-extras}
+
+---
+class: middle,center,inverse 
+
+# Political Participation
+
+---
 
 
-xaringanExtra::use_search()
+---
+## What does this tell us about voting?
 
-```
+
+$$
+\begin{align}
+R = P \times B - C(B	> C)
+\end{align}
+$$
+???
+What does this tell us about the benefit of voting?
+
+I am looking for what each letter represents 
+
+R- The reward you get from voting
+P- The probability that your vote matters
+B- The benefit you will directly receive if your candidate wins
+C- The cost of voting
+
+This is the basic formula some people like me would prefer to wrap P x B in parenthesis to ensure precendce but it works either way
+
+basically the costs will never outweight the benefits. So the rational thing should be to never vote 
+
+remember this comes from a theory called rational choice theory. Which states that all actors have goals. All actors are rational so they maximize their utility and if you don't maximize your utility than that is irrational.
+
+---
+
+
+---
+## What Does This Tell us About Voting?
+
+
+$$
+\begin{align}
+R = P \times B - C + D 
+\end{align}
+$$
+
+???
+D is equal to the amount of duty felt by an individual
+
+This  simply states that voting is rational because D will make the benefit out weigh the costs 
 
 
 
 
 
 ---
-class: center, middle, inverse 
-
-## Civil Rights 
-
 
 ---
-
----
-## Definition
-
-
+layout: false 
+class: center, middle
 .pull-left[
 
-```{r out.width="80%"}
-knitr::include_graphics("images/civil_rights_gate.jpg")
-```
-
+$$
+\begin{align}
+\text{R} = \text{B}\times \text{P} - \text{C}
+\end{align}
+$$
 
 ]
+
+--
 
 
 .pull-right[
 
-.bold[Definition]
-
-
-]
-
-???
-the rights that protect individuals from discrimination by other individuals and government. 
-
-These protections are applied to the federal government, and are applicable to the states through incorporation under the 14th amendment Equal Protection clause. 
-
-“Nor deny to any person within its jurisdiction the equal protection of the laws”
-
----
-
-
----
-## Types of Discrimination 
-
-
-.pull-left[
-
-### Public Discrimination 
-
-.bold[Definition]
-
-
-]
-
-.pull-right[
-
-### Private Discrimination
-
-.bold[Definition]
-
-
-
-
-
-]
-
-???
-
-Public Discrimination
-
- Discrimination by national, state, or local governments
-
-Prevented by the equal protections clause of the $14^{th}$ Amendment
-
-
-
-Private Discrimination 
-
-
-Discrimination by private individuals, social groups, or businesses. 
-
-The 14th Amendment cannot  directly protect individuals from private discrimination 
-
-The Court has used its authority to broadly protect individuals  from this type of discrimination 
-
----
-
----
-## Suspect Class
-
-
-.pull-left[
-
-
-
-.bold[defintion]
-
-
-
-]
-
--- 
-
-.pull-right[
-
-.bold[criteria]
-
-
-]
-
-???
-
-Definition 
-
-Any classification of groups meeting a series of criteria suggesting that they are likely the subject of discrimination. These groups generally have strict  or intermediate (if considered quasi-suspect) scrutiny applied to them
-
-
-
-The group has a history of being discriminated against or has been subject to prejudice, stigma, or genuine hostility 
-
-They are powerless to protect themselves via the political process. 
-
-They possess a highly visible and immutable trait, that does not inhibit them from contributing meaningfully to society 
-
-Protected Classes Race, religion, national origin, and alienage.
-
----
-
----
-```{r}
-df = tibble::tribble(~Test, ~Application, ~`Suspect Status`, ~`Standard Used`,
-                     "Strict Scrutiny", "Race, Ethnicity, Religion, and Citizenship", "Suspect Class", "", "Intermediate Scrutiny", "Gender or Sexual Orientation", "Quasi-Suspect Class", "", "Rational Bias", "Age, Disability, Wealth, Political Preference, and Criminal Background", "Not suspect category", "")
-
-gt(df) %>% 
-  tab_header(title = "How Do Judges Make Decisions") %>% 
-  opt_align_table_header(align = "center") %>% 
-  gtExtras::gt_theme_guardian()
-
+```{r echo = FALSE}
+options(scipen = 999)
 ```
 
-???
-strict scrutiny: Law is assumed unconstitutional in the absence of an overwhelming justification
 
-intermediate scrutiny: Law is assumed  unconstitutional unless the law serves a clearly compelling and justified purpose
+```{r echo = TRUE}
+1/100000000 * 0.0001 -  0.0001
+```
 
-rational bias: Law assumed constitutional unless no sound rationale for the law can be provided
-
----
-
----
-## What are the differences?
-
-- _De Jure_
-
-- _De Facto_
+]
 
 ???
-De Jure - Equal protection under the laws
+In this case I just ended up wrapping 
 
-De Facto - Equal access to opportunity & societal benefits
+We can kind of Think of it like this basically if C is any positive number the reward will always be negative 
+
+I just choose some arbitrary small value and did it but you can just use basic math and see that no matter what the reward will be negative. 
 ---
 
-
 ---
-## Civil Rights
+layout: false 
+class: center, middle
 
-- .bold[Plessy v. Ferguson]
+.pull-left[
 
-- .bold[Brown v. Board of Education of Topeka KS]
+$$ 
+\begin{align}
+\text{R} = \text{B} * \text{P} - \text{C} + \text{D}
+\end{align}
+$$
 
-- .bold[Civil Rights Act of 1964]
+]
 
-- .bold[Voting Rights Act 1965]:
+.pull-right[
+
+
+```{r echo = TRUE}
+1/100000000 * 0.0001 -  0.0001 +  0.0001
+```
+
+
+
+]
 
 
 ???
-Unfortunately, the Court found that his rights had not been violated by the Louisiana law since the accommodations were equal in quality ( this was not true for other accommodations that the court did not analyze).  Thus segregation law could stand and the doctrine of separate but equal became entirely legal in the United States 
 
+Whereas if we look at the model with the D term you are just adding a small positive value which will make the reward positive 
 
-he court accepted the case and in an unanimous decision they found that racial segregation was unconstitutional under the protections of the 14th amendment’s equal protection clause.  
-
-“We conclude that in the field of public education the doctrine of “separate but equal” has no place. Separate educational facilities are inherently unequal.” 
-
-civil rights act: A federal law that prohibits discrimination based on race, color, national origin, and religion in areas like education, employment, and (privately owned) "public accommodations" such as restaurants, theatres, and hotels
-
-
-voting rights act: outlawed any state or local barriers that prevented blacks from being able to exercise their right to vote.  Also , it created the “Coverage Formula”
+---
 
 
 ---
+## Voting
+
+Pocketbook:
+
+
+Sociotropic:
+
+
+???
+Sociotropic: how well the overall economy is doing
+
+
+pocketbook voting: how well you are doing 
+
+
+people tend to be sociotropic voters 
+
+---
+
+
+
+
+
 
 ---
 class: center, middle, inverse
@@ -238,11 +191,12 @@ class: center, middle, inverse
 .bold[Interest Groups]
 
 
-.bold[Duverger's Law]
+.bold[Party in The Electorate]
 
 
 .bold[Party Platform]
 
+.bold[Single-member district/First Past the Post]
 
 
 ???
@@ -251,12 +205,43 @@ political parties: An organization that seeks to influence government by getting
 
 interest groups: An association of individuals or organizations that seeks to influence government to benefit members of the association or advance a cause they share a belief in.
 
-Duverger's law The observed tendency for single-member district / winner-take-all elections to favor two-party systems and for proportional representation (PR) elections to favor multiparty systems.
+Electoral system in which candidates compete for votes within a district and the candidate who gets the most votes represents the entire district.
 
 
 party platform A document expressing a political party’s principles, goals, and policy positions on domestic and foreign affairs.
 
 ---
+
+---
+# Duverger's Law 
+
+```{r}
+set.seed(1994)
+n = 100
+parties_data = tibble(left_party = rnorm(n, mean = -3, sd = 2),
+                      right_party = rnorm(n, mean = 3, sd = 2),
+                      far_left = runif(n, min = -15, max = -8),
+                      far_right = runif(n, min = 8, max = 15),
+                      majority_pop = rnorm(n, mean = 0, sd = 4))
+
+ggplot(parties_data) +
+  geom_density(aes(x = left_party), alpha = 0.9 , fill = "#5d6174") +
+  geom_density(aes(x = right_party), alpha = 0.9, fill = "#b64f32") +
+  geom_density(aes(x = far_left), fill = "#262d42", alpha = 0.7) +
+  geom_density(aes(x = far_right), fill = "#591c19", alpha = 0.7 ) +
+  geom_density(aes(x = majority_pop), fill = "#b9b9b8", alpha = 0.6) + 
+  labs(x = "Ideology Scores") +
+  theme_allen_minimal() +
+  theme(axis.title.y=element_blank(),
+           axis.text.y=element_blank(), 
+           axis.ticks.y=element_blank()) 
+
+
+```
+
+
+---
+
 
 
 ---
@@ -266,6 +251,79 @@ class: center, middle, inverse
 # Congress
 
 ---
+
+---
+# Models of Representation
+
+.bold[Descriptive Representation] 
+
+
+.bold[Delegative Representation ] 
+
+
+.bold[Trustee Representation] 
+
+
+.bold[Politico Representation]: 
+
+???
+The relative lack of diversity in Congress is important because it has a profound impact on how elected officials represent their constituencies. One of the more obvious ways that representatives can represent their constituencies is descriptively.
+Descriptive representation – (key term) – a member of Congress that shares the characteristics of constituents (race, gender, religion, etc.) 
+
+This theory of representation contends that a representative that shares some kind of descriptive characteristic with the majority of their constituency is going to do a better job of representing that community. The idea is that representatives that have shared a similar life experience to their constituency is going to have a better idea of the kinds of problems that their constituents might face and the kinds of policies or changes would best help those communities.
+
+Another theory of representation focuses on the substantive representation a member of Congress can offer their communities.
+
+Substantive (key term) – a member of congress that represents constituents interests on policy concerns. 
+
+This theory contends that it matters less how much a representative looks like their constituency. Rather, it is more important these members pursue policies that will have a positive impact on their constituencies or reflect the will and desires of their constituency
+
+Each of these types of representation has an important impact on how members of Congress behave. Generally, there are two ways that representative can think about the votes that they take while in Congress.
+
+First, a representative may choose to act as a delegate. These members strive to loyally represent the will of their constituents, regardless of how those preferences may impact the rest of the country or whether they personally agree with those preferences or not.
+
+Delegate – (key term) – a member of congress that loyally represents constituents direct interests. 
+
+
+Second, a representative may choose to act more as a trustee. These members see their role as to represent their constituents, while also balancing those interests with what is good for the WHOLE nation. These representatives may sometimes act in contrast with what their constituents would prefer because of national or moral concerns.
+
+Trustee – (key term) – a member of congress that represents constituents interests while also taking into the bigger picture of national political concerns.
+
+
+Politico: elected representatives will act as either a trustee or delegate depending on rational political calculations about who is best served: their constituency or the natio
+
+
+---
+
+---
+# District Stuff
+
+
+-  .bold[Redistricting]: 
+
+- .bold[Apportionment]: 
+  -.bold[Malapportionment]
+
+- .bold[Gerrymandering]: 
+
+
+???
+
+Redistricting: the process of redrawing the geographic boundaries of legislative districts.
+  - This occurs every 10 years with the Census to ensure that populations remain balanced within each district to ensure equal representation. 
+
+
+Apportionment:  the process of adding and subtracting districts to add or subtract number of representatives in the House. 
+
+Malapportionment is the creation of electoral districts with divergent ratios of voters to representatives. For example, if one single-member district has 10,000 voters and another has 100,000 voters, voters in the former district have ten times the influence, per person, over the governing body
+
+Gerrymandering: the process in which district lines are redrawn to benefit specific political parties, protect incumbents, or to change minority proportions for representation
+
+Remember 
+
+---
+
+
 
 ---
 ## Assume the Bill starts in the House of Reps 
@@ -360,6 +418,44 @@ If the Conference Committee’s proposal is approved in both Chambers the bill i
 
 ---
 
+---
+## Committees
+
+ Committee Types:
+ 
+ 
+ 
+- Standing:
+
+- Subcommittees: 
+
+- Select: 
+
+- Joint: 
+
+- Conference: 
+
+???
+The last part of Congress’s structure that we need to spend a bit more time discussing. I’ve talked a lot about committees in the last few minutes, there are important difference between different types of committees.
+
+First, committees are specialized units created in Congress to provide functionality and due process to the creation of legislation. These committees are often broken down even further into subcommittee units in order for more specialization on bill content, and take many different forms. 
+
+A congressional subcommittee in the United States Congress is a subdivision of a United States congressional committee that considers specified matters and reports back to the full committee.
+
+Subcommittees are formed by most committees to share specific tasks within the jurisdiction of the full committee. 
+
+Standing committees–are committees that exist from session to session and have the power to propose and write legislation over a particular subject matter. They generally correlate in subject matter to specific executive branch departments or agencies. 
+
+Select committees– are non-permanent committees that are established the highlight particular issues that arise within legislation that may or may not be under the jurisdiction of other existing committees. 
+
+Joint committees– are committees that are formed with joint membership from the House and the Senate. There are 4 that exist permanently. They are powerful in the investigative sense but do not have the power to present legislation.
+
+Conference committees– temporary committees appointed by Speaker and the presiding Senate leadership. They are formed in an effort to form a consensus on legislation between the House and the Senate.  These committees are crucial during times when the House and Senate majority are of opposing parties. 
+
+---
+
+
+
 
 
 ---
@@ -369,6 +465,87 @@ class: center, middle, inverse
 
 # The Presidency
 
+
+
+---
+
+---
+# Different Types of Bureacratci Organizations 
+
+Cabinet Departments
+
+Independent executive agencies
+
+Independent regulatory commissions
+
+Government Corporations
+
+???
+Cabinent depts The fifteen major bureaucratic departments, each consisting of a vast network of offices and agencies, that are headed by secretaries that are confirmed by the Senate and held directly accountable to the president.
+
+Their boss is literally the president. They are important because they run some pretty big bureacratic agencies. Think like State, Justice, DOD, Agriculture. Huge agencies thatoversee things with lots of moving parts and in some cases parts of it can't talk to other parts of it or lower levels are not privy to the full scope of the information at hand. Not like the most ideal circumstances to run a large organization in.
+
+Independent executive agencies Bureaucratic agencies with specific tasks that are held accountable to the president but are independent from oversight by any cabinet department
+
+These are pseudo under the oversight of the executive. Think like the CIA which has critical functions for State, the DOD, and to some extent energy
+
+Independent Regulatory Agencies
+
+A type of independent executive agency that is charged with regulating an industry and that is not only not under the control of any cabinet department, but is also insulated from political pressure from the president. They are insulated because their agency heads can only be removed "for cause," which is different from cabinet secretaries and the heads of other kinds of independent executive agencies, which can be removed without cause.
+
+These are things like the FCC who is in chaarge of regulating radio, television, and cable in the US. They serve an important role of regulating private industry, to some extent, but are more independent of the President.
+
+Agencies formed by the federal government to administer a quasi-business enterprise. They fulfill a vital public service the government has an interest in maintaining, but tend to generate enough profit to be self-sustaining. Instead of stockholders, a government corporation has a board of directors and managers, and instead of using profits to pay dividends to investors, government corporations use profits to perpetuate the enterprise. Unlike private businesses, which pay taxes to the federal government on their profits, government corporations are exempt from taxes.
+
+IRC’s are independent of all three branches of government in what they do, but they are headed by appointees of the president. Their main purpose is to provide regulation for large industries and businesses such as energy and nuclear.
+
+The term 'independent regulatory agency' means the Board of Governors of the Federal Reserve System, the Commodity Futures Trading Commission, the Consumer Product Safety Commission, the Federal Communications Commission, the Federal Deposit Insurance Corporation, the Federal Energy Regulatory Commission, the Federal Housing Finance Board
+
+---
+
+
+---
+# Types of Selection Processes 
+
+
+Primary Election: 
+
+  - Closed: 
+
+  - Open: 
+
+  - Semi-Closed: 
+
+  - Run-Offs: 
+
+Caucus Convention: 
+
+???
+Primary Election: A type of election where voters cast secret ballots for the candidate they want to represent their party in the General Election
+
+Caucus Convention: A system of local gatherings where voters decide which candidate to support and select delegates for the nominating convention
+
+Closed: People may vote in a party's primary only if they are registered members of that party. Independents cannot participate.
+
+Open: A registered voter may vote in any party primary regardless of his own party affiliation
+
+Semi-Closed: As in closed primaries, registered party members can vote only in their own party's primary. However it allows unaffiliated voters to participate as well.
+
+Run-Offs: In some states, if neither candidate receives a majority vote (50%+1) then the two candidates must face each other in a run off.
+
+---
+
+---
+# Removal From Office
+
+- House Part 
+
+
+- Senate Part
+
+
+???
+First, the House of Representatives could impeach the president by a simple majority vote. In the second step,  the Senate could remove the president from office by a two-thirds majority, with the chief justice of the Supreme Court presiding over the trial. Upon conviction and removal of the president, if that occurred, the vice president would become president.
 
 
 ---

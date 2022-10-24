@@ -338,7 +338,7 @@ vembedr::embed_url("https://www.youtube.com/watch?v=0xnzGSV66x4")
 ---
 
 ---
-## Case Selection 
+## Case Selection (A.K.A granting cert)
 
 - .bold[Standing ]
   -  the right of an individual to initiate a court case. To be a case their must be a controversy in which the individual has a direct stake in the outcome of the case. 
@@ -349,12 +349,26 @@ vembedr::embed_url("https://www.youtube.com/watch?v=0xnzGSV66x4")
 - .bold[Writ of certiorari]
   - a petition from the lower court for the higher court to look at a case on its merits and see if it deserves to be heard
 
-- .bold[Amicus curie briefs]
-  - roughly translate to “friend of the court” – it is a position brief that is filed by individual/groups who are not party to a law suit but who seek to make their position known to the court in an effort to have an effect on the courts ultimate decision. 
+- .bold[Rule of Four]
+  - the procedure by which the judges vote whether to hear a case. At least 4 judges are required to vote to - hear a case for it to be granted cert and be placed on the docket
+
 
 ???
 Review discussion of jurisdiction – Supreme Court has discretionary jurisdiction, meaning that they get to select the cases that they wish to hear.
 Any individual that wishes to bring a case before any level of the court is first required to have standing. 
+
+Appellate – (key term) – the power of a higher court to review a lower court’s decision. This happens in all appellate courts and in most cases heard before the Supreme Court. 
+
+Mandatory – (key term) – the requirement of appellate jurisdiction that the court hear all the cases that are appealed to the court. This happens in all levels of the Federal Appeals Courts except the Supreme Court. This creates a  large dockets and a slow system. 
+
+
+Discretionary – (key term) – the power of the Supreme Court to pick and choose which cases it will place on its docket each year. They generally choose about 80-100 cases a year to hear in term. 
+
+
+Congress used to exercise significant constraints on the Supreme court's discretionary jurisdiction. Congress cannot alter the Supreme Courts original jurisdiction unilaterally. Why would that be?
+
+
+
 
 Standing – (key term) – the right of an individual to initiate a court case. To be a case their must be a controversy in which the individual has a direct stake in the outcome of the case. (Example: Brown v. Board – many cases prior to Brown tried to end segregation, but the individuals/organizations that were filing weren’t considered directly harmed by segregation) 
 
@@ -378,9 +392,9 @@ Amicus briefs – (key term) – roughly translate to “friend of the court” 
 - Petitions for Certiorari 
 
 - Certiorari pool 
-
-- Rule of Four 
-  - the procedure by which the judges vote whether to hear a case. At least 4 judges are required to vote to - hear a case for it to be granted cert and be placed on the docket
+  
+- .bold[Amicus curie briefs]
+  - roughly translate to “friend of the court” – it is a position brief that is filed by individual/groups who are not party to a law suit but who seek to make their position known to the court in an effort to have an effect on the courts ultimate decision. 
 
 - Oral Arguments 
 
@@ -469,7 +483,7 @@ gt::gt(df) %>%
   - Constitutional 
   - Statutory 
   - Administrative 
-  - Precedent  - the interpretation of the law that is reached based on the decisions of judges that have served   before hand. 
+  - Precedent  - the interpretation of the law that is reached based on the decisions of judges that have served before hand. 
   - Stare Decisis  - “let the judgment stand” – the legal principle that requires judges to respect the precedent established in cases before now. 
 
 
@@ -493,34 +507,6 @@ Stare decisis – “let the judgment stand” – the legal principle that requ
 
 ---
  
----
-
-## Types of Opionions 
- 
-- Majority Opinion 
-  - Majority of justices agree on the legal rationale for a decision. At least 5 justices must agree for it to  become precedent.
-
-- Concurring Opinion 
-  - Separate opinion by justice who agrees with decision, but disagrees with reason/rationale of the majority - opinion
-
-- Dissenting Opinion 
-  - Separate opinion by justices who disagree with the decision.
-
-
-???
-Majority/Court Opinion – (key term) -  Majority of justices agree on the legal rationale for a decision. At least 5 justices must agree for it to become precedent. 
-
-Concurring Opinion- (key term) -  Separate opinion by justice who agrees with decision, but disagrees with reason/rationale of the majority opinion
-
-Per Curium Decision – (key term) – a brief unsigned decision by the court lacking that lacks the majority to become law.  
-
-Dissenting Opinion – (key term) - Separate opinion by justices who disagree with the decision.
-
-Chief justice and/or senior justice in majority decide who writes the majority opinion.
-
---- 
-
-
 ---
 ## Judicial Restraint vs. Judicial Activism 
 
@@ -557,6 +543,63 @@ They have a life tenure and are honestly generally unconstrained actors.
 
 
 ---
+
+
+
+---
+# How Do Judges Make Decisions?
+
+
+
+- Ideology(aka: The Attitudinal Model):  Justices pick the policy that best fits their preferred outcome (the rational-choice aspect of the attitudinal model). Came out of a response to the idea of mechanical jurisprudence movement
+
+- Legal Model: It used to be about mechanical jurisprudence where only the law matters.  
+
+- Strategic Model: justices are "primarily seekers of legal policy, but they are not unsophisticated characters who make choices based merely on their own policies preferences. 
+???
+attitudinal model: Dominant theory in judicial behavior.  Argues that the justice’s personal preferences are the strongest predictors of how one will rule on a case.  Justices pick the policy that best fits their preferred outcome (the rational-choice aspect of the attitudinal model). Came out of a response to the idea of mechanical jurisprudence movement
+
+legal model: It used to be about mechanical jurisprudence where only the law matters.  (Dworkin 1978: Legal considerations are the only guide for judges.)  At this point in political science, we have moved far beyond this and now the question is, “to what degree does the law matter?”  
+
+
+strategic model:  
+
+justices are "primarily seekers of legal policy, but they are not unsophisticated characters who make choices based merely on their own policies preferences. Instead, justices are strategic actors who realize that their ability to achieve their goals depends on a consideration of the preferences of others, of the choices they expect others to make and of institutional context in which they act
+
+---
+
+
+ 
+ 
+---
+
+## Types of Opinions 
+ 
+- Majority Opinion 
+  - Majority of justices agree on the legal rationale for a decision. At least 5 justices must agree for it to  become precedent.
+
+- Concurring Opinion 
+  - Separate opinion by justice who agrees with decision, but disagrees with reason/rationale of the majority - opinion
+
+- Dissenting Opinion 
+  - Separate opinion by justices who disagree with the decision.
+
+
+???
+Majority/Court Opinion – (key term) -  Majority of justices agree on the legal rationale for a decision. At least 5 justices must agree for it to become precedent. 
+
+Concurring Opinion- (key term) -  Separate opinion by justice who agrees with decision, but disagrees with reason/rationale of the majority opinion
+
+Per Curium Decision – (key term) – a brief unsigned decision by the court lacking that lacks the majority to become law.  
+
+Dissenting Opinion – (key term) - Separate opinion by justices who disagree with the decision.
+
+Chief justice and/or senior justice in majority decide who writes the majority opinion.
+
+--- 
+
+
+
 
 
 ---

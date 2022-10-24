@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Exam 3 Review</title>
+    <title>Exam 2 Review</title>
     <meta charset="utf-8" />
     <meta name="author" content="Josh Allen" />
-    <meta name="date" content="2022-04-20" />
+    <meta name="date" content="2022-10-24" />
     <script src="exam-3-review_files/header-attrs/header-attrs.js"></script>
     <link href="exam-3-review_files/remark-css/default.css" rel="stylesheet" />
     <link href="exam-3-review_files/panelset/panelset.css" rel="stylesheet" />
@@ -17,18 +17,20 @@
     <link href="exam-3-review_files/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="exam-3-review_files/tile-view/tile-view.css" rel="stylesheet" />
     <script src="exam-3-review_files/tile-view/tile-view.js"></script>
-    <script src="exam-3-review_files/mark.js/mark.min.js"></script>
-    <link href="exam-3-review_files/xaringanExtra-search/search.css" rel="stylesheet" />
-    <script src="exam-3-review_files/xaringanExtra-search/search.js"></script>
-    <script>window.addEventListener('load', function() { window.xeSearch = new RemarkSearch({"position":"bottom-left","caseSensitive":false,"showIcon":false,"autoSearch":true}) })</script>
   </head>
   <body>
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Exam 3 Review
+.title[
+# Exam 2 Review
+]
+.author[
 ### Josh Allen
-### 2022-04-20
+]
+.date[
+### 2022-10-24
+]
 
 ---
 
@@ -370,8 +372,8 @@ gsu-blockquote-alt {
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
-  border-left: solid 20px #776E64;
-  border-right: solid 20px #776E64;
+  border-left: solid 20px #97CAEB;
+  border-right: solid 20px #97CAEB;
   background-color: #dadfe1	;
   padding: 1em;
   color: #000000;
@@ -416,6 +418,46 @@ gsu-blockquote-alt {
 .my-one-page-font {
   font-size: 18px;
 }
+
+
+/* Side-by-side code/plot stuff https://www.garrickadenbuie.com/blog/decouple-code-and-output-in-xaringan-slides/ */
+.left-code {
+  color: #777;
+  width: 48%;
+  height: 94%;
+  float: left;
+}
+
+.right-plot {
+  width: 50%;
+  float: right;
+  padding-left: 1%;
+}
+
+.right-code {
+  color: #777;
+  width: 48%;
+  height: 92%;
+  float: right;
+}
+
+.left-plot {
+  width: 50%;
+  float: left;
+  padding-right: 1%;
+}
+
+.left-code .remark-code,
+.left-code .remark-inline-code,
+.right-code .remark-code,
+.right-code .remark-inline-code {
+  font-size: 0.5em;
+}
+
+.small-code .remark-code,
+.small-code .remark-inline-code {
+  font-size: 0.5em;
+}
 &lt;/style&gt;
 
 &lt;style type="text/css"&gt;
@@ -424,30 +466,32 @@ GSU fonts
 Author: Josh Allen
 Updated: 05/24/2021
 
-I am just borrowing fonts used in the https://www.andrewheiss.com/blog/ 
+
 */
 
 /* Add maven for code font (keep other xaringan defaults */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&amp;display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&amp;display=swap');
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nobile:ital@1&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&amp;display=swap')
 
-body { font-family:'Roboto Condensed','Roboto', 'Barlow Semi Condensed', 'Palatino Linotype', 'Book Antiqua', 'Palatino', 'Microsoft YaHei', 'Songti SC', serif; }
 
-h1, h2, h3 {
-  font-family: 'Roboto Condensed';
+body { font-family:'Libre Franklin' serif; }
+
+h1 {
+  font-family: 'Cabin';
   font-weight: normal;
 }
 
-/*
+
 h2, h3 {
-  font-family: 'Roboto Condensed';
+  font-family: 'Nobilie';
   font-weight: normal;
 }
-*/
+
 
 .remark-code, .remark-inline-code { font-family: 'Inconsolata', monospace; }
 .remark-code-line-highlighted     { background-color: #ffff88; }
@@ -458,594 +502,522 @@ h2, h3 {
 
 
 
+---
+class: middle,center,inverse 
+
+# Political Participation
+
+---
+
+
+---
+## What does this tell us about voting?
+
+
+$$
+`\begin{align}
+R = P \times B - C(B	&gt; C)
+\end{align}`
+$$
+???
+What does this tell us about the benefit of voting?
+
+I am looking for what each letter represents 
+
+R- The reward you get from voting
+P- The probability that your vote matters
+B- The benefit you will directly receive if your candidate wins
+C- The cost of voting
+
+This is the basic formula some people like me would prefer to wrap P x B in parenthesis to ensure precendce but it works either way
+
+basically the costs will never outweight the benefits. So the rational thing should be to never vote 
+
+remember this comes from a theory called rational choice theory. Which states that all actors have goals. All actors are rational so they maximize their utility and if you don't maximize your utility than that is irrational.
+
+---
+
+
+---
+## What Does This Tell us About Voting?
+
+
+$$
+`\begin{align}
+R = P \times B - C + D 
+\end{align}`
+$$
+
+???
+D is equal to the amount of duty felt by an individual
+
+This  simply states that voting is rational because D will make the benefit out weigh the costs 
 
 
 
 
 
 ---
-class: center, middle, inverse 
 
-## Civil Rights 
+---
+layout: false 
+class: center, middle
+.pull-left[
+
+$$
+`\begin{align}
+\text{R} = \text{B}\times \text{P} - \text{C}
+\end{align}`
+$$
+
+]
+
+--
 
 
+.pull-right[
+
+
+
+
+
+```r
+1/100000000 * 0.0001 -  0.0001
+```
+
+```
+[1] -0.0001
+```
+
+]
+
+???
+In this case I just ended up wrapping 
+
+We can kind of Think of it like this basically if C is any positive number the reward will always be negative 
+
+I just choose some arbitrary small value and did it but you can just use basic math and see that no matter what the reward will be negative. 
 ---
 
 ---
-## Definition
-
+layout: false 
+class: center, middle
 
 .pull-left[
 
-&lt;img src="images/civil_rights_gate.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+$$ 
+`\begin{align}
+\text{R} = \text{B} * \text{P} - \text{C} + \text{D}
+\end{align}`
+$$
+
+]
+
+.pull-right[
+
+
+
+```r
+1/100000000 * 0.0001 -  0.0001 +  0.0001
+```
+
+```
+[1] 0.000000000001
+```
+
+
+
+]
+
+
+???
+
+Whereas if we look at the model with the D term you are just adding a small positive value which will make the reward positive 
+
+---
+
+
+---
+## Voting
+
+Pocketbook:
+
+
+Sociotropic:
+
+
+???
+Sociotropic: how well the overall economy is doing
+
+
+pocketbook voting: how well you are doing 
+
+
+people tend to be sociotropic voters 
+
+---
+
+
+
+
+
+
+---
+class: center, middle, inverse
+
+## Political Parties &amp; Interest Groups
+
+
+---
+
+---
+## Definitions 
+
+
+.bold[Political Parties]
+
+
+
+.bold[Interest Groups]
+
+
+.bold[Party in The Electorate]
+
+
+.bold[Party Platform]
+
+.bold[Single-member district/First Past the Post]
+
+
+???
+political parties: An organization that seeks to influence government by getting members elected to office and by coordinating the actions of elected officials in government.
+
+
+interest groups: An association of individuals or organizations that seeks to influence government to benefit members of the association or advance a cause they share a belief in.
+
+Electoral system in which candidates compete for votes within a district and the candidate who gets the most votes represents the entire district.
+
+
+party platform A document expressing a political party’s principles, goals, and policy positions on domestic and foreign affairs.
+
+---
+
+---
+# Duverger's Law 
+
+&lt;img src="figs/unnamed-chunk-4-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+
+
+---
+class: center, middle, inverse
+
+
+# Congress
+
+---
+
+---
+# Models of Representation
+
+.bold[Descriptive Representation] 
+
+
+.bold[Delegative Representation ] 
+
+
+.bold[Trustee Representation] 
+
+
+.bold[Politico Representation]: 
+
+???
+The relative lack of diversity in Congress is important because it has a profound impact on how elected officials represent their constituencies. One of the more obvious ways that representatives can represent their constituencies is descriptively.
+Descriptive representation – (key term) – a member of Congress that shares the characteristics of constituents (race, gender, religion, etc.) 
+
+This theory of representation contends that a representative that shares some kind of descriptive characteristic with the majority of their constituency is going to do a better job of representing that community. The idea is that representatives that have shared a similar life experience to their constituency is going to have a better idea of the kinds of problems that their constituents might face and the kinds of policies or changes would best help those communities.
+
+Another theory of representation focuses on the substantive representation a member of Congress can offer their communities.
+
+Substantive (key term) – a member of congress that represents constituents interests on policy concerns. 
+
+This theory contends that it matters less how much a representative looks like their constituency. Rather, it is more important these members pursue policies that will have a positive impact on their constituencies or reflect the will and desires of their constituency
+
+Each of these types of representation has an important impact on how members of Congress behave. Generally, there are two ways that representative can think about the votes that they take while in Congress.
+
+First, a representative may choose to act as a delegate. These members strive to loyally represent the will of their constituents, regardless of how those preferences may impact the rest of the country or whether they personally agree with those preferences or not.
+
+Delegate – (key term) – a member of congress that loyally represents constituents direct interests. 
+
+
+Second, a representative may choose to act more as a trustee. These members see their role as to represent their constituents, while also balancing those interests with what is good for the WHOLE nation. These representatives may sometimes act in contrast with what their constituents would prefer because of national or moral concerns.
+
+Trustee – (key term) – a member of congress that represents constituents interests while also taking into the bigger picture of national political concerns.
+
+
+Politico: elected representatives will act as either a trustee or delegate depending on rational political calculations about who is best served: their constituency or the natio
+
+
+---
+
+---
+# District Stuff
+
+
+-  .bold[Redistricting]: 
+
+- .bold[Apportionment]: 
+  -.bold[Malapportionment]
+
+- .bold[Gerrymandering]: 
+
+
+???
+
+Redistricting: the process of redrawing the geographic boundaries of legislative districts.
+  - This occurs every 10 years with the Census to ensure that populations remain balanced within each district to ensure equal representation. 
+
+
+Apportionment:  the process of adding and subtracting districts to add or subtract number of representatives in the House. 
+
+Malapportionment is the creation of electoral districts with divergent ratios of voters to representatives. For example, if one single-member district has 10,000 voters and another has 100,000 voters, voters in the former district have ten times the influence, per person, over the governing body
+
+Gerrymandering: the process in which district lines are redrawn to benefit specific political parties, protect incumbents, or to change minority proportions for representation
+
+Remember 
+
+---
+
+
+
+---
+## Assume the Bill starts in the House of Reps 
+### How does it become a law?
+
+
+.pull-left[
+### House 
+
+- 
+  - 
+  - 
+  - 
+- 
+- 
+  - 
+  - 
+  - 
+- 
+- 
 
 
 ]
 
 
 .pull-right[
-
-.bold[Definition]
-
-
-]
-
-???
-the rights that protect individuals from discrimination by other individuals and government. 
-
-These protections are applied to the federal government, and are applicable to the states through incorporation under the 14th amendment Equal Protection clause. 
-
-“Nor deny to any person within its jurisdiction the equal protection of the laws”
-
----
-
-
----
-## Types of Discrimination 
-
-
-.pull-left[
-
-### Public Discrimination 
-
-.bold[Definition]
+### Senate
+President of the Senate sends to committee
+- Committee
+- Subcommittee
+- Subcommittee Committee Hearing
+- Report to full Chamber of Senate
+.bold[NO RULES COMMITTEE IN SENATE]
+Goes to Senate floor for votes
+- Here Senators may filibuster bills 
+- Filibusters are ended with a cloture vote
+If Senate version is different from the original House - version the bill is sent to a Conference Committee: 
+- Conference Committee - members _from both chambers review the new bill_ 
+If the Conference Committee’s proposal is approved in both Chambers the bill is sent to the President of the United States
 
 
 ]
 
-.pull-right[
-
-### Private Discrimination
-
-.bold[Definition]
-
-
-
-
-
-]
 
 ???
+Speaker of the House decides where to send a bill
 
-Public Discrimination
+Committee
 
- Discrimination by national, state, or local governments
+Subcommittee
 
-Prevented by the equal protections clause of the `\(14^{th}\)` Amendment
+Subcommittee Committee Hearing
+
+Report to full Chamber of House
+
+Referred to Rules Committee
+
+Here they place a “rule” on the bill
+
+OPEN Rule – No limits on Amendments
+
+CLOSED Rule – No Amendments at all
+Goes to the House floor for votes
+
+If approved, the bill goes to the Senate
 
 
+President of the Senate sends to committee
 
-Private Discrimination 
+Committee
 
+Subcommittee
 
-Discrimination by private individuals, social groups, or businesses. 
+Subcommittee Committee Hearing
 
-The 14th Amendment cannot  directly protect individuals from private discrimination 
+Report to full Chamber of Senate
 
-The Court has used its authority to broadly protect individuals  from this type of discrimination 
+NO RULES COMMITTEE IN SENATE
+
+Goes to Senate floor for votes
+
+Here Senators may filibuster bills 
+
+Filibusters are ended with a cloture vote
+
+If Senate version is different from the original House - version the bill is sent to a Conference Committee: 
+
+Conference Committee - members from both chambers review the new bill
+
+If the Conference Committee’s proposal is approved in both Chambers the bill is sent to the President of the United States
+
 
 ---
 
 ---
-## Suspect Class
+## Committees
 
+ Committee Types:
+ 
+ 
+ 
+- Standing:
 
-.pull-left[
+- Subcommittees: 
 
+- Select: 
 
-.bold[defintion]
+- Joint: 
 
-
-
-]
-
--- 
-
-.pull-right[
-
-.bold[criteria]
-
-
-]
+- Conference: 
 
 ???
+The last part of Congress’s structure that we need to spend a bit more time discussing. I’ve talked a lot about committees in the last few minutes, there are important difference between different types of committees.
 
-Definition 
+First, committees are specialized units created in Congress to provide functionality and due process to the creation of legislation. These committees are often broken down even further into subcommittee units in order for more specialization on bill content, and take many different forms. 
 
-Any classification of groups meeting a series of criteria suggesting that they are likely the subject of discrimination. These groups generally have strict  or intermediate (if considered quasi-suspect) scrutiny applied to them
+A congressional subcommittee in the United States Congress is a subdivision of a United States congressional committee that considers specified matters and reports back to the full committee.
+
+Subcommittees are formed by most committees to share specific tasks within the jurisdiction of the full committee. 
+
+Standing committees–are committees that exist from session to session and have the power to propose and write legislation over a particular subject matter. They generally correlate in subject matter to specific executive branch departments or agencies. 
+
+Select committees– are non-permanent committees that are established the highlight particular issues that arise within legislation that may or may not be under the jurisdiction of other existing committees. 
+
+Joint committees– are committees that are formed with joint membership from the House and the Senate. There are 4 that exist permanently. They are powerful in the investigative sense but do not have the power to present legislation.
+
+Conference committees– temporary committees appointed by Speaker and the presiding Senate leadership. They are formed in an effort to form a consensus on legislation between the House and the Senate.  These committees are crucial during times when the House and Senate majority are of opposing parties. 
+
+---
 
 
 
-The group has a history of being discriminated against or has been subject to prejudice, stigma, or genuine hostility 
 
-They are powerless to protect themselves via the political process. 
 
-They possess a highly visible and immutable trait, that does not inhibit them from contributing meaningfully to society 
+---
 
-Protected Classes Race, religion, national origin, and alienage.
+class: center, middle, inverse
+
+
+# The Presidency
+
+
 
 ---
 
 ---
-<div id="geewgoslpr" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-html {
-  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
-}
+# Different Types of Bureacratci Organizations 
 
-#geewgoslpr .gt_table {
-  display: table;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #F6F6F6;
-  width: auto;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #40C5FF;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
+Cabinet Departments
 
-#geewgoslpr .gt_heading {
-  background-color: #F6F6F6;
-  text-align: left;
-  border-bottom-color: #F6F6F6;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
+Independent executive agencies
 
-#geewgoslpr .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #F6F6F6;
-  border-bottom-width: 0;
-}
+Independent regulatory commissions
 
-#geewgoslpr .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 0;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #F6F6F6;
-  border-top-width: 0;
-}
-
-#geewgoslpr .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 0px;
-  border-bottom-color: #D3D3D3;
-}
-
-#geewgoslpr .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #ECECEC;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #ECECEC;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#geewgoslpr .gt_col_heading {
-  color: #333333;
-  background-color: #F6F6F6;
-  font-size: 100%;
-  font-weight: bold;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-
-#geewgoslpr .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #F6F6F6;
-  font-size: 100%;
-  font-weight: bold;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-#geewgoslpr .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-
-#geewgoslpr .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-
-#geewgoslpr .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #ECECEC;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-
-#geewgoslpr .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #F6F6F6;
-  font-size: 100%;
-  font-weight: bold;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #BEBEBE;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #BEBEBE;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-}
-
-#geewgoslpr .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #F6F6F6;
-  font-size: 100%;
-  font-weight: bold;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #BEBEBE;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #BEBEBE;
-  vertical-align: middle;
-}
-
-#geewgoslpr .gt_from_md > :first-child {
-  margin-top: 0;
-}
-
-#geewgoslpr .gt_from_md > :last-child {
-  margin-bottom: 0;
-}
-
-#geewgoslpr .gt_row {
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: white;
-  border-top-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-
-#geewgoslpr .gt_stub {
-  color: #333333;
-  background-color: #F6F6F6;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#geewgoslpr .gt_stub_row_group {
-  color: #333333;
-  background-color: #F6F6F6;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-
-#geewgoslpr .gt_row_group_first td {
-  border-top-width: 1px;
-}
-
-#geewgoslpr .gt_summary_row {
-  color: #333333;
-  background-color: #F6F6F6;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#geewgoslpr .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
-}
-
-#geewgoslpr .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-
-#geewgoslpr .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#geewgoslpr .gt_grand_summary_row {
-  color: #333333;
-  background-color: #F6F6F6;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#geewgoslpr .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-
-#geewgoslpr .gt_striped {
-  background-color: #ECECEC;
-}
-
-#geewgoslpr .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: #FFFFFF;
-}
-
-#geewgoslpr .gt_footnotes {
-  color: #333333;
-  background-color: #F6F6F6;
-  border-bottom-style: none;
-  border-bottom-width: 0px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#geewgoslpr .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#geewgoslpr .gt_sourcenotes {
-  color: #333333;
-  background-color: #F6F6F6;
-  border-bottom-style: none;
-  border-bottom-width: 0px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#geewgoslpr .gt_sourcenote {
-  font-size: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#geewgoslpr .gt_left {
-  text-align: left;
-}
-
-#geewgoslpr .gt_center {
-  text-align: center;
-}
-
-#geewgoslpr .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-#geewgoslpr .gt_font_normal {
-  font-weight: normal;
-}
-
-#geewgoslpr .gt_font_bold {
-  font-weight: bold;
-}
-
-#geewgoslpr .gt_font_italic {
-  font-style: italic;
-}
-
-#geewgoslpr .gt_super {
-  font-size: 65%;
-}
-
-#geewgoslpr .gt_footnote_marks {
-  font-style: italic;
-  font-weight: normal;
-  font-size: 75%;
-  vertical-align: 0.4em;
-}
-
-#geewgoslpr .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-
-#geewgoslpr .gt_slash_mark {
-  font-size: 0.7em;
-  line-height: 0.7em;
-  vertical-align: 0.15em;
-}
-
-#geewgoslpr .gt_fraction_numerator {
-  font-size: 0.6em;
-  line-height: 0.6em;
-  vertical-align: 0.45em;
-}
-
-#geewgoslpr .gt_fraction_denominator {
-  font-size: 0.6em;
-  line-height: 0.6em;
-  vertical-align: -0.05em;
-}
-</style>
-<table class="gt_table">
-  <thead class="gt_header">
-    <tr>
-      <th colspan="4" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="color: #005689; font-size: 22px; font-weight: 700;">How Do Judges Make Decisions</th>
-    </tr>
-    
-  </thead>
-  <thead class="gt_col_headings">
-    <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Test</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Application</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Suspect Status</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Standard Used</th>
-    </tr>
-  </thead>
-  <tbody class="gt_table_body">
-    <tr><td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Strict Scrutiny</td>
-<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Race, Ethnicity, Religion, and Citizenship</td>
-<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Suspect Class</td>
-<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;"></td></tr>
-    <tr><td class="gt_row gt_left gt_striped">Intermediate Scrutiny</td>
-<td class="gt_row gt_left gt_striped">Gender or Sexual Orientation</td>
-<td class="gt_row gt_left gt_striped">Quasi-Suspect Class</td>
-<td class="gt_row gt_left gt_striped"></td></tr>
-    <tr><td class="gt_row gt_left">Rational Bias</td>
-<td class="gt_row gt_left">Age, Disability, Wealth, Political Preference, and Criminal Background</td>
-<td class="gt_row gt_left">Not suspect category</td>
-<td class="gt_row gt_left"></td></tr>
-  </tbody>
-  
-  
-</table>
-</div>
+Government Corporations
 
 ???
-strict scrutiny: Law is assumed unconstitutional in the absence of an overwhelming justification
+Cabinent depts The fifteen major bureaucratic departments, each consisting of a vast network of offices and agencies, that are headed by secretaries that are confirmed by the Senate and held directly accountable to the president.
 
-intermediate scrutiny: Law is assumed  unconstitutional unless the law serves a clearly compelling and justified purpose
+Their boss is literally the president. They are important because they run some pretty big bureacratic agencies. Think like State, Justice, DOD, Agriculture. Huge agencies thatoversee things with lots of moving parts and in some cases parts of it can't talk to other parts of it or lower levels are not privy to the full scope of the information at hand. Not like the most ideal circumstances to run a large organization in.
 
-rational bias: Law assumed constitutional unless no sound rationale for the law can be provided
+Independent executive agencies Bureaucratic agencies with specific tasks that are held accountable to the president but are independent from oversight by any cabinet department
+
+These are pseudo under the oversight of the executive. Think like the CIA which has critical functions for State, the DOD, and to some extent energy
+
+Independent Regulatory Agencies
+
+A type of independent executive agency that is charged with regulating an industry and that is not only not under the control of any cabinet department, but is also insulated from political pressure from the president. They are insulated because their agency heads can only be removed "for cause," which is different from cabinet secretaries and the heads of other kinds of independent executive agencies, which can be removed without cause.
+
+These are things like the FCC who is in chaarge of regulating radio, television, and cable in the US. They serve an important role of regulating private industry, to some extent, but are more independent of the President.
+
+Agencies formed by the federal government to administer a quasi-business enterprise. They fulfill a vital public service the government has an interest in maintaining, but tend to generate enough profit to be self-sustaining. Instead of stockholders, a government corporation has a board of directors and managers, and instead of using profits to pay dividends to investors, government corporations use profits to perpetuate the enterprise. Unlike private businesses, which pay taxes to the federal government on their profits, government corporations are exempt from taxes.
+
+IRC’s are independent of all three branches of government in what they do, but they are headed by appointees of the president. Their main purpose is to provide regulation for large industries and businesses such as energy and nuclear.
+
+The term 'independent regulatory agency' means the Board of Governors of the Federal Reserve System, the Commodity Futures Trading Commission, the Consumer Product Safety Commission, the Federal Communications Commission, the Federal Deposit Insurance Corporation, the Federal Energy Regulatory Commission, the Federal Housing Finance Board
 
 ---
 
+
 ---
-## What are the differences?
+# Types of Selection Processes 
 
-- _De Jure_
 
-- _De Facto_
+Primary Election: 
+
+  - Closed: 
+
+  - Open: 
+
+  - Semi-Closed: 
+
+  - Run-Offs: 
+
+Caucus Convention: 
 
 ???
-De Jure - Equal protection under the laws
+Primary Election: A type of election where voters cast secret ballots for the candidate they want to represent their party in the General Election
 
-De Facto - Equal access to opportunity &amp; societal benefits
+Caucus Convention: A system of local gatherings where voters decide which candidate to support and select delegates for the nominating convention
+
+Closed: People may vote in a party's primary only if they are registered members of that party. Independents cannot participate.
+
+Open: A registered voter may vote in any party primary regardless of his own party affiliation
+
+Semi-Closed: As in closed primaries, registered party members can vote only in their own party's primary. However it allows unaffiliated voters to participate as well.
+
+Run-Offs: In some states, if neither candidate receives a majority vote (50%+1) then the two candidates must face each other in a run off.
+
 ---
+
+---
+# Removal From Office
+
+- House Part 
+
+
+- Senate Part
+
+
+???
+First, the House of Representatives could impeach the president by a simple majority vote. In the second step,  the Senate could remove the president from office by a two-thirds majority, with the chief justice of the Supreme Court presiding over the trial. Upon conviction and removal of the president, if that occurred, the vice president would become president.
+
+
+---
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -1098,6 +1070,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
