@@ -550,3 +550,104 @@ First, the House of Representatives could impeach the president by a simple majo
 
 ---
 
+---
+class: center, middle, inverse
+
+# The Judiciary 
+
+---
+
+
+---
+## Jurisdiction 
+
+
+.pull-left[
+### Definition
+
+
+
+- 
+-  
+
+
+
+]
+
+.pull-right[
+### Four Types of Jurisdiction 
+
+- .bold[Original] - 
+- .bold[Appellate] - 
+- .bold[Mandatory] - 
+- .bold[Discretionary] -  
+
+
+
+]
+
+???
+Jurisdiction – (key term) – it is the legal authority of a court to hear a case. 
+
+Original – (key term) – the power of the court to hear a case for the first time without needing to go through a trial level case. 
+
+All trial level courts have original jurisdiction. SCOTUS has limited original jurisdiction concerning specific issues such as State vs State or Ambassador cases. 
+
+Appellate – (key term) – the power of a higher court to review a lower court’s decision. This happens in all appellate courts and in most cases heard before the Supreme Court. 
+
+Mandatory – (key term) – the requirement of appellate jurisdiction that the court hear all the cases that are appealed to the court. This happens in all levels of the Federal Appeals Courts except the Supreme Court. This creates a  large dockets and a slow system. 
+
+
+Discretionary – (key term) – the power of the Supreme Court to pick and choose which cases it will place on its docket each year. They generally choose about 80-100 cases a year to hear in term. 
+
+
+
+---
+
+
+---
+## Case Selection (A.K.A granting cert)
+
+- .bold[Standing ]
+  
+
+- .bold[Mootness]
+  
+
+- .bold[Writ of certiorari]
+ 
+
+- .bold[Rule of Four]
+  
+
+
+???
+Review discussion of jurisdiction – Supreme Court has discretionary jurisdiction, meaning that they get to select the cases that they wish to hear.
+Any individual that wishes to bring a case before any level of the court is first required to have standing. 
+
+Appellate – (key term) – the power of a higher court to review a lower court’s decision. This happens in all appellate courts and in most cases heard before the Supreme Court. 
+
+Mandatory – (key term) – the requirement of appellate jurisdiction that the court hear all the cases that are appealed to the court. This happens in all levels of the Federal Appeals Courts except the Supreme Court. This creates a  large dockets and a slow system. 
+
+
+Discretionary – (key term) – the power of the Supreme Court to pick and choose which cases it will place on its docket each year. They generally choose about 80-100 cases a year to hear in term. 
+
+
+Congress used to exercise significant constraints on the Supreme court's discretionary jurisdiction. Congress cannot alter the Supreme Courts original jurisdiction unilaterally. Why would that be?
+
+
+
+
+Standing – (key term) – the right of an individual to initiate a court case. To be a case their must be a controversy in which the individual has a direct stake in the outcome of the case. (Example: Brown v. Board – many cases prior to Brown tried to end segregation, but the individuals/organizations that were filing weren’t considered directly harmed by segregation) 
+
+Mootness – (key term) – the point where a legal proceeding or case can be found to have no effect. (Example: Roe vs. Wade – by the time the case reached the SC, Roe would have been pregnant for 56 months; the court decided to hear the case b/c it was such a personal issue) 
+
+Writ of certiorari – (key term)-a petition from the lower court/individual for the higher court to look at a case on its merits and see if it deserves to be heard. 
+Nearly 10,000 petitions are received by the court each year, and they grant “cert” to about 100. 
+
+The rule of four – (key term)- is the procedure by which the judges vote whether to hear a case. At least 4 judges are required to vote to hear a case for it to be granted cert and be placed on the docket. 
+
+Amicus briefs – (key term) – roughly translate to “friend of the court” – it is a position brief that is filed by individual/groups who are not party to a law suit but who seek to make their position known to the court in an effort to have an effect on the courts ultimate decision. 
+
+
+---
