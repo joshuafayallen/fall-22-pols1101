@@ -224,10 +224,7 @@ layout: false
 incorporation_dat = read_csv("data/years_incorporated.csv")
 
 
-pacman::p_load("DT")
-
-
-datatable(incorporation_dat)
+DT::datatable(incorporation_dat)
 
 ```
 
@@ -280,6 +277,8 @@ Everson V. Board of Education (1947)
 
 Lemon v. Kurtzman(1971)
 
+Kennedy v Bremerton School District(2022)
+
 ]
 
 .pull-right[
@@ -326,10 +325,26 @@ Not promote excessive government entanglement
 
 Example: The procedure to purchase textbooks must be explicit and not handled by 3rd parties, and allocation must be equal to all schools. 
 
+
+If any of the prongs of the lemon test are not met than you have a violation of the lemon test  and the law is unconsitutional
+
+
+In Kennedy v Bremerton 
+
+
+ootball coach named Joseph Kennedy started praying on the 50-yard line after games. Soon, players and other coaches joined him. The school board asked that he stop leading the prayers on the grounds that it might violate the Establishment Clause. He refused, the school board did not renew his contract, and he sued on the grounds that firing him for praying violated his First Amendment rights to the free exercise of religion and the freedom of speech. When the case reached the Supreme Court, six conservative justices sided with Kennedy, arguing the Establishment Clause did not bar him from engaging in religious expression as part of a voluntary prayer at an extracurricular event. Most importantly, Justice Gorsuch in the majority opinion and Justice Sotomayor in her dissent both signalled that this case officially marked the Court's abandonment of the Lemon Test. Although it's unclear what (if any) test the Court will replace the Lemon Test with, it is safe to say the Court intends to take a more accommodationist approach and place more emphasis on the free exercise aspect of religious freedom than on non-establishment.
 ---
+
+
+
+
+
 
 ---
 ## Burwell v. Hobby Lobby
+
+Sherbert v Verner(1963)
+
 <center>
 ```{r}
 vembedr::embed_url("https://www.youtube.com/watch?v=zSQCH1qyIDo")
@@ -381,7 +396,7 @@ countdown::countdown(minutes = 10, play_sound = TRUE)
 <gsu-blockquote-alt>
 
 
-Congress shall make no law.. abridging the freedom of specch
+Congress shall make no law.. abridging the freedom of speach
 
 </gsu-blockquote-alt>
 
