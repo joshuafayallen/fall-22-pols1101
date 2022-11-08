@@ -249,6 +249,16 @@ class: center, middle, inverse
 ---
 
 ---
+class: center, middle 
+
+<gsu-blockquote-blue>
+
+Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.
+</gsu-blockquote-blue>
+
+---
+
+---
 ## Freedom of Religion
 ### Free Excercise Clause
 
@@ -376,36 +386,6 @@ In the Hobby lobby case they ruled in favor of Hobby Lobby
 
 
 ---
-## Break
-
-
-```{r, echo = FALSE}
-countdown::countdown(minutes = 10, play_sound = TRUE)
-```
-
-
----
-
-
-
----
-## Freedom of Speech 
-
-<center>
-
-<gsu-blockquote-alt>
-
-
-Congress shall make no law.. abridging the freedom of speach
-
-</gsu-blockquote-alt>
-
-
-</center>
----
-
-
----
 ## What Constitutes Speech? 
 
 - What are some types of speech?
@@ -450,14 +430,14 @@ Answer: Obscenity/Fighting Words; Libel and Slander; Hate Speech (that probably 
 ---
 ## Can Speech Be Dangerous?
 
-- Gitlow v. New York (1925) : Incorporation
+- .bold[Gitlow v. New York (1925)] : Incorporation
   - Clear and Present Danger Test
   - Government can prevent speech that will bring about a “substantive evil”
   - Example: yelling "fire" in a crowded theater 
 
 
 
-- Brandenburg v. Ohio (1969) : Imminent Lawless Action
+- .bold[Brandenburg v. Ohio (1969)] : Imminent Lawless Action
   - Imminent lawless Action Test
   - Government  cannot suppress/punish inflammatory speech unless it is likely to result in or directly related to “lawlessness” or violence 
 
@@ -496,11 +476,11 @@ knitr::include_graphics("images/bong-hits.jpg")
 ]
 
 .pull-right[
-- Tinker v. Des Moines(1969) :
+- .bold[Tinker v. Des Moines(1969)] :
   - Action/Speech that purposely conveys a particular message to those that are viewing it
   - using symbols are a form of speech
   
-- Morse v. Frederick(2007)
+- .bold[Morse v. Frederick(2007)]
   - Students have a right/freedom to speak, but those rights can be limited when the speech promotes illicit activity 
 ] 
 
@@ -518,10 +498,10 @@ But students in school (or at school-sponsored events) can constitutionally face
 ---
 ## Fighting Words 
 
-- Chaplinsky v. New Hamphsire(1942)
+- .bold[Chaplinsky v. New Hamphsire(1942)]
   - Fighting Words Doctrine 
   - A narrowly defined type of speech made up of lewd, profane, and insulting words which are not protected under the First Amendment. 
-  - Hate Speech
+
 
 ???
 In late November 1941, Walter Chaplinsky, a Jehovah's Witness was using the public sidewalk as a pulpit in downtown Rochester passing out pamphlets and calling organized religion a "racket." After a large crowd had begun blocking the roads and generally causing a scene, a police officer removed Chaplinsky to take him to police headquarters. 
@@ -589,7 +569,7 @@ As a result, corporations can now spend unlimited funds on campaign advertising 
 ---
 ## Obscenity 
 
-- Miller v. California(1973)
+- .bold[Miller v. California(1973)]
   - The Miller Test: 
     1. Is the speech of lewd interest to the average person?
     2. Does the speech depict or describe sexual acts or conduct in an offensive manner?
