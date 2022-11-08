@@ -191,7 +191,7 @@ These two terms while often conflated, mean very different things and the next f
 ]
 
 .pull-right[
-Due Process Clause 
+### Due Process Clause 
   - which prohibits arbitrary deprivation of "life, liberty, or property" by the government except as authorized by law.
 
 Can anyone name one of the freedoms in the Bill of Rights that the Supreme Court has yet to incorporate to the states? 
