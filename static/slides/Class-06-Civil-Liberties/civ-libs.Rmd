@@ -264,10 +264,19 @@ Congress shall make no law respecting an establishment of religion, or prohibiti
 
 - Laws .bold[cannot] interfere with religious practice or opinion, but laws can be made to regulate certain religious practices
 
+- .bold[Sherbert v. Verner 1965]
+
 - .bold[Employment Division v. Smith] (1990)
 
 ???
 Individuals have the right to hold whatever religious beliefs that they would like, but this does not mean that they are exempt from criminal prosecution under other laws. 
+
+
+Adele Sherbert, a Seventh-day Adventist, was discharged by her employer after she refused to work on Saturdays, the Sabbath in her religion. The state subsequently denied Sherbert unemployment benefits because she did not accept available work from three other employers who wanted her to work on Saturdays.
+
+ Establishing a strict scrutiny standard, the Court held that the state’s assertion of administrative convenience — that is, that it would be easier to deny benefits to all than to ascertain which workers’ actions were sincere — neither met a compelling governmental interest nor the least restrictive means test.
+
+Having lost in the lower courts, Sherbert appealed to the Supreme Court, contending that the law violated her free exercise of religion rights.
 
 Employment Division v. Smith – Two employees of a private drug rehabilitation center were members of the Native American Church. One evening during a ceremony the two ingested a form of peyote, a powerful hallucinogenic that they used to commune with a higher power. The next day the two decided to go to work, business as usual, not realizing that evidence of their high was still very clear.  As a result, they were fired from their jobs as drug rehab counselors and were criminally charged based on Oregon state law that penalized the use of peyote.
 
@@ -353,7 +362,6 @@ ootball coach named Joseph Kennedy started praying on the 50-yard line after gam
 ---
 ## Burwell v. Hobby Lobby
 
-Sherbert v Verner(1963)
 
 <center>
 ```{r}
