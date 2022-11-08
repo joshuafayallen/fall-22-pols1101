@@ -264,7 +264,7 @@ Congress shall make no law respecting an establishment of religion, or prohibiti
 
 - Laws .bold[cannot] interfere with religious practice or opinion, but laws can be made to regulate certain religious practices
 
-- Employment Division v. Smith 1990
+- .bold[Employment Division v. Smith] (1990)
 
 ???
 Individuals have the right to hold whatever religious beliefs that they would like, but this does not mean that they are exempt from criminal prosecution under other laws. 
