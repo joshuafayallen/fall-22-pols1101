@@ -367,12 +367,12 @@ The enumeration in the Constitution, of certain rights, shall not be construed t
 
 .vero-red[Enumerated Rights]: Rights that are clearly defined and  explicitly stated within the wording of the Constitution 
   
-  i.e. .vero-red[The Right to Bear Arms]
+  e.g .vero-red[The Right to Bear Arms]
 
 
 .vero-blue[Implied Rights]: Rights that are not clearly stated within the Constitution, but the Court has found basis to extend them to individual protection. 
   
-  i.e. .vero-blue[The Right to Privacy]
+  e.g .vero-blue[The Right to Privacy]
 
 ???
 We already discussed the concept of enumerated vs. implied when we were talking about the powers of the branches of government. This same concept applies here. 
