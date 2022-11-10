@@ -198,6 +198,13 @@ Takings without just compensation – goes back to Barron v. Baltimore
 .hiro-dark-blue[Habeas Corpus]: a protection against illegal imprisonment requiring that those detained have access to a court of law concerning the reasons for their detention
 
 ???
+
+The four essential protections included are prohibitions against, for the same offense:
+
+retrial after an acquittal;
+retrial after a conviction;
+retrial after certain mistrials; and
+multiple punishment
 So states violating double jeopardy was not uncommon! However, it didn’t take the form of defendant wins case against the state so then the turns around and retries the case. 
 
 
