@@ -361,6 +361,69 @@ To that end, in late 1865, Mississippi and South Carolina enacted the first blac
 
 ---
 
+---
+layout: false
+
+```{r results='hide'}
+library(sf)
+library(maps)
+library(MetBrewer)
+monument_data = read_csv(here::here("Civil-Rights","data", "splc-whose-heritage.csv")) |>
+separate(Coordinates, c("lat", "long"), sep = ",") |>
+mutate(across(c("lat", "long"), ~ifelse(.=="", NA, .))) |>
+drop_na(any_of(c("long", "lat"))) |>
+mutate(lat = as.numeric(lat),
+       long = as.factor(long),
+       long = as.numeric((levels(long))[long]))  #|>
+     #  drop_na(any_of(c("long", "lat"))) #|>
+    #st_as_sf(coords = c("long", "lat"), crs = 4326, agr = "constant")
+
+
+states = st_as_sf(map("state", plot = FALSE, fill = TRUE))
+
+
+ggplot() +
+geom_sf(data = states) +
+geom_point(data = monument_data, aes(x = long, y = lat, color = `Symbol Type` ), alpha = 0.6) +
+coord_sf(ylim = c(25, 50), xlim = c(-125.5006, -67.14636), expand = FALSE) +
+scale_color_met_d(name = "Lakota") +
+labs(caption = "Data Source: 'Whose Heritage?: Public Symbols of the Confederacy'\n Southern Poverty Law Center",
+    title = "Confederate Monuments in The United States") +
+theme_void()
+```
+
+
+
+---
+
+---
+```{r}
+ monument_data |>
+group_by(`Year Dedicated`) |>
+summarise(Total = n()) |>
+filter(!is.na(Total), `Year Dedicated` != 1826 ) |>
+mutate(`Year Dedicated` = ymd(`Year Dedicated`, truncated = 2L)) |> 
+ggplot(aes( x = `Year Dedicated`, y = Total)) +
+geom_col() +
+labs(title = "Total Number of Monuments Dedicated per Year") +
+theme_allen_bw() 
+```
+
+???
+Notice that the bulk of these monuments were dedicated in the period long after the end of the American civil war. The sculpting of the figures on Stone Mountain started in 1917 and would be completed in 1972. Many of these monuments go hand in hand with the mission of white supremacy. 
+
+
+
+The present generation, I am persuaded, scarcely takes note of what the Confederate soldier
+meant to the welfare of the Anglo-Saxon race during the four years immediately succeeding
+the war, when the facts are, their courage and steadfastness saved the very life of the Anglo
+Saxon race in the South—when the “bottom rail was on top” all over the Southern states—and
+to-day, as a consequence, the purist strain of the Anglo Saxon is to be found in the 13 Southern
+States—Praise God
+
+---
+
+
 
 ---
 ## Jim Crow Laws 
