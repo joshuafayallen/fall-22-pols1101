@@ -4,7 +4,7 @@
     <title>Chapter 9</title>
     <meta charset="utf-8" />
     <meta name="author" content="Josh Allen" />
-    <meta name="date" content="2022-08-12" />
+    <meta name="date" content="2022-11-28" />
     <script src="public-opinion_files/header-attrs/header-attrs.js"></script>
     <link href="public-opinion_files/remark-css/default.css" rel="stylesheet" />
     <link href="public-opinion_files/panelset/panelset.css" rel="stylesheet" />
@@ -33,7 +33,7 @@ class: center, middle, inverse, title-slide
 ### Josh Allen
 ]
 .date[
-### 2022-08-12
+### 2022-11-28
 ]
 
 ---
@@ -470,28 +470,32 @@ GSU fonts
 Author: Josh Allen
 Updated: 05/24/2021
 
-this is similar enough to minion pro
+
 */
 
 /* Add maven for code font (keep other xaringan defaults */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nobile:ital@1&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&amp;display=swap')
 
-body { font-family:'Crimson Text' serif; }
 
-h1, h2, h3 {
-  font-family: 'Roboto Condensed';
+body { font-family:'Libre Franklin' serif; }
+
+h1 {
+  font-family: 'Cabin';
   font-weight: normal;
 }
 
-/*
+
 h2, h3 {
-  font-family: 'Roboto Condensed';
+  font-family: 'Nobilie';
   font-weight: normal;
 }
-*/
+
 
 .remark-code, .remark-inline-code { font-family: 'Inconsolata', monospace; }
 .remark-code-line-highlighted     { background-color: #ffff88; }
@@ -707,6 +711,8 @@ In the next few classes we will cover why that is. What is important to keep in 
 
 -  .bold[Probability]: is the proportion of times that the outcome would occur in a very long sequence of observations
 
+
+- .bold[Margin of Error]: expresses the amount of the random variation underlying a survey's results
 
 - .bold[Confidence-Interval]: the probability that a population parameter will fall between a set of values for a certain proportion of times. 
 
@@ -1145,6 +1151,11 @@ These are about as rough of heuristics as you can come by. As we have seen sampl
 
 ---
 
+
+
+
+
+
 ---
 class: center, middle, inverse
 
@@ -1334,7 +1345,7 @@ This may be influenced by age, race, gender, religion, etc.
 ---
 ## PID General Trends
 
-<div id="bgvfdywigq" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="bgvfdywigq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
@@ -1375,6 +1386,11 @@ html {
   border-right-style: none;
   border-right-width: 1px;
   border-right-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 #bgvfdywigq .gt_title {
@@ -1497,6 +1513,7 @@ html {
   border-right-width: 1px;
   border-right-color: #D3D3D3;
   vertical-align: middle;
+  text-align: left;
 }
 
 #bgvfdywigq .gt_empty_group_heading {
@@ -1708,15 +1725,6 @@ html {
   font-size: 65%;
 }
 
-#bgvfdywigq .gt_two_val_uncert {
-  display: inline-block;
-  line-height: 1em;
-  text-align: right;
-  font-size: 60%;
-  vertical-align: -0.25em;
-  margin-left: 0.1em;
-}
-
 #bgvfdywigq .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
@@ -1729,46 +1737,48 @@ html {
   vertical-align: 0;
 }
 
-#bgvfdywigq .gt_slash_mark {
-  font-size: 0.7em;
-  line-height: 0.7em;
-  vertical-align: 0.15em;
+#bgvfdywigq .gt_indent_1 {
+  text-indent: 5px;
 }
 
-#bgvfdywigq .gt_fraction_numerator {
-  font-size: 0.6em;
-  line-height: 0.6em;
-  vertical-align: 0.45em;
+#bgvfdywigq .gt_indent_2 {
+  text-indent: 10px;
 }
 
-#bgvfdywigq .gt_fraction_denominator {
-  font-size: 0.6em;
-  line-height: 0.6em;
-  vertical-align: -0.05em;
+#bgvfdywigq .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#bgvfdywigq .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#bgvfdywigq .gt_indent_5 {
+  text-indent: 25px;
 }
 </style>
 <table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Republican Pary</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Democratic Party</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Libertarian Party</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Republican Pary">Republican Pary</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Democratic Party">Democratic Party</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Libertarian Party">Libertarian Party</th>
     </tr>
   </thead>
   <tbody class="gt_table_body">
-    <tr><td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Favors Small Gov</td>
-<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Favors larger Gov</td>
-<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Favors minimal Gov</td></tr>
-    <tr><td class="gt_row gt_left gt_striped">Lower Taxes</td>
-<td class="gt_row gt_left gt_striped">Higher Taxes</td>
-<td class="gt_row gt_left gt_striped">Lower Taxes</td></tr>
-    <tr><td class="gt_row gt_left">Lower Spending on Social Programs</td>
-<td class="gt_row gt_left">Higher Spending on Social Programs</td>
-<td class="gt_row gt_left">Elimination of the Welfare State</td></tr>
-    <tr><td class="gt_row gt_left gt_striped">Decreasing Government regulation</td>
-<td class="gt_row gt_left gt_striped">Increased government regulation</td>
-<td class="gt_row gt_left gt_striped"> Elimination of Government regulation</td></tr>
+    <tr><td headers="Republican Pary" class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Favors Small Gov</td>
+<td headers="Democratic Party" class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Favors larger Gov</td>
+<td headers="Libertarian Party" class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Favors minimal Gov</td></tr>
+    <tr><td headers="Republican Pary" class="gt_row gt_left gt_striped">Lower Taxes</td>
+<td headers="Democratic Party" class="gt_row gt_left gt_striped">Higher Taxes</td>
+<td headers="Libertarian Party" class="gt_row gt_left gt_striped">Lower Taxes</td></tr>
+    <tr><td headers="Republican Pary" class="gt_row gt_left">Lower Spending on Social Programs</td>
+<td headers="Democratic Party" class="gt_row gt_left">Higher Spending on Social Programs</td>
+<td headers="Libertarian Party" class="gt_row gt_left">Elimination of the Welfare State</td></tr>
+    <tr><td headers="Republican Pary" class="gt_row gt_left gt_striped">Decreasing Government regulation</td>
+<td headers="Democratic Party" class="gt_row gt_left gt_striped">Increased government regulation</td>
+<td headers="Libertarian Party" class="gt_row gt_left gt_striped"> Elimination of Government regulation</td></tr>
   </tbody>
   
   
@@ -1818,7 +1828,7 @@ This may be influenced by age, race, gender, religion, etc.
 ## Ideology
 
 
-<div id="ubwjjetepn" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ubwjjetepn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
@@ -1859,6 +1869,11 @@ html {
   border-right-style: none;
   border-right-width: 1px;
   border-right-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 #ubwjjetepn .gt_title {
@@ -1981,6 +1996,7 @@ html {
   border-right-width: 1px;
   border-right-color: #D3D3D3;
   vertical-align: middle;
+  text-align: left;
 }
 
 #ubwjjetepn .gt_empty_group_heading {
@@ -2192,15 +2208,6 @@ html {
   font-size: 65%;
 }
 
-#ubwjjetepn .gt_two_val_uncert {
-  display: inline-block;
-  line-height: 1em;
-  text-align: right;
-  font-size: 60%;
-  vertical-align: -0.25em;
-  margin-left: 0.1em;
-}
-
 #ubwjjetepn .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
@@ -2213,49 +2220,51 @@ html {
   vertical-align: 0;
 }
 
-#ubwjjetepn .gt_slash_mark {
-  font-size: 0.7em;
-  line-height: 0.7em;
-  vertical-align: 0.15em;
+#ubwjjetepn .gt_indent_1 {
+  text-indent: 5px;
 }
 
-#ubwjjetepn .gt_fraction_numerator {
-  font-size: 0.6em;
-  line-height: 0.6em;
-  vertical-align: 0.45em;
+#ubwjjetepn .gt_indent_2 {
+  text-indent: 10px;
 }
 
-#ubwjjetepn .gt_fraction_denominator {
-  font-size: 0.6em;
-  line-height: 0.6em;
-  vertical-align: -0.05em;
+#ubwjjetepn .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#ubwjjetepn .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#ubwjjetepn .gt_indent_5 {
+  text-indent: 25px;
 }
 </style>
 <table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Issue Area</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Liberals</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Conservatives</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Issue Area">Issue Area</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Liberals">Liberals</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Conservatives">Conservatives</th>
     </tr>
   </thead>
   <tbody class="gt_table_body">
-    <tr><td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Regulating the Economy</td>
-<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Supports Govt Regulations</td>
-<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Supports Less Govt Regulation</td></tr>
-    <tr><td class="gt_row gt_left gt_striped">Economic Security</td>
-<td class="gt_row gt_left gt_striped">More Supportive Programs</td>
-<td class="gt_row gt_left gt_striped">Supports Programs but at lower levels</td></tr>
-    <tr><td class="gt_row gt_left">Government Promotion of Social Equality</td>
-<td class="gt_row gt_left">Wants laws/programs to increase social standing of historically oppressed groups</td>
-<td class="gt_row gt_left">Generally favor the status quo</td></tr>
-    <tr><td class="gt_row gt_left gt_striped">Traditional Moral Values(Abortion, prayer in schools, same-sex marriage etc</td>
-<td class="gt_row gt_left gt_striped">Generally oppose</td>
-<td class="gt_row gt_left gt_striped">Supports laws/programs that uphold these traditional values</td></tr>
-    <tr><td class="gt_row gt_left">Law Enforcement and Criminal Justice</td>
-<td class="gt_row gt_left">Want body cams on police/dashboard.  Oppose: death penalty, long prison sentence, mandatory minimum sentencing laws, restrictions of felons after serving their time.</td>
-<td class="gt_row gt_left">Greater leeway to police.  More likely to support “Law &amp; Order” policies like the death penalty, long prison sentences, mandatory minimums, restricted rights for former felons.</td></tr>
+    <tr><td headers="Issue Area" class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Regulating the Economy</td>
+<td headers="Liberals" class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Supports Govt Regulations</td>
+<td headers="Conservatives" class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Supports Less Govt Regulation</td></tr>
+    <tr><td headers="Issue Area" class="gt_row gt_left gt_striped">Economic Security</td>
+<td headers="Liberals" class="gt_row gt_left gt_striped">More Supportive Programs</td>
+<td headers="Conservatives" class="gt_row gt_left gt_striped">Supports Programs but at lower levels</td></tr>
+    <tr><td headers="Issue Area" class="gt_row gt_left">Government Promotion of Social Equality</td>
+<td headers="Liberals" class="gt_row gt_left">Wants laws/programs to increase social standing of historically oppressed groups</td>
+<td headers="Conservatives" class="gt_row gt_left">Generally favor the status quo</td></tr>
+    <tr><td headers="Issue Area" class="gt_row gt_left gt_striped">Traditional Moral Values(Abortion, prayer in schools, same-sex marriage etc</td>
+<td headers="Liberals" class="gt_row gt_left gt_striped">Generally oppose</td>
+<td headers="Conservatives" class="gt_row gt_left gt_striped">Supports laws/programs that uphold these traditional values</td></tr>
+    <tr><td headers="Issue Area" class="gt_row gt_left">Law Enforcement and Criminal Justice</td>
+<td headers="Liberals" class="gt_row gt_left">Want body cams on police/dashboard.  Oppose: death penalty, long prison sentence, mandatory minimum sentencing laws, restrictions of felons after serving their time.</td>
+<td headers="Conservatives" class="gt_row gt_left">Greater leeway to police.  More likely to support “Law &amp; Order” policies like the death penalty, long prison sentences, mandatory minimums, restricted rights for former felons.</td></tr>
   </tbody>
   
   

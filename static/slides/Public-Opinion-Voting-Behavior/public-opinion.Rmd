@@ -295,6 +295,8 @@ In the next few classes we will cover why that is. What is important to keep in 
 -  .bold[Probability]: is the proportion of times that the outcome would occur in a very long sequence of observations
 
 
+- .bold[Margin of Error]: expresses the amount of the random variation underlying a survey's results
+
 - .bold[Confidence-Interval]: the probability that a population parameter will fall between a set of values for a certain proportion of times. 
 
 - .bold[Random Sampling]: With random selection, every person in the population has equal probability of being selected into the sample.
@@ -809,6 +811,11 @@ Samps %>%
 These are about as rough of heuristics as you can come by. As we have seen sample size doesnt neccessarily get you anywhere if the poll is junk. A junk poll with huge sample sizes will naturally have tighter margins of error, but not actually get you a good indicator of public opinion
 
 ---
+
+
+
+
+
 
 ---
 class: center, middle, inverse
